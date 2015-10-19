@@ -1,6 +1,6 @@
 {% for categorie in sous_categ %}
 {% set my_categoriename = categorie.name|split('(') %}
-{% set nombre_avis = categorie.getProducts.getAvis.count() %}
+{% set nombre_avis = categorie.getProducts().getAvis().count() %}
      <option value="{{categorie.id}}">{{my_categoriename[0]}} ({{ nombre_avis }})</option>
 {% endfor %}
   
