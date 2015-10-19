@@ -40,6 +40,8 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
         }  
+          $q=$query->getQuery();
+          echo "---->".$q->getSQL();
         return $query->getQuery()->getResult();
 
     }
