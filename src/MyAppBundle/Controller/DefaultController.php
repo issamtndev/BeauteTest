@@ -155,9 +155,7 @@ class DefaultController extends Controller
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts = $em->getRepository('MyAppBundle:Avis')->findavisByParametres($data);
         }
-        echo '<pre>';
-        var_dump( $listproducts);
-        echo '</pre>';
-       return new Response(''.count($listproducts));
+
+       return new Response(''.$listproducts[0][1]);
     } 
 }
