@@ -45,7 +45,7 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
 
         }  
 
-        return $query->getQuery()->getResult();
+        return $query->select('COUNT(a)')->getQuery()->getResult();
 
     }
 }
