@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic
+END
+AssetManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/AssetManager.php
+END
+AssetWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/AssetWriter.php
+END
+FilterManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/FilterManager.php
+END
+ValueSupplierInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php
+END

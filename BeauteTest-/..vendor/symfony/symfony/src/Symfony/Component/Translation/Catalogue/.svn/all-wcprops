@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Catalogue
+END
+MergeOperation.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Catalogue/MergeOperation.php
+END
+OperationInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Catalogue/OperationInterface.php
+END
+AbstractOperation.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Catalogue/AbstractOperation.php
+END
+DiffOperation.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Catalogue/DiffOperation.php
+END

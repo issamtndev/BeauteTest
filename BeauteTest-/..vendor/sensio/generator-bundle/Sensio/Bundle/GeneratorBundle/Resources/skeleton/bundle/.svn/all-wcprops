@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle
+END
+services.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/services.php.twig
+END
+messages.fr.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/messages.fr.xlf
+END
+Configuration.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/Configuration.php.twig
+END
+routing.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/routing.php.twig
+END
+DefaultController.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/DefaultController.php.twig
+END
+DefaultControllerTest.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/DefaultControllerTest.php.twig
+END
+Bundle.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/Bundle.php.twig
+END
+Extension.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/Extension.php.twig
+END
+services.xml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/services.xml.twig
+END
+index.html.twig.twig
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/index.html.twig.twig
+END
+services.yml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/services.yml.twig
+END
+routing.xml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/routing.xml.twig
+END
+routing.yml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/bundle/routing.yml.twig
+END

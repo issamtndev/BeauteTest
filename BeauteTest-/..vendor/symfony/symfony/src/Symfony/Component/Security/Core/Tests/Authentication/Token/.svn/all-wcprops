@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token
+END
+RememberMeTokenTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/RememberMeTokenTest.php
+END
+UsernamePasswordTokenTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/UsernamePasswordTokenTest.php
+END
+AbstractTokenTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/AbstractTokenTest.php
+END
+AnonymousTokenTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/AnonymousTokenTest.php
+END
+PreAuthenticatedTokenTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/PreAuthenticatedTokenTest.php
+END

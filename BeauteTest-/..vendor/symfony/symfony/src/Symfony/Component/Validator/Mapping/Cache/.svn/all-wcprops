@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Cache
+END
+ApcCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Cache/ApcCache.php
+END
+DoctrineCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Cache/DoctrineCache.php
+END
+CacheInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Cache/CacheInterface.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures
+END
+PEARClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/PEARClass.php
+END
+reallyNotPsr0.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/reallyNotPsr0.php
+END
+ClassAlias.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/ClassAlias.php
+END
+DeprecatedInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/DeprecatedInterface.php
+END
+casemismatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/casemismatch.php
+END
+notPsr0Bis.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/notPsr0Bis.php
+END
+DeprecatedClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/Fixtures/DeprecatedClass.php
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node
+END
+NodeInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/NodeInterface.php
+END
+SelectorNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/SelectorNode.php
+END
+CombinedSelectorNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/CombinedSelectorNode.php
+END
+AbstractNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/AbstractNode.php
+END
+AttributeNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/AttributeNode.php
+END
+HashNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/HashNode.php
+END
+NegationNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/NegationNode.php
+END
+ClassNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/ClassNode.php
+END
+FunctionNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/FunctionNode.php
+END
+Specificity.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/Specificity.php
+END
+ElementNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/ElementNode.php
+END
+PseudoNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/PseudoNode.php
+END

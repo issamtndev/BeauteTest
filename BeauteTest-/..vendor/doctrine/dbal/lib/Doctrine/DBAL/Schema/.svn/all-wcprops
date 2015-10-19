@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema
+END
+SchemaException.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SchemaException.php
+END
+AbstractSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractSchemaManager.php
+END
+PostgreSqlSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php
+END
+TableDiff.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/TableDiff.php
+END
+MySqlSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/MySqlSchemaManager.php
+END
+OracleSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/OracleSchemaManager.php
+END
+Identifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Identifier.php
+END
+DB2SchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/DB2SchemaManager.php
+END
+Constraint.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Constraint.php
+END
+SchemaConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SchemaConfig.php
+END
+ColumnDiff.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/ColumnDiff.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Table.php
+END
+SchemaDiff.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SchemaDiff.php
+END
+Column.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php
+END
+DrizzleSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/DrizzleSchemaManager.php
+END
+Schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Schema.php
+END
+SQLServerSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SQLServerSchemaManager.php
+END
+AbstractAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractAsset.php
+END
+Index.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Index.php
+END
+ForeignKeyConstraint.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/ForeignKeyConstraint.php
+END
+Comparator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Comparator.php
+END
+Sequence.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Sequence.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/View.php
+END
+SqliteSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SqliteSchemaManager.php
+END
+SQLAnywhereSchemaManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SQLAnywhereSchemaManager.php
+END

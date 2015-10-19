@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema
+END
+sqlanywhere.sql
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/sqlanywhere.sql
+END
+drizzle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/drizzle.sql
+END
+postgresql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/postgresql.sql
+END
+mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/mysql.sql
+END
+oracle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/oracle.sql
+END
+db2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/db2.sql
+END
+mssql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/mssql.sql
+END
+sqlite.sql
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Resources/schema/sqlite.sql
+END

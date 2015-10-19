@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml
+END
+container1.yml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/container1.yml
+END
+custom_acl_provider.yml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/custom_acl_provider.yml
+END
+merge_import.yml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/merge_import.yml
+END
+remember_me_options.yml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/remember_me_options.yml
+END
+merge.yml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/merge.yml
+END

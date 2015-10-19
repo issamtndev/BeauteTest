@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml
+END
+new_at_end_import.yml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_at_end_import.yml
+END
+overwriting.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/overwriting.yml
+END
+new_at_end.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_at_end.yml
+END
+handlers_with_channels.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/handlers_with_channels.yml
+END
+new_and_priority_import.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_and_priority_import.yml
+END
+multiple_email_recipients.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/multiple_email_recipients.yml
+END
+overwriting_import.yml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/overwriting_import.yml
+END
+single_email_recipient.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/single_email_recipient.yml
+END
+multiple_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/multiple_handlers.yml
+END
+new_and_priority.yml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_and_priority.yml
+END
+parameterized_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/parameterized_handlers.yml
+END

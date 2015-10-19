@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/BaseBundle/Resources
+END
+hide.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/BaseBundle/Resources/hide.txt
+END
+foo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/BaseBundle/Resources/foo.txt
+END

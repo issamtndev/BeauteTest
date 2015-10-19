@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Asset/VersionStrategy
+END
+EmptyVersionStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Asset/VersionStrategy/EmptyVersionStrategy.php
+END
+VersionStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Asset/VersionStrategy/VersionStrategyInterface.php
+END
+StaticVersionStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Asset/VersionStrategy/StaticVersionStrategy.php
+END

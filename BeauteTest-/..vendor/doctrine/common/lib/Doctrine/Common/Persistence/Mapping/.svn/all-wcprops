@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping
+END
+MappingException.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php
+END
+ReflectionService.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/ReflectionService.php
+END
+ClassMetadataFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php
+END
+RuntimeReflectionService.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php
+END
+AbstractClassMetadataFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php
+END
+StaticReflectionService.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/StaticReflectionService.php
+END
+ClassMetadata.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/ClassMetadata.php
+END

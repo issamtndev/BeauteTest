@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/NodeVisitor
+END
+TranslationNodeVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/NodeVisitor/TranslationNodeVisitor.php
+END
+Scope.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/NodeVisitor/Scope.php
+END
+TranslationDefaultDomainNodeVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/NodeVisitor/TranslationDefaultDomainNodeVisitor.php
+END

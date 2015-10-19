@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/Fixtures
+END
+StubTranslator.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/Fixtures/StubTranslator.php
+END
+StubFilesystemLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/Fixtures/StubFilesystemLoader.php
+END

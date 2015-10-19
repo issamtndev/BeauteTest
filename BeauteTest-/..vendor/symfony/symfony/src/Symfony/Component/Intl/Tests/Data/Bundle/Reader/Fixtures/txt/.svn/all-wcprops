@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt
+END
+ro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt/ro.txt
+END
+ro_MD.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt/ro_MD.txt
+END
+root.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt/root.txt
+END
+alias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt/alias.txt
+END
+mo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Reader/Fixtures/txt/mo.txt
+END

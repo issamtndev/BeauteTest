@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension
+END
+DumpExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/DumpExtension.php
+END
+HttpFoundationExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/HttpFoundationExtension.php
+END
+RoutingExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/RoutingExtension.php
+END
+SecurityExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/SecurityExtension.php
+END
+CodeExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/CodeExtension.php
+END
+LogoutUrlExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/LogoutUrlExtension.php
+END
+StopwatchExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/StopwatchExtension.php
+END
+TranslationExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/TranslationExtension.php
+END
+AssetExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/AssetExtension.php
+END
+ExpressionExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/ExpressionExtension.php
+END
+HttpKernelExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/HttpKernelExtension.php
+END
+ProfilerExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/ProfilerExtension.php
+END
+YamlExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/YamlExtension.php
+END
+FormExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/FormExtension.php
+END

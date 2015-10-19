@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure
+END
+SQLAzureShardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureShardManager.php
+END
+SQLAzureFederationsSynchronizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureFederationsSynchronizer.php
+END

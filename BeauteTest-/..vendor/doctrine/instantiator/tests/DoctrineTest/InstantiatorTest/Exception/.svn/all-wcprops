@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception
+END
+UnexpectedValueExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/UnexpectedValueExceptionTest.php
+END
+InvalidArgumentExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/InvalidArgumentExceptionTest.php
+END

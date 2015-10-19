@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler
+END
+SocketHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php
+END
+StreamHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php
+END
+ErrorLogHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php
+END
+GroupHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php
+END
+DynamoDbHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php
+END
+RollbarHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php
+END
+SlackHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php
+END
+AmqpHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php
+END
+DoctrineCouchDBHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php
+END
+AbstractProcessingHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php
+END
+HandlerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php
+END
+MandrillHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php
+END
+RedisHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php
+END
+ZendMonitorHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php
+END
+BufferHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php
+END
+ElasticSearchHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php
+END
+NullHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php
+END
+LogEntriesHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php
+END
+PushoverHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php
+END
+FleepHookHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php
+END
+CubeHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php
+END
+TestHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php
+END
+SyslogHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php
+END
+FingersCrossedHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php
+END
+NativeMailerHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php
+END
+HipChatHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php
+END
+FilterHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php
+END
+RotatingFileHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php
+END
+MissingExtensionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php
+END
+WhatFailureGroupHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php
+END
+SyslogUdpHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php
+END
+IFTTTHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php
+END
+LogglyHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php
+END
+FirePHPHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php
+END
+AbstractHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php
+END
+PsrHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php
+END
+AbstractSyslogHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php
+END
+BrowserConsoleHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php
+END
+CouchDBHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php
+END
+FlowdockHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php
+END
+NewRelicHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php
+END
+PHPConsoleHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php
+END
+SamplingHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php
+END
+RavenHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php
+END
+GelfHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php
+END
+MailHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php
+END
+ChromePHPHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php
+END
+MongoDBHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php
+END
+SwiftMailerHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php
+END

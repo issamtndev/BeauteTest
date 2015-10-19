@@ -1,0 +1,1829 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies
+END
+zh.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh.json
+END
+pt.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt.json
+END
+ha_Latn_GH.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ha_Latn_GH.json
+END
+be.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/be.json
+END
+ha.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ha.json
+END
+es_CO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_CO.json
+END
+ne_IN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ne_IN.json
+END
+en_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SG.json
+END
+pa.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pa.json
+END
+es_VE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_VE.json
+END
+en_BB.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_BB.json
+END
+mk.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mk.json
+END
+ms_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ms_SG.json
+END
+sg.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sg.json
+END
+is.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/is.json
+END
+ms_Latn_BN.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ms_Latn_BN.json
+END
+ti.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ti.json
+END
+es_US.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_US.json
+END
+uk.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/uk.json
+END
+ar_DJ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar_DJ.json
+END
+es_PY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_PY.json
+END
+en_FJ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_FJ.json
+END
+zh_Hans_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hans_SG.json
+END
+uz_Arab.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/uz_Arab.json
+END
+es_CL.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_CL.json
+END
+ru.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ru.json
+END
+sw.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sw.json
+END
+zu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zu.json
+END
+en_PN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_PN.json
+END
+es_GT.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_GT.json
+END
+nl_CW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl_CW.json
+END
+gl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/gl.json
+END
+br.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/br.json
+END
+en_CA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_CA.json
+END
+en_NZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NZ.json
+END
+en_TV.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_TV.json
+END
+zh_MO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_MO.json
+END
+sr_Cyrl_BA.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sr_Cyrl_BA.json
+END
+ru_BY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ru_BY.json
+END
+en_LC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_LC.json
+END
+fr_VU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_VU.json
+END
+en_GI.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GI.json
+END
+lv.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lv.json
+END
+ca.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ca.json
+END
+en_NG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NG.json
+END
+ee.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ee.json
+END
+ka.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ka.json
+END
+en_PK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_PK.json
+END
+am.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/am.json
+END
+es_GQ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_GQ.json
+END
+en_LS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_LS.json
+END
+bo.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bo.json
+END
+en_GY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GY.json
+END
+ti_ER.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ti_ER.json
+END
+en_MU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MU.json
+END
+fr_TN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_TN.json
+END
+eu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/eu.json
+END
+zh_Hans_HK.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hans_HK.json
+END
+ro.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ro.json
+END
+sq.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sq.json
+END
+sw_UG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sw_UG.json
+END
+pt_PT.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_PT.json
+END
+os_RU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/os_RU.json
+END
+en_ER.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_ER.json
+END
+en_PH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_PH.json
+END
+es_AR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_AR.json
+END
+en_KN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_KN.json
+END
+bs_Cyrl.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bs_Cyrl.json
+END
+nd.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nd.json
+END
+de_CH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/de_CH.json
+END
+kn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/kn.json
+END
+so_ET.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/so_ET.json
+END
+en_AG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_AG.json
+END
+az.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/az.json
+END
+mr.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mr.json
+END
+es_SV.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_SV.json
+END
+en_CK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_CK.json
+END
+ff_GN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ff_GN.json
+END
+fr_RW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_RW.json
+END
+en_NA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NA.json
+END
+sn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sn.json
+END
+en_DM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_DM.json
+END
+fr_SY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_SY.json
+END
+bo_IN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bo_IN.json
+END
+ms_Latn_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ms_Latn_SG.json
+END
+fa.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fa.json
+END
+ur.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ur.json
+END
+fr_GN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_GN.json
+END
+he.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/he.json
+END
+es_NI.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_NI.json
+END
+en_MO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MO.json
+END
+ig.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ig.json
+END
+ar_SO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar_SO.json
+END
+kk.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/kk.json
+END
+en_WS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_WS.json
+END
+mo.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mo.json
+END
+hu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/hu.json
+END
+sk.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sk.json
+END
+iw.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/iw.json
+END
+os.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/os.json
+END
+zh_Hans_MO.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hans_MO.json
+END
+pt_ST.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_ST.json
+END
+fr_MG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_MG.json
+END
+id.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/id.json
+END
+fr_SC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_SC.json
+END
+en_CX.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_CX.json
+END
+en_SH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SH.json
+END
+el.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/el.json
+END
+nl_AW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl_AW.json
+END
+yo_BJ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/yo_BJ.json
+END
+fr_LU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_LU.json
+END
+ml.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ml.json
+END
+hr.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/hr.json
+END
+ta_MY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ta_MY.json
+END
+sh.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sh.json
+END
+nn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nn.json
+END
+it.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/it.json
+END
+en_SX.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SX.json
+END
+dz.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/dz.json
+END
+en_TZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_TZ.json
+END
+en_KE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_KE.json
+END
+en_FK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_FK.json
+END
+root.json
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/root.json
+END
+en_GM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GM.json
+END
+meta.json
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/meta.json
+END
+en_BS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_BS.json
+END
+es_DO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_DO.json
+END
+lg.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lg.json
+END
+bs.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bs.json
+END
+sr_Latn_BA.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sr_Latn_BA.json
+END
+qu_BO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/qu_BO.json
+END
+se.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/se.json
+END
+en_MY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MY.json
+END
+sq_MK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sq_MK.json
+END
+om.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/om.json
+END
+hr_BA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/hr_BA.json
+END
+nl_SX.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl_SX.json
+END
+my.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/my.json
+END
+en_SB.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SB.json
+END
+en_NH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NH.json
+END
+fr_KM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_KM.json
+END
+in.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/in.json
+END
+en_TT.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_TT.json
+END
+pl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pl.json
+END
+ur_IN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ur_IN.json
+END
+pt_MO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_MO.json
+END
+lt.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lt.json
+END
+en_BM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_BM.json
+END
+en_001.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_001.json
+END
+sr.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sr.json
+END
+da.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/da.json
+END
+es_PA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_PA.json
+END
+en_JM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_JM.json
+END
+om_KE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/om_KE.json
+END
+ak.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ak.json
+END
+bm.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bm.json
+END
+hi.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/hi.json
+END
+en_MS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MS.json
+END
+fr_HT.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_HT.json
+END
+ne.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ne.json
+END
+en_NU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NU.json
+END
+ta.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ta.json
+END
+ar_SS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar_SS.json
+END
+es.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es.json
+END
+en_ZM.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_ZM.json
+END
+ko.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ko.json
+END
+en_VU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_VU.json
+END
+en_GD.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GD.json
+END
+nl_SR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl_SR.json
+END
+rm.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/rm.json
+END
+ar_LB.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar_LB.json
+END
+ms.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ms.json
+END
+hy.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/hy.json
+END
+so.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/so.json
+END
+ta_LK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ta_LK.json
+END
+gd.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/gd.json
+END
+es_HN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_HN.json
+END
+en_BZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_BZ.json
+END
+nb.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nb.json
+END
+en_SL.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SL.json
+END
+en_NR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NR.json
+END
+kl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/kl.json
+END
+fr.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr.json
+END
+ln.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ln.json
+END
+es_MX.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_MX.json
+END
+sh_BA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sh_BA.json
+END
+fr_CD.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_CD.json
+END
+sl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sl.json
+END
+en_KI.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_KI.json
+END
+sr_BA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sr_BA.json
+END
+en_AU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_AU.json
+END
+es_BO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_BO.json
+END
+ga.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ga.json
+END
+bg.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bg.json
+END
+en_BW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_BW.json
+END
+ro_MD.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ro_MD.json
+END
+en_TK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_TK.json
+END
+sr_Latn.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sr_Latn.json
+END
+ki.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ki.json
+END
+fo.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fo.json
+END
+en_KY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_KY.json
+END
+ru_MD.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ru_MD.json
+END
+fr_CA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_CA.json
+END
+en_RW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_RW.json
+END
+cy.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/cy.json
+END
+si.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/si.json
+END
+no.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/no.json
+END
+zh_Hant_HK.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hant_HK.json
+END
+ps.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ps.json
+END
+ky.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ky.json
+END
+qu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/qu.json
+END
+uz_Cyrl.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/uz_Cyrl.json
+END
+rw.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/rw.json
+END
+ln_AO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ln_AO.json
+END
+de_LU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/de_LU.json
+END
+so_DJ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/so_DJ.json
+END
+es_PH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_PH.json
+END
+ar.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar.json
+END
+en_CC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_CC.json
+END
+fr_MU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_MU.json
+END
+nl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl.json
+END
+th.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/th.json
+END
+en_MG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MG.json
+END
+en_SC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SC.json
+END
+sv.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/sv.json
+END
+de.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/de.json
+END
+ff_MR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ff_MR.json
+END
+ja.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ja.json
+END
+es_PE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_PE.json
+END
+en_ZA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_ZA.json
+END
+qu_EC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/qu_EC.json
+END
+en_UG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_UG.json
+END
+uz.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/uz.json
+END
+fi.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fi.json
+END
+se_SE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/se_SE.json
+END
+so_KE.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/so_KE.json
+END
+mg.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mg.json
+END
+cs.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/cs.json
+END
+en_MW.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MW.json
+END
+fr_MR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_MR.json
+END
+en_SS.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SS.json
+END
+te.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/te.json
+END
+ug.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ug.json
+END
+ks.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ks.json
+END
+vi.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/vi.json
+END
+fy.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fy.json
+END
+lu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lu.json
+END
+en_GH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GH.json
+END
+fr_BI.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_BI.json
+END
+en_NF.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_NF.json
+END
+zh_Hant_MO.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hant_MO.json
+END
+yo.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/yo.json
+END
+ru_KZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ru_KZ.json
+END
+ff.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ff.json
+END
+nl_BQ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/nl_BQ.json
+END
+zh_Hant.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_Hant.json
+END
+lb.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lb.json
+END
+ms_BN.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ms_BN.json
+END
+bn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/bn.json
+END
+en_LR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_LR.json
+END
+en_MT.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_MT.json
+END
+ru_KG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ru_KG.json
+END
+et.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/et.json
+END
+es_PR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_PR.json
+END
+zh_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_SG.json
+END
+en_AI.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_AI.json
+END
+rn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/rn.json
+END
+mt.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mt.json
+END
+fr_DJ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_DJ.json
+END
+tr.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/tr.json
+END
+en_PG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_PG.json
+END
+en_VC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_VC.json
+END
+es_CU.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_CU.json
+END
+ii.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ii.json
+END
+az_Cyrl.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/az_Cyrl.json
+END
+fr_DZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fr_DZ.json
+END
+en_TO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_TO.json
+END
+km.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/km.json
+END
+lo.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/lo.json
+END
+en_GB.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_GB.json
+END
+ca_FR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ca_FR.json
+END
+gu.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/gu.json
+END
+pt_CV.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_CV.json
+END
+yi.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/yi.json
+END
+to.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/to.json
+END
+es_UY.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_UY.json
+END
+pa_Arab.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pa_Arab.json
+END
+af.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/af.json
+END
+ar_ER.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ar_ER.json
+END
+pt_MZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_MZ.json
+END
+es_CR.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_CR.json
+END
+fa_AF.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/fa_AF.json
+END
+ta_SG.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ta_SG.json
+END
+en.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en.json
+END
+pt_AO.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/pt_AO.json
+END
+zh_HK.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/zh_HK.json
+END
+es_419.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_419.json
+END
+af_NA.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/af_NA.json
+END
+ha_GH.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/ha_GH.json
+END
+mn.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/mn.json
+END
+es_EC.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/es_EC.json
+END
+en_SZ.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/en_SZ.json
+END
+tl.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/tl.json
+END
+or.json
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/data/currencies/or.json
+END

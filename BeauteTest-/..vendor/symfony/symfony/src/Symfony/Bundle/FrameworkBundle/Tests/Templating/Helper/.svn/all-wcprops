@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper
+END
+AssetsHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/AssetsHelperTest.php
+END
+SessionHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/SessionHelperTest.php
+END
+FormHelperDivLayoutTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/FormHelperDivLayoutTest.php
+END
+RequestHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/RequestHelperTest.php
+END
+FormHelperTableLayoutTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/FormHelperTableLayoutTest.php
+END
+StopwatchHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/StopwatchHelperTest.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Twig
+END
+AsseticNode.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Twig/AsseticNode.php
+END
+AsseticNodeVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Twig/AsseticNodeVisitor.php
+END
+AsseticExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Twig/AsseticExtension.php
+END
+AsseticTokenParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Twig/AsseticTokenParser.php
+END

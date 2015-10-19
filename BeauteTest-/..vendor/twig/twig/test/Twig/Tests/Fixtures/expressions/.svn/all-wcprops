@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions
+END
+matches.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/matches.test
+END
+ends_with.test
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ends_with.test
+END
+binary.test
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/binary.test
+END
+strings.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/strings.test
+END
+operators_as_variables.test
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/operators_as_variables.test
+END
+grouping.test
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/grouping.test
+END
+postfix.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/postfix.test
+END
+dotdot.test
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/dotdot.test
+END
+negative_numbers.test
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/negative_numbers.test
+END
+unary.test
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/unary.test
+END
+ternary_operator.test
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator.test
+END
+unary_macro_arguments.test
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/unary_macro_arguments.test
+END
+ternary_operator_noelse.test
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator_noelse.test
+END
+divisibleby.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/divisibleby.test
+END
+bitwise.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/bitwise.test
+END
+sameas.test
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/sameas.test
+END
+array_call.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/array_call.test
+END
+ternary_operator_nothen.test
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator_nothen.test
+END
+comparison.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/comparison.test
+END
+unary_precedence.test
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/unary_precedence.test
+END
+starts_with.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/starts_with.test
+END
+magic_call.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/magic_call.test
+END
+method_call.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/method_call.test
+END
+two_word_operators_as_variables.test
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/two_word_operators_as_variables.test
+END
+array.test
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/array.test
+END
+literals.test
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/literals.test
+END

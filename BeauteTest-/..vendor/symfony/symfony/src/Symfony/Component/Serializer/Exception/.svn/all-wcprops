@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception
+END
+MappingException.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/MappingException.php
+END
+LogicException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/LogicException.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/Exception.php
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/ExceptionInterface.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/UnexpectedValueException.php
+END
+CircularReferenceException.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/CircularReferenceException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/RuntimeException.php
+END
+UnsupportedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/UnsupportedException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Exception/InvalidArgumentException.php
+END

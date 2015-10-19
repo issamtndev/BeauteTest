@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/phpunit.xml.dist
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/README.md
+END
+Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Serializer.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/composer.json
+END
+SerializerAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/SerializerAwareInterface.php
+END
+SerializerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/SerializerInterface.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/LICENSE
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/CHANGELOG.md
+END

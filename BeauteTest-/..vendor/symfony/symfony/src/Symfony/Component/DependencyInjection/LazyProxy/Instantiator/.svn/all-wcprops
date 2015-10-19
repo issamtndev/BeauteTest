@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/Instantiator
+END
+InstantiatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/Instantiator/InstantiatorInterface.php
+END
+RealServiceInstantiator.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/Instantiator/RealServiceInstantiator.php
+END

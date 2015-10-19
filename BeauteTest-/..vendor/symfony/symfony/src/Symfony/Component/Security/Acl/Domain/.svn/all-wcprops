@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain
+END
+Acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/Acl.php
+END
+AclCollectionCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/AclCollectionCache.php
+END
+ObjectIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/ObjectIdentity.php
+END
+UserSecurityIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/UserSecurityIdentity.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/Entry.php
+END
+ObjectIdentityRetrievalStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/ObjectIdentityRetrievalStrategy.php
+END
+SecurityIdentityRetrievalStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/SecurityIdentityRetrievalStrategy.php
+END
+RoleSecurityIdentity.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/RoleSecurityIdentity.php
+END
+FieldEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/FieldEntry.php
+END
+PermissionGrantingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/PermissionGrantingStrategy.php
+END
+AuditLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/AuditLogger.php
+END
+DoctrineAclCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Domain/DoctrineAclCache.php
+END

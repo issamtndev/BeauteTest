@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/beautetest/!svn/ver/4/app/logs
+END
+dev.log
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/beautetest/!svn/ver/4/app/logs/dev.log
+END
+prod.log
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/beautetest/!svn/ver/4/app/logs/prod.log
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/beautetest/!svn/ver/1/app/logs/.gitkeep
+END

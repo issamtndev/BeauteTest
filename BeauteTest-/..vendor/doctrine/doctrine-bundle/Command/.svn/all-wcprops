@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command
+END
+DoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command/DoctrineCommand.php
+END
+GenerateEntitiesDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command/GenerateEntitiesDoctrineCommand.php
+END
+ImportMappingDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command/ImportMappingDoctrineCommand.php
+END
+CreateDatabaseDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php
+END
+DropDatabaseDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php
+END

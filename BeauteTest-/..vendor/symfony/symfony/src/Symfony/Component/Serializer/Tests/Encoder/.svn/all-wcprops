@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Encoder
+END
+XmlEncoderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Encoder/XmlEncoderTest.php
+END
+JsonEncoderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Encoder/JsonEncoderTest.php
+END

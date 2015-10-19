@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection
+END
+MergeExtensionConfigurationPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/MergeExtensionConfigurationPass.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/Extension.php
+END
+ConfigurableExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/ConfigurableExtension.php
+END
+LazyLoadingFragmentHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/LazyLoadingFragmentHandler.php
+END
+FragmentRendererPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/FragmentRendererPass.php
+END
+ContainerAwareHttpKernel.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/ContainerAwareHttpKernel.php
+END
+AddClassesToCachePass.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/AddClassesToCachePass.php
+END
+RegisterListenersPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DependencyInjection/RegisterListenersPass.php
+END

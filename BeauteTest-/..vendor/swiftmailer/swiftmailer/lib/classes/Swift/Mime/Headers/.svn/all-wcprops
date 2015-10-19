@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers
+END
+DateHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php
+END
+AbstractHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php
+END
+OpenDKIMHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php
+END
+UnstructuredHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php
+END
+IdentificationHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php
+END
+MailboxHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php
+END
+ParameterizedHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php
+END
+PathHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php
+END

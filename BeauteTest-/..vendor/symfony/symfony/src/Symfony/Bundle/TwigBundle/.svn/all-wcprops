@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/composer.json
+END
+TwigDefaultEscapingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigDefaultEscapingStrategy.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/CHANGELOG.md
+END
+TwigEngine.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/phpunit.xml.dist
+END
+TwigBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigBundle.php
+END

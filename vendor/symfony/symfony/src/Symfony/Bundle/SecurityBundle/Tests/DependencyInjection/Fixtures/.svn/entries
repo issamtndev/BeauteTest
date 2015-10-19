@@ -1,0 +1,56 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+php
+dir
+
+
+
+add
+
+UserProvider
+dir
+
+
+
+add
+
+xml
+dir
+
+
+
+add
+
+yml
+dir
+
+
+
+add
+

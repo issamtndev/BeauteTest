@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/remove_outdated
+END
+existing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/remove_outdated/existing.yml
+END
+setup.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/remove_outdated/setup.yml
+END
+expected.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/remove_outdated/expected.yml
+END
+dist.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/remove_outdated/dist.yml
+END

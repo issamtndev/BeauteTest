@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection
+END
+FragmentRendererPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/FragmentRendererPassTest.php
+END
+ContainerAwareHttpKernelTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/ContainerAwareHttpKernelTest.php
+END
+MergeExtensionConfigurationPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/MergeExtensionConfigurationPassTest.php
+END
+LazyLoadingFragmentHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/LazyLoadingFragmentHandlerTest.php
+END

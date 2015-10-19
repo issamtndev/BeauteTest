@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions
+END
+multiline_function_with_unknown_argument.test
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_unknown_argument.test
+END
+undefined_trait.test
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_trait.test
+END
+syntax_error_in_reused_template.test
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/syntax_error_in_reused_template.test
+END
+unclosed_tag.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test
+END
+multiline_function_with_undefined_variable.test
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_undefined_variable.test
+END
+undefined_parent.test
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_parent.test
+END
+multiline_tag_with_undefined_variable.test
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_tag_with_undefined_variable.test
+END
+multiline_array_with_undefined_variable_again.test
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable_again.test
+END
+undefined_template_in_child_template.test
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_template_in_child_template.test
+END
+multiline_array_with_undefined_variable.test
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable.test
+END

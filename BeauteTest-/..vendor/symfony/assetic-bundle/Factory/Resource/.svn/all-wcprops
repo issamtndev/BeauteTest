@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource
+END
+CoalescingDirectoryResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource/CoalescingDirectoryResource.php
+END
+DirectoryResourceIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource/DirectoryResourceIterator.php
+END
+FileResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource/FileResource.php
+END
+DirectoryResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource/DirectoryResource.php
+END
+ConfigurationResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Factory/Resource/ConfigurationResource.php
+END

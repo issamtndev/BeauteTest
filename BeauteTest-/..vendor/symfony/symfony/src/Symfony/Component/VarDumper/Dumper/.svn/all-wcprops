@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper
+END
+CliDumper.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/CliDumper.php
+END
+DataDumperInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/DataDumperInterface.php
+END
+AbstractDumper.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/AbstractDumper.php
+END
+HtmlDumper.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/HtmlDumper.php
+END

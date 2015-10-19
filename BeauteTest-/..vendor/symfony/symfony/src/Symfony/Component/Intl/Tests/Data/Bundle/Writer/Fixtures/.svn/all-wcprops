@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures
+END
+en.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/en.php
+END
+rb.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/rb.php
+END
+en.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/en.json
+END
+en.res
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/en.res
+END
+rb.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/rb.json
+END
+rb.res
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/rb.res
+END
+en_nofallback.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/en_nofallback.txt
+END
+en.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/en.txt
+END
+rb.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/rb.txt
+END
+escaped.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Bundle/Writer/Fixtures/escaped.txt
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader
+END
+AnnotationLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AnnotationLoaderTest.php
+END
+empty-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/empty-mapping.yml
+END
+AbstractStaticMethodLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AbstractStaticMethodLoader.php
+END
+constraint-mapping-non-strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping-non-strings.xml
+END
+bad-format.yml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/bad-format.yml
+END
+constraint-mapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping.xml
+END
+XmlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/XmlFileLoaderTest.php
+END
+constraint-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping.yml
+END
+FilesLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/FilesLoaderTest.php
+END
+LoaderChainTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/LoaderChainTest.php
+END
+YamlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/YamlFileLoaderTest.php
+END
+withdoctype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/withdoctype.xml
+END
+nonvalid-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/nonvalid-mapping.yml
+END
+StaticMethodLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/StaticMethodLoaderTest.php
+END

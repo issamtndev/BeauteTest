@@ -1,0 +1,61 @@
+10
+
+dir
+4
+http://svn.digital-developer.com/svn/beautetest/vendor/doctrine
+http://svn.digital-developer.com/svn/beautetest
+
+
+
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+dbal
+dir
+
+cache
+dir
+
+inflector
+dir
+
+common
+dir
+
+annotations
+dir
+
+orm
+dir
+
+collections
+dir
+
+doctrine-bundle
+dir
+
+doctrine-cache-bundle
+dir
+
+instantiator
+dir
+
+lexer
+dir
+

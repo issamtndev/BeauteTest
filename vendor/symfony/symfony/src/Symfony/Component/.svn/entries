@@ -1,0 +1,238 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+VarDumper
+dir
+
+
+
+add
+
+Config
+dir
+
+
+
+add
+
+HttpFoundation
+dir
+
+
+
+add
+
+Intl
+dir
+
+
+
+add
+
+PropertyAccess
+dir
+
+
+
+add
+
+Security
+dir
+
+
+
+add
+
+Finder
+dir
+
+
+
+add
+
+Serializer
+dir
+
+
+
+add
+
+Stopwatch
+dir
+
+
+
+add
+
+OptionsResolver
+dir
+
+
+
+add
+
+Process
+dir
+
+
+
+add
+
+Asset
+dir
+
+
+
+add
+
+HttpKernel
+dir
+
+
+
+add
+
+DependencyInjection
+dir
+
+
+
+add
+
+Filesystem
+dir
+
+
+
+add
+
+Validator
+dir
+
+
+
+add
+
+Debug
+dir
+
+
+
+add
+
+Routing
+dir
+
+
+
+add
+
+EventDispatcher
+dir
+
+
+
+add
+
+CssSelector
+dir
+
+
+
+add
+
+BrowserKit
+dir
+
+
+
+add
+
+ClassLoader
+dir
+
+
+
+add
+
+Translation
+dir
+
+
+
+add
+
+Locale
+dir
+
+
+
+add
+
+DomCrawler
+dir
+
+
+
+add
+
+Yaml
+dir
+
+
+
+add
+
+Console
+dir
+
+
+
+add
+
+ExpressionLanguage
+dir
+
+
+
+add
+
+Form
+dir
+
+
+
+add
+
+Templating
+dir
+
+
+
+add
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub
+END
+StubIntlDateFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub/StubIntlDateFormatter.php
+END
+StubNumberFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub/StubNumberFormatter.php
+END
+StubCollator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub/StubCollator.php
+END
+StubLocale.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub/StubLocale.php
+END
+StubIntl.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Locale/Stub/StubIntl.php
+END

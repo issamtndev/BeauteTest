@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector
+END
+FormDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataCollector.php
+END
+FormDataCollectorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataCollectorInterface.php
+END
+FormDataExtractor.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataExtractor.php
+END
+FormDataExtractorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataExtractorInterface.php
+END
+DataCollectorExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/DataCollectorExtension.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding
+END
+PoolingShardConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardConnection.php
+END
+ShardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardManager.php
+END
+ShardingException.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardingException.php
+END
+PoolingShardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardManager.php
+END

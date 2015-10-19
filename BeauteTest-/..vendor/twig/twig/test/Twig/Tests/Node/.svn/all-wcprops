@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node
+END
+MacroTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/MacroTest.php
+END
+DoTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/DoTest.php
+END
+BlockReferenceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/BlockReferenceTest.php
+END
+ImportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/ImportTest.php
+END
+SpacelessTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/SpacelessTest.php
+END
+IncludeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/IncludeTest.php
+END
+SandboxedPrintTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/SandboxedPrintTest.php
+END
+TextTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/TextTest.php
+END
+ModuleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/ModuleTest.php
+END
+ForTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/ForTest.php
+END
+AutoEscapeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/AutoEscapeTest.php
+END
+BlockTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/BlockTest.php
+END
+SetTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/SetTest.php
+END
+PrintTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/PrintTest.php
+END
+SandboxTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/SandboxTest.php
+END
+IfTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Node/IfTest.php
+END

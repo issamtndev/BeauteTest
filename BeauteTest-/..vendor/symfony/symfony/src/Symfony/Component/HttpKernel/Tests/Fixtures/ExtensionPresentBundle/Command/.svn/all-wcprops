@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/ExtensionPresentBundle/Command
+END
+FooCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/ExtensionPresentBundle/Command/FooCommand.php
+END
+BarCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/ExtensionPresentBundle/Command/BarCommand.php
+END

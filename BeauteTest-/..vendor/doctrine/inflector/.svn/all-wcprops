@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector/LICENSE
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/doctrine/inflector/phpunit.xml.dist
+END

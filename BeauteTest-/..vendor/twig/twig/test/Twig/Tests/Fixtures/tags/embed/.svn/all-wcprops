@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed
+END
+error_line.test
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/error_line.test
+END
+basic.test
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/basic.test
+END
+nested.test
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/nested.test
+END
+with_extends.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/with_extends.test
+END
+multiple.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/multiple.test
+END

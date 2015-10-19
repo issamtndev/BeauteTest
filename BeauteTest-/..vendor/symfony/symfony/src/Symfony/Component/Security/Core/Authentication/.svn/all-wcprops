@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication
+END
+SimpleFormAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimpleFormAuthenticatorInterface.php
+END
+AuthenticationManagerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationManagerInterface.php
+END
+SimplePreAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimplePreAuthenticatorInterface.php
+END
+AuthenticationTrustResolver.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolver.php
+END
+AuthenticationTrustResolverInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolverInterface.php
+END
+AuthenticationProviderManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationProviderManager.php
+END
+SimpleAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimpleAuthenticatorInterface.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/User
+END
+UserCheckerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/User/UserCheckerTest.php
+END
+InMemoryUserProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/User/InMemoryUserProviderTest.php
+END
+ChainUserProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/User/ChainUserProviderTest.php
+END
+UserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/User/UserTest.php
+END

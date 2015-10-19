@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Proxy
+END
+NativeProxyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Proxy/NativeProxyTest.php
+END
+SessionHandlerProxyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Proxy/SessionHandlerProxyTest.php
+END
+AbstractProxyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Proxy/AbstractProxyTest.php
+END

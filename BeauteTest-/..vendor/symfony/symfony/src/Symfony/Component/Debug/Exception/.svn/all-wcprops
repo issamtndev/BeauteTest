@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception
+END
+ClassNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/ClassNotFoundException.php
+END
+UndefinedMethodException.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/UndefinedMethodException.php
+END
+OutOfMemoryException.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/OutOfMemoryException.php
+END
+UndefinedFunctionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/UndefinedFunctionException.php
+END
+FatalThrowableError.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/FatalThrowableError.php
+END
+DummyException.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/DummyException.php
+END
+FlattenException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/FlattenException.php
+END
+ContextErrorException.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/ContextErrorException.php
+END
+FatalErrorException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/FatalErrorException.php
+END

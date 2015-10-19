@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Command
+END
+ExportCommandTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Command/ExportCommandTest.php
+END
+ImportCommandTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Command/ImportCommandTest.php
+END

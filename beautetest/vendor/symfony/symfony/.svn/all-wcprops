@@ -1,0 +1,73 @@
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/.travis.yml
+END
+CHANGELOG-2.3.md
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/CHANGELOG-2.3.md
+END
+UPGRADE-2.3.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/UPGRADE-2.3.md
+END
+phpunit
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/phpunit
+END
+UPGRADE-2.4.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/UPGRADE-2.4.md
+END
+CHANGELOG-2.4.md
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/CHANGELOG-2.4.md
+END
+.travis.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/.travis.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/LICENSE
+END
+UPGRADE-3.0.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/UPGRADE-3.0.md
+END
+UPGRADE-2.1.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/UPGRADE-2.1.md
+END
+CHANGELOG-2.2.md
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/CHANGELOG-2.2.md
+END
+UPGRADE-2.2.md
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/UPGRADE-2.2.md
+END

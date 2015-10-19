@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor
+END
+definition_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_1.md
+END
+alias_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.xml
+END
+builder_1_services.md
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.md
+END
+alias_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_2.xml
+END
+legacy_synchronized_service_definition_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_1.xml
+END
+legacy_synchronized_service_definition_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_1.md
+END
+legacy_synchronized_service_definition_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_2.xml
+END
+route_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_1.md
+END
+callable_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_3.md
+END
+builder_1_tag1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tag1.xml
+END
+definition_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.json
+END
+alias_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_2.json
+END
+callable_7.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_7.md
+END
+definition_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_1.txt
+END
+route_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.json
+END
+definition_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.txt
+END
+callable_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_2.json
+END
+builder_1_tag1.json
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tag1.json
+END
+builder_1_tags.json
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tags.json
+END
+callable_6.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.json
+END
+parameters_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameters_1.txt
+END
+definition_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_1.xml
+END
+definition_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.xml
+END
+alias_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_2.md
+END
+event_dispatcher_1_events.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_events.txt
+END
+builder_1_public.json
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_public.json
+END
+callable_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_2.md
+END
+builder_1_services.json
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.json
+END
+builder_1_tag1.md
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tag1.md
+END
+parameters_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameters_1.xml
+END
+parameters_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameters_1.md
+END
+callable_6.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.md
+END
+builder_1_tags.md
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tags.md
+END
+legacy_synchronized_service_definition_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_1.json
+END
+builder_1_services.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.txt
+END
+event_dispatcher_1_event1.md
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.md
+END
+parameter.json
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.json
+END
+route_collection_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.md
+END
+callable_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_3.json
+END
+event_dispatcher_1_events.md
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_events.md
+END
+event_dispatcher_1_events.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_events.xml
+END
+callable_7.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_7.json
+END
+callable_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_1.txt
+END
+callable_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_2.txt
+END
+callable_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_3.txt
+END
+callable_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.txt
+END
+callable_5.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_5.txt
+END
+callable_6.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.txt
+END
+builder_1_tags.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tags.txt
+END
+builder_1_public.md
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_public.md
+END
+callable_7.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_7.txt
+END
+builder_1_services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.xml
+END
+alias_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.md
+END
+callable_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_1.md
+END
+callable_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_1.xml
+END
+parameter.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.md
+END
+callable_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_2.xml
+END
+callable_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_3.xml
+END
+callable_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.xml
+END
+callable_5.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_5.md
+END
+builder_1_public.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_public.txt
+END
+callable_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_5.xml
+END
+callable_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.xml
+END
+builder_1_tags.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tags.xml
+END
+legacy_synchronized_service_definition_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_2.json
+END
+callable_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_7.xml
+END
+callable_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.json
+END
+parameters_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameters_1.json
+END
+route_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_1.txt
+END
+route_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.txt
+END
+parameter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.txt
+END
+route_collection_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.json
+END
+event_dispatcher_1_event1.json
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.json
+END
+event_dispatcher_1_events.json
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_events.json
+END
+builder_1_public.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_public.xml
+END
+event_dispatcher_1_event1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.txt
+END
+route_collection_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.txt
+END
+definition_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.md
+END
+legacy_synchronized_service_definition_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_2.md
+END
+route_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_1.xml
+END
+route_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.xml
+END
+route_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.md
+END
+parameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.xml
+END
+definition_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_1.json
+END
+callable_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.md
+END
+alias_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.json
+END
+route_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_1.json
+END
+alias_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.txt
+END
+callable_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_1.json
+END
+event_dispatcher_1_event1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.xml
+END
+alias_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_2.txt
+END
+route_collection_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.xml
+END
+legacy_synchronized_service_definition_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_1.txt
+END
+legacy_synchronized_service_definition_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/legacy_synchronized_service_definition_2.txt
+END
+callable_5.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_5.json
+END
+builder_1_tag1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tag1.txt
+END

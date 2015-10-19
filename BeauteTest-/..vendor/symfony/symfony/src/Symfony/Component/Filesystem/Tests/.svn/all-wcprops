@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests
+END
+ExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/ExceptionTest.php
+END
+FilesystemTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/FilesystemTestCase.php
+END
+FilesystemTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/FilesystemTest.php
+END
+LockHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/LockHandlerTest.php
+END

@@ -1,0 +1,175 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/twig/twig/test/Twig/Tests/Fixtures/tags
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+set
+dir
+
+
+
+add
+
+use
+dir
+
+
+
+add
+
+if
+dir
+
+
+
+add
+
+sandbox
+dir
+
+
+
+add
+
+macro
+dir
+
+
+
+add
+
+trim_block.test
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+verbatim
+dir
+
+
+
+add
+
+embed
+dir
+
+
+
+add
+
+special_chars.test
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+from.test
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+spaceless
+dir
+
+
+
+add
+
+include
+dir
+
+
+
+add
+
+filter
+dir
+
+
+
+add
+
+for
+dir
+
+
+
+add
+
+inheritance
+dir
+
+
+
+add
+
+autoescape
+dir
+
+
+
+add
+
+raw
+dir
+
+
+
+add
+
+block
+dir
+
+
+
+add
+

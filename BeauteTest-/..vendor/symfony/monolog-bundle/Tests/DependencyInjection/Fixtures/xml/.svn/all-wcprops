@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml
+END
+handlers_with_channels.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/handlers_with_channels.xml
+END
+new_and_priority_import.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority_import.xml
+END
+multiple_email_recipients.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/multiple_email_recipients.xml
+END
+overwriting_import.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting_import.xml
+END
+single_email_recipient.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/single_email_recipient.xml
+END
+multiple_handlers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/multiple_handlers.xml
+END
+new_and_priority.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority.xml
+END
+parameterized_handlers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/parameterized_handlers.xml
+END
+new_at_end_import.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end_import.xml
+END
+overwriting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting.xml
+END
+new_at_end.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end.xml
+END

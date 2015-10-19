@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced
+END
+FooBar.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/FooBar.php
+END
+Baz.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Baz.php
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Foo.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Bar.php
+END

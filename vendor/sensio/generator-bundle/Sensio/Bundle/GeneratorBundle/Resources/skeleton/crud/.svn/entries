@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+config
+dir
+
+
+
+add
+
+views
+dir
+
+
+
+add
+
+actions
+dir
+
+
+
+add
+
+controller.php.twig
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+tests
+dir
+
+
+
+add
+

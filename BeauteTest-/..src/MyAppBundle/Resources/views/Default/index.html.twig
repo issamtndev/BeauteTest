@@ -1,0 +1,120 @@
+{% extends "::base.html.twig" %}
+{% block javascriptheader %}
+<script type="text/javascript">
+    function selectName(val) {
+        $("#app_homebundle_beaute_search_product_name").val(val);
+        $("#suggesstion-box").hide();
+      }
+      function getnb_avis_ajax(){
+        //var form = $('form[name="app_homebundle_auto_search"]').serializ() ;
+        $("#nb_avis").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');
+        $.ajax({
+          url: "{{  path('my_app_recherche_avis') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"",
+          cache: false,
+          success: function(result){
+          $("#nb_avis").html('( '+result+' avis )');
+        }});
+      }
+      $(document).ready(function() {
+         $.ajaxSetup({cache: false});
+         $("#app_homebundle_beaute_search_categorie").val("");
+         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
+         $('#app_homebundle_beaute_search_categorie').change(function(){
+          getnb_avis_ajax();    
+         $.post('{{  path('my_app_sous_categ') }}',
+                    {id:$('#app_homebundle_beaute_search_categorie').val()},
+                    function(data){
+                        $('#app_homebundle_beaute_search_sub_categorie').html(data);
+                    }
+                );
+                    
+        });
+        $('#app_homebundle_beaute_search_sub_categorie').change(function(){
+          getnb_avis_ajax();             
+        });
+         $(".ajax_serach_bt").click(function(){
+           $(".preladerimg").show();
+           var form = $('form[name="app_homebundle_auto_search"]') ;
+           $.ajax({url: "{{  path('my_app_recherche') }}?"+form.serialize(), success: function(result){
+             $("#my_results").html(result);
+             $(".preladerimg").hide();
+             }});
+           });
+         $("#app_homebundle_beaute_search_product_name").keyup(function(){
+                $.ajax({
+		type: "POST",
+		url: "{{  path('my_app_recherche_nom') }}",
+		data:'name='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val(),
+		beforeSend: function(){
+			$("#search-box").css("background","#FFF url({{ asset('uploads/images/365.GIF') }}) no-repeat 165px");
+                },
+		success: function(data){
+			$("#suggesstion-box").show();
+			$("#suggesstion-box").html(data);
+			$("#search-box").css("background","#FFF");
+		}
+		});
+            getnb_avis_ajax();    
+	 });
+       });
+</script>  
+<style>
+#search-box{padding: 10px;border: #F0F0F0 1px solid;height: 100px}
+</style>
+{% endblock %}
+
+{% block body %}
+      <div>&nbsp;</div>
+      <div class="well research_form" id="collapseOne">
+          <h3>Formulaire de recherche des produits <span id="nb_avis"></span> </h3>
+            {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
+               <div class="form-group">
+                 
+                    <div class="row">     
+                    <div class="col-md-6">
+                {# Génération du label. #}
+                 {{ form_label(form.categorie, "categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
+
+                 {# Affichage des erreurs pour ce champ précis. #}
+                 {{ form_errors(form.categorie) }}
+
+                 <div class="col-md-6">
+                {# Génération de l'input. #}
+                {{ form_widget(form.categorie, {'attr': {'class': 'form-control'}}) }}
+                </div>
+                </div>
+                    <div class="col-md-6">
+                {# Génération du label. #}
+                 {{ form_label(form.sub_categorie, "sous catégorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
+
+                 {# Affichage des erreurs pour ce champ précis. #}
+                 {{ form_errors(form.sub_categorie) }}
+
+                 <div class="col-md-6">
+                {# Génération de l'input. #}
+                {{ form_widget(form.sub_categorie, {'attr': {'class': 'form-control'}}) }}
+                </div>
+                </div>
+                </div>
+                <div class="row">
+                        {{ form_errors(form.product_name) }}
+                        
+                        <div class="col-md-12">
+                        {# Génération de l'input. #}
+                        {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        </div>
+                        <div id="suggesstion-box" class="col-md-12">
+                            <div id="search-box"></div>
+                        </div>    
+                       
+                </div>
+               </div>
+            {{ form_rest(form) }}
+            <input type="submit" class="btn btn-primary" value="Recherche" />
+            <!-- <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"> -->
+            </form>
+        </div>
+      <div id="my_results">
+        <div class="preladerimg" style="display:none"><img src="{{ asset('uploads/images/30.GIF') }}" /></div>
+      </div>
+{% endblock %}

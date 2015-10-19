@@ -1,0 +1,77 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component/Intl/Tests
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Locale
+dir
+
+
+
+add
+
+Collator
+dir
+
+
+
+add
+
+DateFormatter
+dir
+
+
+
+add
+
+Globals
+dir
+
+
+
+add
+
+Data
+dir
+
+
+
+add
+
+NumberFormatter
+dir
+
+
+
+add
+
+Util
+dir
+
+
+
+add
+

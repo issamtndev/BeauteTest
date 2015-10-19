@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests
+END
+ContainerAwareEventManagerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/ContainerAwareEventManagerTest.php
+END
+DoctrineOrmTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DoctrineOrmTestCase.php
+END

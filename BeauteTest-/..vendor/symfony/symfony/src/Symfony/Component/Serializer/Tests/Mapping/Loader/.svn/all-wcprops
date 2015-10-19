@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Mapping/Loader
+END
+YamlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Mapping/Loader/YamlFileLoaderTest.php
+END
+AnnotationLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Mapping/Loader/AnnotationLoaderTest.php
+END
+XmlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Mapping/Loader/XmlFileLoaderTest.php
+END

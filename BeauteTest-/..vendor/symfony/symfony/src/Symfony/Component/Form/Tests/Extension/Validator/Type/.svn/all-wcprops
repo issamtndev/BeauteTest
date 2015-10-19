@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Type
+END
+FormTypeValidatorExtensionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Type/FormTypeValidatorExtensionTest.php
+END
+SubmitTypeValidatorExtensionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Type/SubmitTypeValidatorExtensionTest.php
+END
+BaseValidatorExtensionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Type/BaseValidatorExtensionTest.php
+END
+TypeTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Type/TypeTestCase.php
+END

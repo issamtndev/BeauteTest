@@ -1,0 +1,126 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component/Console/Tests
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Formatter
+dir
+
+
+
+add
+
+Tester
+dir
+
+
+
+add
+
+Fixtures
+dir
+
+
+
+add
+
+ApplicationTest.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ClockMock.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Descriptor
+dir
+
+
+
+add
+
+Command
+dir
+
+
+
+add
+
+Logger
+dir
+
+
+
+add
+
+Helper
+dir
+
+
+
+add
+
+Input
+dir
+
+
+
+add
+
+Style
+dir
+
+
+
+add
+
+Output
+dir
+
+
+
+add
+

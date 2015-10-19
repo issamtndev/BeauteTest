@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception
+END
+ProxyException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/ProxyException.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/UnexpectedValueException.php
+END
+OutOfBoundsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/OutOfBoundsException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/InvalidArgumentException.php
+END

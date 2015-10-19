@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider
+END
+AbstractCurrencyDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractCurrencyDataProviderTest.php
+END
+AbstractDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractDataProviderTest.php
+END
+AbstractLocaleDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractLocaleDataProviderTest.php
+END
+AbstractLanguageDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractLanguageDataProviderTest.php
+END
+AbstractRegionDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractRegionDataProviderTest.php
+END
+AbstractScriptDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/AbstractScriptDataProviderTest.php
+END

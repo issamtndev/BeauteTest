@@ -1,0 +1,84 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Resources
+dir
+
+
+
+add
+
+ConfigDump
+dir
+
+
+
+add
+
+Profiler
+dir
+
+
+
+add
+
+Fragment
+dir
+
+
+
+add
+
+Session
+dir
+
+
+
+add
+
+config
+dir
+
+
+
+add
+
+AppKernel.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

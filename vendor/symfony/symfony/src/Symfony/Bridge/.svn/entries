@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Bridge
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Swiftmailer
+dir
+
+
+
+add
+
+Doctrine
+dir
+
+
+
+add
+
+PhpUnit
+dir
+
+
+
+add
+
+Twig
+dir
+
+
+
+add
+
+Monolog
+dir
+
+
+
+add
+
+ProxyManager
+dir
+
+
+
+add
+

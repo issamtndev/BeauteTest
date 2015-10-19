@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures
+END
+TestClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TestClass.php
+END
+TestClassMagicGet.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TestClassMagicGet.php
+END
+NonTraversableArrayObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/NonTraversableArrayObject.php
+END
+TestClassIsWritable.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TestClassIsWritable.php
+END
+TestClassSetValue.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TestClassSetValue.php
+END
+TraversableArrayObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TraversableArrayObject.php
+END
+TestClassMagicCall.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/TestClassMagicCall.php
+END
+Ticket5775Object.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/Fixtures/Ticket5775Object.php
+END

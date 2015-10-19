@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage
+END
+MetadataBagTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/MetadataBagTest.php
+END
+PhpBridgeSessionStorageTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php
+END
+NativeSessionStorageTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/NativeSessionStorageTest.php
+END
+MockArraySessionStorageTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/MockArraySessionStorageTest.php
+END
+MockFileSessionStorageTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/MockFileSessionStorageTest.php
+END

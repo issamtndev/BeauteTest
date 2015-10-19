@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter
+END
+ExpressionVoterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter/ExpressionVoterTest.php
+END
+RoleHierarchyVoterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter/RoleHierarchyVoterTest.php
+END
+RoleVoterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter/RoleVoterTest.php
+END
+AuthenticatedVoterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter/AuthenticatedVoterTest.php
+END
+AbstractVoterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authorization/Voter/AbstractVoterTest.php
+END

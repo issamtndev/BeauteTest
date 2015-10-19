@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider
+END
+AnonymousAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/AnonymousAuthenticationProviderTest.php
+END
+PreAuthenticatedAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/PreAuthenticatedAuthenticationProviderTest.php
+END
+UserAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/UserAuthenticationProviderTest.php
+END
+RememberMeAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/RememberMeAuthenticationProviderTest.php
+END
+DaoAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/DaoAuthenticationProviderTest.php
+END

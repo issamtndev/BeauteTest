@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command
+END
+EnsureProductionSettingsCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/EnsureProductionSettingsCommand.php
+END
+ConvertDoctrine1SchemaCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/ConvertDoctrine1SchemaCommand.php
+END
+ValidateSchemaCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/ValidateSchemaCommand.php
+END
+InfoCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/InfoCommand.php
+END
+ConvertMappingCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/ConvertMappingCommand.php
+END
+MappingDescribeCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/MappingDescribeCommand.php
+END
+GenerateEntitiesCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/GenerateEntitiesCommand.php
+END
+GenerateRepositoriesCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/GenerateRepositoriesCommand.php
+END
+GenerateProxiesCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/GenerateProxiesCommand.php
+END
+RunDqlCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/RunDqlCommand.php
+END

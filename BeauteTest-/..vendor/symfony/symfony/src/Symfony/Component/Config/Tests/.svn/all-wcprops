@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests
+END
+ConfigCacheFactoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/ConfigCacheFactoryTest.php
+END
+FileLocatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/FileLocatorTest.php
+END
+ConfigCacheTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/ConfigCacheTest.php
+END

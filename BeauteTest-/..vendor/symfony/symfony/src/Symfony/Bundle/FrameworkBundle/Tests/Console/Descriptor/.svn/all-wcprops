@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor
+END
+XmlDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/XmlDescriptorTest.php
+END
+MarkdownDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/MarkdownDescriptorTest.php
+END
+AbstractDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/AbstractDescriptorTest.php
+END
+TextDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/TextDescriptorTest.php
+END
+ObjectsProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/ObjectsProvider.php
+END
+JsonDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/JsonDescriptorTest.php
+END

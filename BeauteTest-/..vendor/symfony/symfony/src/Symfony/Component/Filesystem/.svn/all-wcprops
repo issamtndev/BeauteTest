@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/LICENSE
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/CHANGELOG.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/phpunit.xml.dist
+END
+Filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php
+END
+LockHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/LockHandler.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Filesystem/README.md
+END

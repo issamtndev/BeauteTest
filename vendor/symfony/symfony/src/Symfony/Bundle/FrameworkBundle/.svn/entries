@@ -1,0 +1,210 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Tests
+dir
+
+
+
+add
+
+Console
+dir
+
+
+
+add
+
+Fragment
+dir
+
+
+
+add
+
+HttpCache
+dir
+
+
+
+add
+
+Templating
+dir
+
+
+
+add
+
+Client.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Resources
+dir
+
+
+
+add
+
+FrameworkBundle.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Command
+dir
+
+
+
+add
+
+Test
+dir
+
+
+
+add
+
+DataCollector
+dir
+
+
+
+add
+
+DependencyInjection
+dir
+
+
+
+add
+
+CacheWarmer
+dir
+
+
+
+add
+
+Controller
+dir
+
+
+
+add
+
+Validator
+dir
+
+
+
+add
+
+CHANGELOG.md
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Routing
+dir
+
+
+
+add
+
+EventListener
+dir
+
+
+
+add
+
+phpunit.xml.dist
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Translation
+dir
+
+
+
+add
+
+composer.json
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

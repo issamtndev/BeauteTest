@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php
+END
+EventManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/EventManager.php
+END
+EventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/EventArgs.php
+END
+Lexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Lexer.php
+END
+PropertyChangedListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/PropertyChangedListener.php
+END
+Comparable.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Comparable.php
+END
+EventSubscriber.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/EventSubscriber.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Version.php
+END
+CommonException.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/CommonException.php
+END
+NotifyPropertyChanged.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/NotifyPropertyChanged.php
+END

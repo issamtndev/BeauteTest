@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters
+END
+json_encode.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/json_encode.test
+END
+round.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/round.test
+END
+length_utf8.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length_utf8.test
+END
+sort.test
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/sort.test
+END
+escape_non_supported_charset.test
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_non_supported_charset.test
+END
+date_default_format.test
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_default_format.test
+END
+dynamic_filter.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/dynamic_filter.test
+END
+split.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split.test
+END
+batch_with_exact_elements.test
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_exact_elements.test
+END
+date_namedargs.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_namedargs.test
+END
+merge.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/merge.test
+END
+number_format.test
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/number_format.test
+END
+batch_with_empty_fill.test
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_empty_fill.test
+END
+special_chars.test
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/special_chars.test
+END
+batch_float.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_float.test
+END
+replace_invalid_arg.test
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/replace_invalid_arg.test
+END
+replace.test
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/replace.test
+END
+reverse.test
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/reverse.test
+END
+escape_html_attr.test
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_html_attr.test
+END
+nl2br.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/nl2br.test
+END
+urlencode.test
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode.test
+END
+length.test
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length.test
+END
+date_interval.test
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_interval.test
+END
+convert_encoding.test
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/convert_encoding.test
+END
+first.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/first.test
+END
+format.test
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/format.test
+END
+date_default_format_interval.test
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_default_format_interval.test
+END
+slice.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/slice.test
+END
+join.test
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/join.test
+END
+escape.test
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape.test
+END
+urlencode_deprecated.test
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode_deprecated.test
+END
+split_utf8.test
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split_utf8.test
+END
+last.test
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/last.test
+END
+number_format_default.test
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/number_format_default.test
+END
+abs.test
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/abs.test
+END
+batch_with_zero_elements.test
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_zero_elements.test
+END
+batch_with_keys.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_keys.test
+END
+trim.test
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/trim.test
+END
+date_immutable.test
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_immutable.test
+END
+date.test
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date.test
+END
+force_escape.test
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/force_escape.test
+END
+batch.test
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch.test
+END
+batch_with_fill.test
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_fill.test
+END
+default.test
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/default.test
+END
+date_modify.test
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_modify.test
+END

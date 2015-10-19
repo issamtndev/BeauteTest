@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/PhpDumper
+END
+NullDumper.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/PhpDumper/NullDumper.php
+END
+DumperInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/LazyProxy/PhpDumper/DumperInterface.php
+END

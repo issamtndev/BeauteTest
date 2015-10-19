@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/phpunit.xml.dist
+END
+DeprecationErrorHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/DeprecationErrorHandler.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/LICENSE
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/bootstrap.php
+END

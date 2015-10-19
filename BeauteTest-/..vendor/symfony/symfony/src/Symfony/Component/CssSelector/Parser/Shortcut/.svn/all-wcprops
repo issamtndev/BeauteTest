@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Parser/Shortcut
+END
+HashParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Parser/Shortcut/HashParser.php
+END
+ClassParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Parser/Shortcut/ClassParser.php
+END
+EmptyStringParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Parser/Shortcut/EmptyStringParser.php
+END
+ElementParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Parser/Shortcut/ElementParser.php
+END

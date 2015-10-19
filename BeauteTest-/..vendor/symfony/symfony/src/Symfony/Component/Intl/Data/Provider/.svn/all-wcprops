@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider
+END
+LanguageDataProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider/LanguageDataProvider.php
+END
+RegionDataProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider/RegionDataProvider.php
+END
+ScriptDataProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider/ScriptDataProvider.php
+END
+CurrencyDataProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider/CurrencyDataProvider.php
+END
+LocaleDataProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Provider/LocaleDataProvider.php
+END

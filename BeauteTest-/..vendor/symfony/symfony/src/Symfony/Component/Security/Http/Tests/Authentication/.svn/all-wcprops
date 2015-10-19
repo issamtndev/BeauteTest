@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication
+END
+SimpleAuthenticationHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/SimpleAuthenticationHandlerTest.php
+END
+DefaultAuthenticationFailureHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/DefaultAuthenticationFailureHandlerTest.php
+END
+DefaultAuthenticationSuccessHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/DefaultAuthenticationSuccessHandlerTest.php
+END

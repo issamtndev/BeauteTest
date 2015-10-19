@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/LICENSE
+END
+UPGRADE.md
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/UPGRADE.md
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/.travis.yml
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/CHANGELOG.md
+END
+FilterManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/FilterManager.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/phpunit.xml.dist
+END
+DefaultValueSupplier.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DefaultValueSupplier.php
+END
+AsseticBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/AsseticBundle.php
+END

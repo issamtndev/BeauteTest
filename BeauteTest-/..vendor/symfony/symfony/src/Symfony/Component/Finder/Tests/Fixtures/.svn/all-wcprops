@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures
+END
+ipsum.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures/ipsum.txt
+END
+lorem.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures/lorem.txt
+END
+dolor.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures/dolor.txt
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/beautetest/!svn/ver/1/src/MyAppBundle/Resources/config
+END
+services.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/beautetest/!svn/ver/1/src/MyAppBundle/Resources/config/services.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/beautetest/!svn/ver/1/src/MyAppBundle/Resources/config/routing.yml
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/HttpFoundation
+END
+DbalSessionHandlerSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/HttpFoundation/DbalSessionHandlerSchema.php
+END
+DbalSessionHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/HttpFoundation/DbalSessionHandler.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Extension
+END
+ConfigurationExtensionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Extension/ConfigurationExtensionInterface.php
+END
+PrependExtensionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Extension/PrependExtensionInterface.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Extension/Extension.php
+END
+ExtensionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Extension/ExtensionInterface.php
+END

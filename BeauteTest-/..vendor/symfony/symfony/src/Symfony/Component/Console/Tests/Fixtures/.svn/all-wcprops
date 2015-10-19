@@ -1,0 +1,659 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures
+END
+application_gethelp.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt
+END
+input_argument_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.json
+END
+input_definition_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.md
+END
+Foo2Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo2Command.php
+END
+application_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.json
+END
+command_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.xml
+END
+command_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.xml
+END
+input_definition_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.json
+END
+input_definition_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.txt
+END
+input_definition_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.txt
+END
+input_definition_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.txt
+END
+FooCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/FooCommand.php
+END
+input_definition_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.txt
+END
+DescriptorApplication1.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication1.php
+END
+input_option_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.md
+END
+DescriptorApplication2.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication2.php
+END
+input_option_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.json
+END
+input_argument_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.md
+END
+application_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.md
+END
+input_option_5.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.json
+END
+FooSubnamespaced2Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced2Command.php
+END
+input_option_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.txt
+END
+application_renderexception_doublewidth1decorated.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt
+END
+application_run1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run1.txt
+END
+input_option_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.txt
+END
+input_definition_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.xml
+END
+application_run2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run2.txt
+END
+input_option_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.txt
+END
+input_definition_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.xml
+END
+application_run3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run3.txt
+END
+input_option_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.txt
+END
+input_definition_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.xml
+END
+input_definition_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.md
+END
+application_run4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run4.txt
+END
+Foo1Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo1Command.php
+END
+input_option_5.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.txt
+END
+input_definition_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.xml
+END
+input_option_6.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_6.txt
+END
+input_argument_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.json
+END
+Foo5Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo5Command.php
+END
+application_renderexception3decorated.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception3decorated.txt
+END
+input_definition_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.json
+END
+command_asxml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt
+END
+DummyOutput.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DummyOutput.php
+END
+input_option_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.xml
+END
+input_option_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.xml
+END
+input_option_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.md
+END
+input_option_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.xml
+END
+input_option_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.xml
+END
+input_option_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.xml
+END
+input_option_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_6.xml
+END
+input_option_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.json
+END
+input_argument_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.md
+END
+application_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.md
+END
+FooSubnamespaced1Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced1Command.php
+END
+input_option_6.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_6.json
+END
+DescriptorCommand1.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand1.php
+END
+DescriptorCommand2.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand2.php
+END
+input_definition_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.md
+END
+application_astext1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt
+END
+input_argument_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.json
+END
+application_astext2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt
+END
+Foo4Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo4Command.php
+END
+FoobarCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/FoobarCommand.php
+END
+command_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.md
+END
+input_argument_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.txt
+END
+input_argument_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.txt
+END
+input_argument_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.txt
+END
+input_definition_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.json
+END
+input_argument_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.txt
+END
+TestCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/TestCommand.php
+END
+application_asxml1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt
+END
+command_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.json
+END
+application_asxml2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt
+END
+input_option_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.md
+END
+application_renderexception_doublewidth1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1.txt
+END
+definition_asxml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/definition_asxml.txt
+END
+application_renderexception_doublewidth2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth2.txt
+END
+input_option_6.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_6.md
+END
+application_renderexception1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception1.txt
+END
+input_argument_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.xml
+END
+input_argument_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.md
+END
+application_renderexception2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception2.txt
+END
+input_argument_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.xml
+END
+input_option_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.json
+END
+application_renderexception3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception3.txt
+END
+input_argument_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.xml
+END
+application_renderexception4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception4.txt
+END
+input_argument_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.xml
+END
+input_definition_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.md
+END
+application_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.json
+END
+Foo3Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo3Command.php
+END
+input_argument_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.json
+END
+command_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.md
+END
+definition_astext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt
+END
+application_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.txt
+END
+application_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.txt
+END
+input_definition_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.json
+END
+input_option_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.md
+END
+command_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.json
+END
+input_option_5.md
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.md
+END
+command_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.txt
+END
+command_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.txt
+END
+application_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.xml
+END
+input_option_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.json
+END
+input_argument_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.md
+END
+BarBucCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/BarBucCommand.php
+END
+application_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.xml
+END
+command_astext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_astext.txt
+END

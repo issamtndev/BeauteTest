@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests
+END
+ValidatorBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ValidatorBuilderTest.php
+END
+LegacyExecutionContextTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/LegacyExecutionContextTest.php
+END
+ConstraintTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ConstraintTest.php
+END
+ConstraintViolationListTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ConstraintViolationListTest.php
+END
+ConstraintViolationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ConstraintViolationTest.php
+END
+LegacyValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/LegacyValidatorTest.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader
+END
+BundleReaderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BundleReaderInterface.php
+END
+BundleEntryReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BundleEntryReader.php
+END
+BufferedBundleReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BufferedBundleReader.php
+END
+BundleEntryReaderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BundleEntryReaderInterface.php
+END
+IntlBundleReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/IntlBundleReader.php
+END
+PhpBundleReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/PhpBundleReader.php
+END
+JsonBundleReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/JsonBundleReader.php
+END

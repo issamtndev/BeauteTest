@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection
+END
+ConfigurationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/ConfigurationTest.php
+END
+TwigExtensionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/TwigExtensionTest.php
+END

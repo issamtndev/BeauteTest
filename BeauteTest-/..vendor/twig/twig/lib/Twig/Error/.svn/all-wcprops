@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/lib/Twig/Error
+END
+Loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/lib/Twig/Error/Loader.php
+END
+Syntax.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/lib/Twig/Error/Syntax.php
+END
+Runtime.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/lib/Twig/Error/Runtime.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList
+END
+ArrayChoiceList.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/ArrayChoiceList.php
+END
+LazyChoiceList.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/LazyChoiceList.php
+END
+ChoiceListInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/ChoiceListInterface.php
+END
+LegacyChoiceListAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/LegacyChoiceListAdapter.php
+END
+ArrayKeyChoiceList.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/ArrayKeyChoiceList.php
+END

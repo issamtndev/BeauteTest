@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler
+END
+CheckClosureFilterPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/CheckClosureFilterPass.php
+END
+FilterManagerPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/FilterManagerPass.php
+END
+SprocketsFilterPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/SprocketsFilterPass.php
+END
+StaticAsseticHelperPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/StaticAsseticHelperPass.php
+END
+TemplatingPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/TemplatingPass.php
+END
+TemplateResourcesPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/TemplateResourcesPass.php
+END
+AssetFactoryPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/AssetFactoryPass.php
+END
+RouterResourcePass.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/RouterResourcePass.php
+END
+CheckCssEmbedFilterPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/CheckCssEmbedFilterPass.php
+END
+AssetManagerPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/AssetManagerPass.php
+END
+CheckYuiFilterPass.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Compiler/CheckYuiFilterPass.php
+END

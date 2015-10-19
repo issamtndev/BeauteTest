@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests
+END
+MessageCatalogueTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/MessageCatalogueTest.php
+END
+TranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/TranslatorTest.php
+END
+DataCollectorTranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/DataCollectorTranslatorTest.php
+END
+TranslatorCacheTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/TranslatorCacheTest.php
+END
+LoggingTranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/LoggingTranslatorTest.php
+END
+IdentityTranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/IdentityTranslatorTest.php
+END
+IntervalTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/IntervalTest.php
+END
+MessageSelectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/MessageSelectorTest.php
+END
+PluralizationRulesTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/PluralizationRulesTest.php
+END

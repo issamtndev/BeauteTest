@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Templating/Tests/Helper
+END
+HelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Templating/Tests/Helper/HelperTest.php
+END
+LegacyCoreAssetsHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Templating/Tests/Helper/LegacyCoreAssetsHelperTest.php
+END
+SlotsHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Templating/Tests/Helper/SlotsHelperTest.php
+END
+LegacyAssetsHelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Templating/Tests/Helper/LegacyAssetsHelperTest.php
+END

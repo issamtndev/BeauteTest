@@ -1,0 +1,112 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Validator
+dir
+
+
+
+add
+
+LegacySecurityContextTest.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+LegacySecurityContextInterfaceTest.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Util
+dir
+
+
+
+add
+
+Exception
+dir
+
+
+
+add
+
+User
+dir
+
+
+
+add
+
+Authentication
+dir
+
+
+
+add
+
+Encoder
+dir
+
+
+
+add
+
+Authorization
+dir
+
+
+
+add
+
+Role
+dir
+
+
+
+add
+

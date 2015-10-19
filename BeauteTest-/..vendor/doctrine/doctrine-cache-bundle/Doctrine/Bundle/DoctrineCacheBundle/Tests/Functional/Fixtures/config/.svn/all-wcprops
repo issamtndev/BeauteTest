@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config
+END
+array.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/array.xml
+END
+memcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/memcache.xml
+END
+file_system.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/file_system.xml
+END
+mongodb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/mongodb.xml
+END
+memcached.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/memcached.xml
+END
+php_file.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/php_file.xml
+END
+riak.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Fixtures/config/riak.xml
+END

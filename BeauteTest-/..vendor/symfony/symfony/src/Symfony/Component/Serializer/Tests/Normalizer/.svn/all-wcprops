@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer
+END
+PropertyNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/PropertyNormalizerTest.php
+END
+ObjectNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/ObjectNormalizerTest.php
+END
+TestDenormalizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/TestDenormalizer.php
+END
+CustomNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/CustomNormalizerTest.php
+END
+GetSetMethodNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/GetSetMethodNormalizerTest.php
+END
+TestNormalizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/TestNormalizer.php
+END

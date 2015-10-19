@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Resources/config
+END
+assetic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Resources/config/assetic.xml
+END
+templating_php.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Resources/config/templating_php.xml
+END
+templating_twig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Resources/config/templating_twig.xml
+END
+controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/Resources/config/controller.xml
+END

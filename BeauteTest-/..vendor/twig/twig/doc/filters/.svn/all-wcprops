@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters
+END
+keys.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/keys.rst
+END
+replace.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/replace.rst
+END
+reverse.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/reverse.rst
+END
+url_encode.rst
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/url_encode.rst
+END
+nl2br.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/nl2br.rst
+END
+striptags.rst
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/striptags.rst
+END
+length.rst
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/length.rst
+END
+default.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/default.rst
+END
+date_modify.rst
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/date_modify.rst
+END
+capitalize.rst
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/capitalize.rst
+END
+json_encode.rst
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/json_encode.rst
+END
+first.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/first.rst
+END
+lower.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/lower.rst
+END
+raw.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/raw.rst
+END
+join.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/join.rst
+END
+slice.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/slice.rst
+END
+number_format.rst
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/number_format.rst
+END
+last.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/last.rst
+END
+abs.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/abs.rst
+END
+index.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/index.rst
+END
+trim.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/trim.rst
+END
+date.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/date.rst
+END
+batch.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/batch.rst
+END
+title.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/title.rst
+END
+convert_encoding.rst
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/convert_encoding.rst
+END
+round.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/round.rst
+END
+sort.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/sort.rst
+END
+format.rst
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/format.rst
+END
+split.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/split.rst
+END
+upper.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/upper.rst
+END
+merge.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/merge.rst
+END
+escape.rst
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/beautetest/!svn/ver/1/vendor/twig/twig/doc/filters/escape.rst
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests
+END
+ContainerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ContainerTest.php
+END
+CrossCheckTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/CrossCheckTest.php
+END
+DefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/DefinitionTest.php
+END
+ContainerBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ContainerBuilderTest.php
+END
+DefinitionDecoratorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/DefinitionDecoratorTest.php
+END
+LegacyDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/LegacyDefinitionTest.php
+END
+LegacyContainerBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/LegacyContainerBuilderTest.php
+END
+ReferenceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ReferenceTest.php
+END
+ParameterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ParameterTest.php
+END

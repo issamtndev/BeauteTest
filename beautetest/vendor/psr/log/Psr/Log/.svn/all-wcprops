@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log
+END
+LoggerAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/LoggerAwareInterface.php
+END
+LoggerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/LoggerInterface.php
+END
+AbstractLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/AbstractLogger.php
+END
+LoggerAwareTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/LoggerAwareTrait.php
+END
+LoggerTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/LoggerTrait.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/InvalidArgumentException.php
+END
+LogLevel.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/LogLevel.php
+END
+NullLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/beautetest/!svn/ver/1/vendor/psr/log/Psr/Log/NullLogger.php
+END

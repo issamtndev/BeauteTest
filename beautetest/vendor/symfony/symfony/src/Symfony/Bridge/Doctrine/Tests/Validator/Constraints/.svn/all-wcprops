@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Validator/Constraints
+END
+LegacyUniqueEntityValidatorLegacyApiTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Validator/Constraints/LegacyUniqueEntityValidatorLegacyApiTest.php
+END
+UniqueEntityValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Validator/Constraints/UniqueEntityValidatorTest.php
+END

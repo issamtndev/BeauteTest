@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests
+END
+HeaderMock.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/HeaderMock.php
+END
+DebugClassLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/DebugClassLoaderTest.php
+END
+MockExceptionHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/MockExceptionHandler.php
+END
+ErrorHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/ErrorHandlerTest.php
+END
+ExceptionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Debug/Tests/ExceptionHandlerTest.php
+END

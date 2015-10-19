@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder
+END
+NodeBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/NodeBuilderTest.php
+END
+ArrayNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php
+END
+NumericNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/NumericNodeDefinitionTest.php
+END
+EnumNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/EnumNodeDefinitionTest.php
+END
+ExprBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/ExprBuilderTest.php
+END
+TreeBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/TreeBuilderTest.php
+END

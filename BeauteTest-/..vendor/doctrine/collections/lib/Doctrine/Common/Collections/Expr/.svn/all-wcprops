@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr
+END
+Expression.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php
+END
+ExpressionVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php
+END
+CompositeExpression.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php
+END
+Comparison.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php
+END
+ClosureExpressionVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php
+END
+Value.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php
+END

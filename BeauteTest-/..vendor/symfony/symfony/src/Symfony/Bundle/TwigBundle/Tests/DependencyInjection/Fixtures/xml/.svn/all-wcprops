@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml
+END
+legacy-form-resources-only.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/legacy-form-resources-only.xml
+END
+customTemplateEscapingGuesser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/customTemplateEscapingGuesser.xml
+END
+empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/empty.xml
+END
+full.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/full.xml
+END
+extra.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/extra.xml
+END
+legacy-merge-form-resources-with-form-themes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/legacy-merge-form-resources-with-form-themes.xml
+END

@@ -1,0 +1,154 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+doctrine
+dir
+
+
+
+add
+
+twig
+dir
+
+
+
+add
+
+monolog
+dir
+
+
+
+add
+
+jdorn
+dir
+
+
+
+add
+
+ircmaxell
+dir
+
+
+
+add
+
+incenteev
+dir
+
+
+
+add
+
+swiftmailer
+dir
+
+
+
+add
+
+composer
+dir
+
+
+
+add
+
+mawi12345
+dir
+
+
+
+add
+
+kriswallsmith
+dir
+
+
+
+add
+
+autoload.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+sensio
+dir
+
+
+
+add
+
+sensiolabs
+dir
+
+
+
+add
+
+psr
+dir
+
+
+
+add
+
+friendsofsymfony
+dir
+
+
+
+add
+
+symfony
+dir
+
+
+
+add
+
+willdurand
+dir
+
+
+
+add
+

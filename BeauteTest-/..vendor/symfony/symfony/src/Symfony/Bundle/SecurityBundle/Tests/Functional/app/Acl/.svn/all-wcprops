@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Acl
+END
+bundles.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Acl/bundles.php
+END
+config.yml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Acl/config.yml
+END

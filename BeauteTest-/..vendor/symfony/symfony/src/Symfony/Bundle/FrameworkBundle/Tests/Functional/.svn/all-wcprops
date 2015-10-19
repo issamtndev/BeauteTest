@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional
+END
+ProfilerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/ProfilerTest.php
+END
+FragmentTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/FragmentTest.php
+END
+SessionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/SessionTest.php
+END
+SubRequestsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/SubRequestsTest.php
+END
+ConfigDumpReferenceCommandTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/ConfigDumpReferenceCommandTest.php
+END
+WebTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/WebTestCase.php
+END
+ConfigDebugCommandTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/ConfigDebugCommandTest.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging
+END
+StatisticsCacheLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging/StatisticsCacheLogger.php
+END
+CacheLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging/CacheLogger.php
+END
+CacheLoggerChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging/CacheLoggerChain.php
+END

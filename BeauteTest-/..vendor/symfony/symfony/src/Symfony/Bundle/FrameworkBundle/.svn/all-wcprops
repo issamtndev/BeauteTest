@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/phpunit.xml.dist
+END
+FrameworkBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/FrameworkBundle.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/composer.json
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Client.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CHANGELOG.md
+END

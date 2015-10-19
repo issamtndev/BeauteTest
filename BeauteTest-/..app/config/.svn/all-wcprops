@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/beautetest/!svn/ver/4/app/config
+END
+config_prod.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/beautetest/!svn/ver/1/app/config/config_prod.yml
+END
+config_dev.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/beautetest/!svn/ver/1/app/config/config_dev.yml
+END
+services.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/beautetest/!svn/ver/1/app/config/services.yml
+END
+config_test.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/beautetest/!svn/ver/1/app/config/config_test.yml
+END
+config.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/beautetest/!svn/ver/1/app/config/config.yml
+END
+routing_dev.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/beautetest/!svn/ver/1/app/config/routing_dev.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/beautetest/!svn/ver/1/app/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/beautetest/!svn/ver/1/app/config/security.yml
+END

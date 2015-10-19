@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster
+END
+ConstStub.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/ConstStub.php
+END
+PdoCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/PdoCaster.php
+END
+CutStub.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/CutStub.php
+END
+DoctrineCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/DoctrineCaster.php
+END
+ResourceCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/ResourceCaster.php
+END
+XmlResourceCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/XmlResourceCaster.php
+END
+ReflectionCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/ReflectionCaster.php
+END
+StubCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/StubCaster.php
+END
+AmqpCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/AmqpCaster.php
+END
+ExceptionCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/ExceptionCaster.php
+END
+SplCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/SplCaster.php
+END
+Caster.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/Caster.php
+END
+DOMCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/DOMCaster.php
+END
+MongoCaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/MongoCaster.php
+END

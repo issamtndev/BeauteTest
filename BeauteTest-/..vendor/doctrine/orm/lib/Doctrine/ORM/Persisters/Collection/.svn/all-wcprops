@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Collection
+END
+OneToManyPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Collection/OneToManyPersister.php
+END
+CollectionPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Collection/CollectionPersister.php
+END
+ManyToManyPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Collection/ManyToManyPersister.php
+END
+AbstractCollectionPersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Collection/AbstractCollectionPersister.php
+END

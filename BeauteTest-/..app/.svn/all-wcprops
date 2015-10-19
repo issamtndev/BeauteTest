@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/beautetest/!svn/ver/4/app
+END
+check.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/beautetest/!svn/ver/1/app/check.php
+END
+bootstrap.php.cache
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/beautetest/!svn/ver/1/app/bootstrap.php.cache
+END
+AppKernel.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/beautetest/!svn/ver/1/app/AppKernel.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/beautetest/!svn/ver/1/app/phpunit.xml.dist
+END
+AppCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/beautetest/!svn/ver/1/app/AppCache.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/beautetest/!svn/ver/1/app/.htaccess
+END
+SymfonyRequirements.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/beautetest/!svn/ver/1/app/SymfonyRequirements.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/beautetest/!svn/ver/1/app/autoload.php
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/beautetest/!svn/ver/1/app/console
+END

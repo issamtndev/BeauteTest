@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter
+END
+GelfMessageFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php
+END
+NormalizerFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php
+END
+HtmlFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php
+END
+LogstashFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php
+END
+ChromePHPFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php
+END
+ElasticaFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php
+END
+MongoDBFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php
+END
+ScalarFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php
+END
+WildfireFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php
+END
+LineFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php
+END
+FlowdockFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php
+END
+JsonFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php
+END
+LogglyFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php
+END
+FormatterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php
+END

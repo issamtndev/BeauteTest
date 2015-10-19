@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Resources/config
+END
+localized_routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Resources/config/localized_routing.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Resources/config/routing.yml
+END

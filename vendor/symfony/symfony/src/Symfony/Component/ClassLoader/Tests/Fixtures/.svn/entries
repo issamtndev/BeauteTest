@@ -1,0 +1,133 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+fallback
+dir
+
+
+
+add
+
+includepath
+dir
+
+
+
+add
+
+Namespaced
+dir
+
+
+
+add
+
+Apc
+dir
+
+
+
+add
+
+classmap
+dir
+
+
+
+add
+
+psr-4
+dir
+
+
+
+add
+
+beta
+dir
+
+
+
+add
+
+php5.4
+dir
+
+
+
+add
+
+Pearlike2
+dir
+
+
+
+add
+
+php5.5
+dir
+
+
+
+add
+
+Namespaced2
+dir
+
+
+
+add
+
+alpha
+dir
+
+
+
+add
+
+ClassesWithParents
+dir
+
+
+
+add
+
+deps
+dir
+
+
+
+add
+
+Pearlike
+dir
+
+
+
+add
+

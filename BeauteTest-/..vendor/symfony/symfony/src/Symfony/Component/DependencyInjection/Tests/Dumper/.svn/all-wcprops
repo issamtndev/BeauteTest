@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper
+END
+XmlDumperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/XmlDumperTest.php
+END
+YamlDumperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/YamlDumperTest.php
+END
+PhpDumperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/PhpDumperTest.php
+END
+GraphvizDumperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/GraphvizDumperTest.php
+END

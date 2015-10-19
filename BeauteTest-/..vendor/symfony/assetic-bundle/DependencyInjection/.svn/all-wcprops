@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection
+END
+DirectoryResourceDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/DirectoryResourceDefinition.php
+END
+Configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/Configuration.php
+END
+AsseticExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/symfony/assetic-bundle/DependencyInjection/AsseticExtension.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/FirewallEntryPoint
+END
+config_form_login.yml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/FirewallEntryPoint/config_form_login.yml
+END
+bundles.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/FirewallEntryPoint/bundles.php
+END
+config.yml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/FirewallEntryPoint/config.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/FirewallEntryPoint/routing.yml
+END

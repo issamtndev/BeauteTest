@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures/copy/A/B/C
+END
+abc.dat.copy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Fixtures/copy/A/B/C/abc.dat.copy
+END

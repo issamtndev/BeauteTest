@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json
+END
+JsonCurrencyDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json/JsonCurrencyDataProviderTest.php
+END
+JsonLocaleDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json/JsonLocaleDataProviderTest.php
+END
+JsonLanguageDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json/JsonLanguageDataProviderTest.php
+END
+JsonRegionDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json/JsonRegionDataProviderTest.php
+END
+JsonScriptDataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Intl/Tests/Data/Provider/Json/JsonScriptDataProviderTest.php
+END

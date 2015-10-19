@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/psr-4/Lets/Go/Deeper
+END
+Class_With_Underscores.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/psr-4/Lets/Go/Deeper/Class_With_Underscores.php
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/psr-4/Lets/Go/Deeper/Foo.php
+END

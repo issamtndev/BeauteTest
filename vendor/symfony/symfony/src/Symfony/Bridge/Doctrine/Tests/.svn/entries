@@ -1,0 +1,126 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Fixtures
+dir
+
+
+
+add
+
+Logger
+dir
+
+
+
+add
+
+DataCollector
+dir
+
+
+
+add
+
+DependencyInjection
+dir
+
+
+
+add
+
+ExpressionLanguage
+dir
+
+
+
+add
+
+DataFixtures
+dir
+
+
+
+add
+
+Form
+dir
+
+
+
+add
+
+Validator
+dir
+
+
+
+add
+
+ContainerAwareEventManagerTest.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+HttpFoundation
+dir
+
+
+
+add
+
+Security
+dir
+
+
+
+add
+
+DoctrineOrmTestCase.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

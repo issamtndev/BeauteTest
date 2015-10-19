@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder
+END
+EntityListenerBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/EntityListenerBuilder.php
+END
+FieldBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/FieldBuilder.php
+END
+ClassMetadataBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/ClassMetadataBuilder.php
+END
+OneToManyAssociationBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/OneToManyAssociationBuilder.php
+END
+EmbeddedBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/EmbeddedBuilder.php
+END
+ManyToManyAssociationBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/ManyToManyAssociationBuilder.php
+END
+AssociationBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/beautetest/!svn/ver/1/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Builder/AssociationBuilder.php
+END

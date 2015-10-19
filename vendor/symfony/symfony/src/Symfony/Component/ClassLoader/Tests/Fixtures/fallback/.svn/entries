@@ -1,0 +1,56 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/fallback
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+Pearlike
+dir
+
+
+
+add
+
+Pearlike2
+dir
+
+
+
+add
+
+Namespaced
+dir
+
+
+
+add
+
+Namespaced2
+dir
+
+
+
+add
+

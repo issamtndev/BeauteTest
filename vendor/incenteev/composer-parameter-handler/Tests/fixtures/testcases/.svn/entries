@@ -1,0 +1,147 @@
+10
+
+dir
+0
+http://svn.digital-developer.com/svn/beautetest/.vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases
+http://svn.digital-developer.com/svn/beautetest
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+interaction_with_environment
+dir
+
+
+
+add
+
+existent_without_key
+dir
+
+
+
+add
+
+interaction_existent
+dir
+
+
+
+add
+
+existent
+dir
+
+
+
+add
+
+renamed
+dir
+
+
+
+add
+
+interaction_non_existent
+dir
+
+
+
+add
+
+subfolder_created
+dir
+
+
+
+add
+
+non_existent
+dir
+
+
+
+add
+
+keep_outdated
+dir
+
+
+
+add
+
+extra_keys
+dir
+
+
+
+add
+
+renamed_and_environment
+dir
+
+
+
+add
+
+existent_empty
+dir
+
+
+
+add
+
+custom_key
+dir
+
+
+
+add
+
+subfolder
+dir
+
+
+
+add
+
+remove_outdated
+dir
+
+
+
+add
+
+custom_dist_file
+dir
+
+
+
+add
+
+non_existent_with_environment
+dir
+
+
+
+add
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php
+END
+lazy_service_structure.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php/lazy_service_structure.txt
+END
+lazy_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php/lazy_service.php
+END

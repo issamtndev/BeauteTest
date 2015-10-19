@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/ChoiceList/Fixtures
+END
+LazyChoiceListImpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/ChoiceList/Fixtures/LazyChoiceListImpl.php
+END
+LazyChoiceListInvalidImpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/ChoiceList/Fixtures/LazyChoiceListInvalidImpl.php
+END

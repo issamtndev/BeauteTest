@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter
+END
+MinifyCssCompressorFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/MinifyCssCompressorFilter.php
+END
+CallablesFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CallablesFilter.php
+END
+BaseCssFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseCssFilter.php
+END
+JSMinPlusFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinPlusFilter.php
+END
+CssEmbedFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssEmbedFilter.php
+END
+DependencyExtractorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/DependencyExtractorInterface.php
+END
+DartFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/DartFilter.php
+END
+UglifyJsFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJsFilter.php
+END
+GssFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/GssFilter.php
+END
+FilterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterInterface.php
+END
+CompassFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CompassFilter.php
+END
+PackerFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackerFilter.php
+END
+UglifyCssFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyCssFilter.php
+END
+BaseProcessFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseProcessFilter.php
+END
+CoffeeScriptFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CoffeeScriptFilter.php
+END
+UglifyJs2Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJs2Filter.php
+END
+LessphpFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessphpFilter.php
+END
+RooleFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/RooleFilter.php
+END
+OptiPngFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/OptiPngFilter.php
+END
+BaseNodeFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseNodeFilter.php
+END
+HashableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/HashableInterface.php
+END
+ReactJsxFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/ReactJsxFilter.php
+END
+CssImportFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssImportFilter.php
+END
+ScssphpFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/ScssphpFilter.php
+END
+CssRewriteFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssRewriteFilter.php
+END
+FilterCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterCollection.php
+END
+JSqueezeFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSqueezeFilter.php
+END
+CssMinFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssMinFilter.php
+END
+PhpCssEmbedFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/PhpCssEmbedFilter.php
+END
+JpegoptimFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegoptimFilter.php
+END
+SeparatorFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/SeparatorFilter.php
+END
+HandlebarsFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/HandlebarsFilter.php
+END
+StylusFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/StylusFilter.php
+END
+LessFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php
+END
+TypeScriptFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/TypeScriptFilter.php
+END
+CssCacheBustingFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssCacheBustingFilter.php
+END
+EmberPrecompileFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/EmberPrecompileFilter.php
+END
+JpegtranFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegtranFilter.php
+END
+PngoutFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/PngoutFilter.php
+END
+SprocketsFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/SprocketsFilter.php
+END
+PackagerFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackagerFilter.php
+END
+AutoprefixerFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/AutoprefixerFilter.php
+END
+JSMinFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinFilter.php
+END

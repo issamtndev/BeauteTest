@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset
+END
+UnCloneableAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnCloneableAsset.php
+END
+FinalExceptionAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/FinalExceptionAsset.php
+END
+AbstractClassAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/AbstractClassAsset.php
+END
+PharExceptionAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharExceptionAsset.php
+END
+PharAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharAsset.php
+END
+SerializableArrayObjectAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SerializableArrayObjectAsset.php
+END
+SimpleTraitAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleTraitAsset.php
+END
+ExceptionAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ExceptionAsset.php
+END
+UnserializeExceptionArrayObjectAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnserializeExceptionArrayObjectAsset.php
+END
+SimpleSerializableAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php
+END
+WakeUpNoticesAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/WakeUpNoticesAsset.php
+END
+XMLReaderAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/XMLReaderAsset.php
+END
+ArrayObjectAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/beautetest/!svn/ver/1/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ArrayObjectAsset.php
+END

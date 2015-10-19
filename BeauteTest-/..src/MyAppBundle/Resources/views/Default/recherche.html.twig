@@ -1,0 +1,29 @@
+{% extends "::base.html.twig" %}
+{% block title %}Resultat de recherche{% endblock %}
+{% block body %}
+<table class="table table-bordered table-striped table-condensed">
+            <caption>
+            <h4>RESULTAT DU RECHERCHE </h4>
+            </caption>
+            <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Noation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entity in listproducts %}
+               <tr>
+                   <td>{{ entity.name }}</td>
+                   <td>{{ entity.getAvis().count() }} avis</td>
+               </tr>
+              {% endfor %}     
+            </tbody>
+</table>   
+
+   <div>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
+   </div>
+{% endblock %}

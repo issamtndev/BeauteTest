@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/Resources/views
+END
+base.format.engine
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/Resources/views/base.format.engine
+END
+this.is.a.template.format.engine
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/Resources/views/this.is.a.template.format.engine
+END

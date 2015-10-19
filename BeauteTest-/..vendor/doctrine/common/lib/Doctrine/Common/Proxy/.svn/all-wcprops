@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy
+END
+AbstractProxyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php
+END
+ProxyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php
+END
+ProxyDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/beautetest/!svn/ver/1/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyDefinition.php
+END

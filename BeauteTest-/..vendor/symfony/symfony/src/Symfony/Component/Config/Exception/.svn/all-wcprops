@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Exception
+END
+FileLoaderImportCircularReferenceException.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Exception/FileLoaderImportCircularReferenceException.php
+END
+FileLoaderLoadException.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Config/Exception/FileLoaderLoadException.php
+END

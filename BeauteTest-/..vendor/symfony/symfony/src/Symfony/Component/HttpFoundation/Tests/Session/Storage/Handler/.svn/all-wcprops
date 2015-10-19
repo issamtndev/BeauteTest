@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler
+END
+MemcacheSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/MemcacheSessionHandlerTest.php
+END
+PdoSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/PdoSessionHandlerTest.php
+END
+MongoDbSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/MongoDbSessionHandlerTest.php
+END
+MemcachedSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/MemcachedSessionHandlerTest.php
+END
+NativeFileSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/NativeFileSessionHandlerTest.php
+END
+NativeSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/NativeSessionHandlerTest.php
+END
+LegacyPdoSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/LegacyPdoSessionHandlerTest.php
+END
+WriteCheckSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/WriteCheckSessionHandlerTest.php
+END
+NullSessionHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/NullSessionHandlerTest.php
+END

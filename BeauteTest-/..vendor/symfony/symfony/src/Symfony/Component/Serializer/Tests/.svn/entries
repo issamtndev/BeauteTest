@@ -1,0 +1,80 @@
+10
+
+dir
+4
+http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests
+http://svn.digital-developer.com/svn/beautetest
+
+
+
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9bfb3b9-7b58-4050-887b-46e86edabed0
+
+NameConverter
+dir
+
+Fixtures
+dir
+
+Annotation
+dir
+
+Mapping
+dir
+
+Encoder
+dir
+
+SerializerTest.php
+file
+
+
+
+
+2015-10-19T07:42:50.000000Z
+c77d43e75cca3b0f16f47ebbc7f7aaa5
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10491
+
+Normalizer
+dir
+

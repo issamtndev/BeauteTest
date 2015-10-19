@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml
+END
+merge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/merge.xml
+END
+container1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/container1.xml
+END
+custom_acl_provider.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/custom_acl_provider.xml
+END
+merge_import.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/merge_import.xml
+END
+remember_me_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/remember_me_options.xml
+END

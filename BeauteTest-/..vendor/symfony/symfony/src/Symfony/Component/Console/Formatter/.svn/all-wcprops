@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter
+END
+OutputFormatterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatterInterface.php
+END
+OutputFormatterStyle.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatterStyle.php
+END
+OutputFormatterStyleInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatterStyleInterface.php
+END
+OutputFormatterStyleStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatterStyleStack.php
+END
+OutputFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatter.php
+END

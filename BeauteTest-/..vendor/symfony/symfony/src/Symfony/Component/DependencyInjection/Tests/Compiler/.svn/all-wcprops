@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler
+END
+ResolveInvalidReferencesPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ResolveInvalidReferencesPassTest.php
+END
+LegacyResolveParameterPlaceHoldersPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/LegacyResolveParameterPlaceHoldersPassTest.php
+END
+InlineServiceDefinitionsPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/InlineServiceDefinitionsPassTest.php
+END
+IntegrationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/IntegrationTest.php
+END
+CheckDefinitionValidityPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckDefinitionValidityPassTest.php
+END
+CheckExceptionOnInvalidReferenceBehaviorPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php
+END
+CheckReferenceValidityPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckReferenceValidityPassTest.php
+END
+DecoratorServicePassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/DecoratorServicePassTest.php
+END
+AutoAliasServicePassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/AutoAliasServicePassTest.php
+END
+CheckCircularReferencesPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckCircularReferencesPassTest.php
+END
+ResolveParameterPlaceHoldersPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ResolveParameterPlaceHoldersPassTest.php
+END
+ExtensionCompilerPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ExtensionCompilerPassTest.php
+END
+ResolveDefinitionTemplatesPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ResolveDefinitionTemplatesPassTest.php
+END
+RemoveUnusedDefinitionsPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/RemoveUnusedDefinitionsPassTest.php
+END
+ReplaceAliasByActualDefinitionPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ReplaceAliasByActualDefinitionPassTest.php
+END
+MergeExtensionConfigurationPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/MergeExtensionConfigurationPassTest.php
+END
+AnalyzeServiceReferencesPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/AnalyzeServiceReferencesPassTest.php
+END
+ResolveReferencesToAliasesPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/beautetest/!svn/ver/1/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ResolveReferencesToAliasesPassTest.php
+END
