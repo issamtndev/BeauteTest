@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:53.000000Z
 bb182c2c67089fec9b9decf701b9cc3f
 2015-10-14T16:01:21.547225Z

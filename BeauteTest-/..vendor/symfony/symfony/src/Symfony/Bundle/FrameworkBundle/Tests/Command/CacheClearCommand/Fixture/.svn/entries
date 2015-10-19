@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Command/CacheClearCommand/Fixture
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,46 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-config.yml
-file
-
-
-
-
-2015-10-19T07:42:36.000000Z
-a51fc52d1e6b1d137715bdccc8b05338
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28
-
 TestAppKernel.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 8599e3ed4ff09373a84f1adb8ca62436
 2015-10-14T16:01:21.547225Z
@@ -93,4 +59,38 @@ issam
 
 
 637
+
+config.yml
+file
+
+
+
+delete
+2015-10-19T07:42:36.000000Z
+a51fc52d1e6b1d137715bdccc8b05338
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,12 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-validation.yml
+validation.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2015-10-14T16:01:21.547225Z
@@ -60,12 +60,12 @@ issam
 
 0
 
-validation.xml
+validation.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 d41d8cd98f00b204e9800998ecf8427e
 2015-10-14T16:01:21.547225Z

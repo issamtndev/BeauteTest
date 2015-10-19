@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/Functional/Command
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:52.000000Z
 cf7d9836a6d68142a46dc38a9691b3fb
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:52.000000Z
 4ce21e544ef5fc4e083e828f21003f27
 2015-10-14T16:01:21.547225Z
@@ -94,14 +94,14 @@ issam
 
 1482
 
-StatsCommandTest.php
+DeleteCommandTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:52.000000Z
-9d1fdf21648b85004940eb3d87edb6e9
+262db5fff46cdcab1d79869fb5d073d4
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -126,14 +126,14 @@ issam
 
 
 
-1129
+1594
 
 FlushCommandTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:52.000000Z
 104c06293aabb2e21c68306438790721
 2015-10-14T16:01:21.547225Z
@@ -162,14 +162,14 @@ issam
 
 1104
 
-DeleteCommandTest.php
+StatsCommandTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:52.000000Z
-262db5fff46cdcab1d79869fb5d073d4
+9d1fdf21648b85004940eb3d87edb6e9
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -194,5 +194,5 @@ issam
 
 
 
-1594
+1129
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/doctrine/dbal/bin
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:50.000000Z
 fbf22e7f1fa9534cf5d43788be56a7b6
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:50.000000Z
 5896b53bcb16de2d11b28bb948bf8fd5
 2015-10-14T16:01:21.547225Z

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 86585a19aeca5430fec85567b341d415
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 6ef97be0153e3b8e798b12e0a23d9bb7
 2015-10-14T16:01:21.547225Z

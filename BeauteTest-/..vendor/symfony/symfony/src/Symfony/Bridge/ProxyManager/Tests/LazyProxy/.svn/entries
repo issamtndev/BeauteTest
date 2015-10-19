@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,21 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Fixtures
-dir
-
-Dumper
-dir
-
-Instantiator
-dir
-
 ContainerBuilderTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 166ce4c9bdef32b6fad8f40b4051eaef
 2015-10-14T16:01:21.547225Z
@@ -69,6 +60,31 @@ issam
 
 2095
 
+Dumper
+dir
+
+
+
+delete
+
+Fixtures
+dir
+
+
+
+delete
+
+Instantiator
+dir
+
+
+
+delete
+
 PhpDumper
 dir
+
+
+
+delete
 

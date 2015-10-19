@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Tester
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 ed2c4ba2123801176abd8f7b15cfce2e
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 dc805845c9fb25bf57604fda8b19c86d
 2015-10-14T16:01:21.547225Z

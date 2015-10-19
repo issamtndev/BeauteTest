@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Style/SymfonyStyle/command
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 a2bae310fe52725ae301917ad5ee6ed7
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 f7d030e07fde8dabd404bb7c8ebbc115
 2015-10-14T16:01:21.547225Z
@@ -99,7 +99,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 b51aad612049b687de3e8732f609138c
 2015-10-14T16:01:21.547225Z
@@ -133,7 +133,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 1cb02c04119f7a86ed86ae1f5452f927
 2015-10-14T16:01:21.547225Z
@@ -167,7 +167,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 7f5934a7d22d814fa4d2433a0d9cce73
 2015-10-14T16:01:21.547225Z
@@ -201,7 +201,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 cc0c87d0ec109aec9925ef8b5967990f
 2015-10-14T16:01:21.547225Z
@@ -235,7 +235,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 d1e106144ca5a792ce1ef37db3e673bb
 2015-10-14T16:01:21.547225Z
@@ -269,7 +269,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 5509f4aa26191d0a8b288d480feb42f0
 2015-10-14T16:01:21.547225Z

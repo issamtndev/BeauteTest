@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Tests
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:41.000000Z
 f34c6a11e9d1b9e7b6b7420584764822
 2015-10-14T16:01:21.547225Z
@@ -60,12 +60,24 @@ issam
 
 3101
 
-XPath
-dir
-
 Node
 dir
+
+
+
+delete
 
 Parser
 dir
+
+
+
+delete
+
+XPath
+dir
+
+
+
+delete
 

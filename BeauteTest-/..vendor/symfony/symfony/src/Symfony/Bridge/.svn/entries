@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bridge
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,21 +26,45 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Swiftmailer
-dir
-
 Doctrine
 dir
-
-PhpUnit
-dir
+
+
+
+delete
 
 Monolog
 dir
+
+
+
+delete
 
-Twig
+PhpUnit
 dir
+
+
+
+delete
 
 ProxyManager
 dir
+
+
+
+delete
+
+Swiftmailer
+dir
+
+
+
+delete
+
+Twig
+dir
+
+
+
+delete
 

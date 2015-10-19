@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Tests/Parser
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,12 +26,19 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
+Handler
+dir
+
+
+
+delete
+
 ParserTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:41.000000Z
 1cde27c5bdf7267d0f57d4e1b956a4c1
 2015-10-14T16:01:21.547225Z
@@ -60,46 +67,12 @@ issam
 
 12964
 
-TokenStreamTest.php
-file
-
-
-
-
-2015-10-19T07:42:41.000000Z
-abd404d57badfae769653f4db1db5d6d
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3185
-
 ReaderTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:41.000000Z
 5b6a8eb9014c35a8bdb4202200bc1c88
 2015-10-14T16:01:21.547225Z
@@ -130,7 +103,42 @@ issam
 
 Shortcut
 dir
+
+
+
+delete
 
-Handler
-dir
+TokenStreamTest.php
+file
+
+
+
+delete
+2015-10-19T07:42:41.000000Z
+abd404d57badfae769653f4db1db5d6d
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3185
 

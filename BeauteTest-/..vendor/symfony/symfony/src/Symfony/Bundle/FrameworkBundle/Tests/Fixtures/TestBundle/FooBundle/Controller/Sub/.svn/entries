@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Sub
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 9b8035a3095edff52395cd8149c1dd72
 2015-10-14T16:01:21.547225Z

@@ -26,24 +26,48 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-yaml
-dir
-
 containers
 dir
-
-includes
-dir
-
-php
-dir
+
+
+
+delete
 
 graphviz
 dir
+
+
+
+delete
+
+includes
+dir
+
+
+
+delete
 
 ini
 dir
+
+
+
+delete
+
+php
+dir
+
+
+
+delete
 
 xml
+dir
+
+
+
+delete
+
+yaml
 dir
 

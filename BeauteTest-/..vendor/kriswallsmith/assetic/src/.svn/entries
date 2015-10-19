@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/kriswallsmith/assetic/src
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -28,13 +28,17 @@ c9bfb3b9-7b58-4050-887b-46e86edabed0
 
 Assetic
 dir
+
+
+
+delete
 
 functions.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 6bd4c46757a3b49d2d5a8f56c9009b8d
 2015-10-14T16:01:21.547225Z

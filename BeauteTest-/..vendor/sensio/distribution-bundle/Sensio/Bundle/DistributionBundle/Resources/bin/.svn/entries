@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/bin
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-build_demo.sh
+build.sh
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
-ae3d728756d953b47ed3689bcf92c8fd
+d12cf5f6383851a9eb05d8281b1e52de
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -58,14 +58,14 @@ issam
 
 
 
-3826
+4255
 
 build_bootstrap.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 9e29e63bfc7092a063cc6aa099ad6116
 2015-10-14T16:01:21.547225Z
@@ -94,14 +94,14 @@ issam
 
 1593
 
-build.sh
+build_demo.sh
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
-d12cf5f6383851a9eb05d8281b1e52de
+ae3d728756d953b47ed3689bcf92c8fd
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -126,5 +126,5 @@ issam
 
 
 
-4255
+3826
 

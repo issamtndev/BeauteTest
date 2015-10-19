@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/psr-4
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,46 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Foo.php
-file
-
-
-
-
-2015-10-19T07:42:42.000000Z
-06b910b256436adb1d0ad52b1567232d
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-46
-
 Class_With_Underscores.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
 7282390a271e964c04de7aba143e0b2f
 2015-10-14T16:01:21.547225Z
@@ -94,6 +60,44 @@ issam
 
 65
 
+Foo.php
+file
+
+
+
+delete
+2015-10-19T07:42:42.000000Z
+06b910b256436adb1d0ad52b1567232d
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46
+
 Lets
 dir
+
+
+
+delete
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/ConfigDump
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 2af76d47cfebeaf9d66af59e06fed0c1
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 1dd439c99e6dad525e030caa6e77d094
 2015-10-14T16:01:21.547225Z

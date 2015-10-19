@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/interaction_with_environment
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-setup.yml
+dist.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-6a296932e71c97b18b9300319b20e15b
+20a855fd2c40f566755588cc7b0356bc
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -58,14 +58,14 @@ issam
 
 
 
-348
+68
 
 expected.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 cea153dec798048cf43039061d0e3ed1
 2015-10-14T16:01:21.547225Z
@@ -94,14 +94,14 @@ issam
 
 208
 
-dist.yml
+setup.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-20a855fd2c40f566755588cc7b0356bc
+6a296932e71c97b18b9300319b20e15b
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -126,5 +126,5 @@ issam
 
 
 
-68
+348
 

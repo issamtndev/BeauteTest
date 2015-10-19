@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,46 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-short_scenario.php.twig
-file
-
-
-
-
-2015-10-19T07:42:33.000000Z
-064a1ae3293eb4150f4eddf3dcf89437
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-601
-
 full_scenario.php.twig
 file
 
 
 
-
+delete
 2015-10-19T07:42:33.000000Z
 26b74cba52c446ade802ce80c3d604b2
 2015-10-14T16:01:21.547225Z
@@ -93,4 +59,38 @@ issam
 
 
 1787
+
+short_scenario.php.twig
+file
+
+
+
+delete
+2015-10-19T07:42:33.000000Z
+064a1ae3293eb4150f4eddf3dcf89437
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+601
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Configurator
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 8a398c71d53c7ab002406a1897bf028a
 2015-10-14T16:01:21.547225Z
@@ -60,9 +60,17 @@ issam
 
 5150
 
-Step
-dir
-
 Form
 dir
+
+
+
+delete
+
+Step
+dir
+
+
+
+delete
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 b6071fb5458cbbe8e2124be16b690070
 2015-10-14T16:01:21.547225Z
@@ -62,4 +62,8 @@ issam
 
 Descriptor
 dir
+
+
+
+delete
 

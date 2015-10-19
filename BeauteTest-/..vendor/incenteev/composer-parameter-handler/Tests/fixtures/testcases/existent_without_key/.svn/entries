@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/existent_without_key
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 f1f2520b10b6c84e014277cd255e42bb
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 db29ffe0a7e15483adf8644153e875de
 2015-10-14T16:01:21.547225Z
@@ -94,46 +94,12 @@ issam
 
 70
 
-setup.yml
-file
-
-
-
-
-2015-10-19T07:42:54.000000Z
-d4a26c78f572f4619406859c5370314e
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-59
-
 expected.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 a5b127de91d217dc5e018946e7a5c33f
 2015-10-14T16:01:21.547225Z
@@ -161,4 +127,38 @@ issam
 
 
 95
+
+setup.yml
+file
+
+
+
+delete
+2015-10-19T07:42:54.000000Z
+d4a26c78f572f4619406859c5370314e
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bridge/Swiftmailer
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-composer.json
+CHANGELOG.md
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
-aeedb15c78fd57dd4ba89f58e117bfe2
+010385709e2e81e2a2ef9f86e5ec52bd
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -58,17 +58,21 @@ issam
 
 
 
-892
+60
 
 DataCollector
 dir
+
+
+
+delete
 
 LICENSE
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 56dedd4bd25ecd034ac4e1c17ebba0cc
 2015-10-14T16:01:21.547225Z
@@ -97,14 +101,14 @@ issam
 
 1065
 
-CHANGELOG.md
+composer.json
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
-010385709e2e81e2a2ef9f86e5ec52bd
+aeedb15c78fd57dd4ba89f58e117bfe2
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -129,5 +133,5 @@ issam
 
 
 
-60
+892
 

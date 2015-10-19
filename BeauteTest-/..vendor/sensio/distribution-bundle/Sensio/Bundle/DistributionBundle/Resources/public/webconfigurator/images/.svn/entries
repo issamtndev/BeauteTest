@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/public/webconfigurator/images
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 0e777630341528e3359ce75befc9d509
 2015-10-14T16:01:21.547225Z
@@ -60,46 +60,12 @@ has-props
 
 181
 
-notification.gif
-file
-
-
-
-
-2015-10-19T07:42:32.000000Z
-f6f05feae92a85e0b321e2456db132e5
-2015-10-14T16:01:21.547225Z
-1
-issam
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-206
-
 favicon.ico
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 771059d1dfbe0bc54d08039fd84cc28e
 2015-10-14T16:01:21.547225Z
@@ -127,4 +93,38 @@ has-props
 
 
 1150
+
+notification.gif
+file
+
+
+
+delete
+2015-10-19T07:42:32.000000Z
+f6f05feae92a85e0b321e2456db132e5
+2015-10-14T16:01:21.547225Z
+1
+issam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+206
 

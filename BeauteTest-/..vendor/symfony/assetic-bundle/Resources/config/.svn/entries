@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/assetic-bundle/Resources/config
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-filters
-dir
-
 assetic.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 35a1e31b16bd957da6449f42f2377941
 2015-10-14T16:01:21.547225Z
@@ -63,12 +60,60 @@ issam
 
 4670
 
+controller.xml
+file
+
+
+
+delete
+2015-10-19T07:42:35.000000Z
+7f6de909fcd8f98206ab5c4682cb96e4
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2113
+
+filters
+dir
+
+
+
+delete
+
+schema
+dir
+
+
+
+delete
+
 templating_php.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 06a2879543aa31bbe7769c8780a40603
 2015-10-14T16:01:21.547225Z
@@ -102,7 +147,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 06868cc1848b31997c6bcddd6ca22a09
 2015-10-14T16:01:21.547225Z
@@ -130,41 +175,4 @@ issam
 
 
 1985
-
-schema
-dir
-
-controller.xml
-file
-
-
-
-
-2015-10-19T07:42:35.000000Z
-7f6de909fcd8f98206ab5c4682cb96e4
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2113
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/jdorn/sql-formatter/examples
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 a177dd5d0161c1e6d3461ab76ea0e4cc
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 101a760f9310414972bd02aa0cc44d4c
 2015-10-14T16:01:21.547225Z

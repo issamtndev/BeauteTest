@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:53.000000Z
 6bf84f27f4b7a0016afa63430cf6f8be
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:53.000000Z
 6827ce52b4bc0d222300712248c1b40d
 2015-10-14T16:01:21.547225Z
@@ -99,7 +99,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:53.000000Z
 f31a9ad59022efe0de63808d275a0031
 2015-10-14T16:01:21.547225Z

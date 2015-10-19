@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,12 +26,19 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
+Controller
+dir
+
+
+
+delete
+
 FabpotFooBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 daa44dfaa1c5f06c4efadb25e0e57288
 2015-10-14T16:01:21.547225Z
@@ -59,7 +66,4 @@ issam
 
 
 554
-
-Controller
-dir
 

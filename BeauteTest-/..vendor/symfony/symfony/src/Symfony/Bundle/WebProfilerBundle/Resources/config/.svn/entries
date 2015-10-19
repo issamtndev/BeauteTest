@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-schema
-dir
-
 commands.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 946548fc66967c091563f95de52fd84a
 2015-10-14T16:01:21.547225Z
@@ -68,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 805957911d32d90714c9e38b73921fd3
 2015-10-14T16:01:21.547225Z
@@ -97,12 +94,26 @@ issam
 
 2113
 
+routing
+dir
+
+
+
+delete
+
+schema
+dir
+
+
+
+delete
+
 toolbar.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 eb8047a7af021451976c5527ebee0686
 2015-10-14T16:01:21.547225Z
@@ -130,7 +141,4 @@ issam
 
 
 1096
-
-routing
-dir
 

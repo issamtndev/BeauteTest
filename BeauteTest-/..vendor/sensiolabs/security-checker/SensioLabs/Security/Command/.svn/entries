@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensiolabs/security-checker/SensioLabs/Security/Command
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:33.000000Z
 abcdbf2c37e748846fbfe6f3c9030564
 2015-10-14T16:01:21.547225Z

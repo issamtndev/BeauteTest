@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/custom_dist_file
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,80 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-setup.yml
-file
-
-
-
-
-2015-10-19T07:42:54.000000Z
-7cc48299aeaaf1b225b1debdfbf20bf6
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-108
-
-expected.yml
-file
-
-
-
-
-2015-10-19T07:42:54.000000Z
-ca3c7aef9c106689ebaa9ce2fc86c568
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-111
-
 dist.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 3f209e03d84d4838c24b9036f504b841
 2015-10-14T16:01:21.547225Z
@@ -133,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 ca3c7aef9c106689ebaa9ce2fc86c568
 2015-10-14T16:01:21.547225Z
@@ -161,4 +93,72 @@ issam
 
 
 111
+
+expected.yml
+file
+
+
+
+delete
+2015-10-19T07:42:54.000000Z
+ca3c7aef9c106689ebaa9ce2fc86c568
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111
+
+setup.yml
+file
+
+
+
+delete
+2015-10-19T07:42:54.000000Z
+7cc48299aeaaf1b225b1debdfbf20bf6
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+108
 

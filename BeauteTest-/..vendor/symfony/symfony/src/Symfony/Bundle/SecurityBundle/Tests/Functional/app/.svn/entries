@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,33 +26,19 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-CsrfFormLogin
-dir
-
-Resources
-dir
-
-StandardFormLogin
-dir
-
 Acl
 dir
-
-PasswordEncode
-dir
-
-FirewallEntryPoint
-dir
-
-config
-dir
+
+
+
+delete
 
 AppKernel.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 1469508381d890a3a2bd9fdef4293580
 2015-10-14T16:01:21.547225Z
@@ -80,4 +66,46 @@ issam
 
 
 3030
+
+CsrfFormLogin
+dir
+
+
+
+delete
+
+FirewallEntryPoint
+dir
+
+
+
+delete
+
+PasswordEncode
+dir
+
+
+
+delete
+
+Resources
+dir
+
+
+
+delete
+
+StandardFormLogin
+dir
+
+
+
+delete
+
+config
+dir
+
+
+
+delete
 

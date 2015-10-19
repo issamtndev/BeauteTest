@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,21 +26,47 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Extension
+Controller
 dir
-
-TokenParser
-dir
+
+
+
+delete
 
 DependencyInjection
 dir
+
+
+
+delete
+
+Extension
+dir
+
+
+
+delete
+
+Functional
+dir
+
+
+
+delete
+
+Loader
+dir
+
+
+
+delete
 
 TestCase.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 78342beb08060b64480d9fbbd69be7d8
 2015-10-14T16:01:21.547225Z
@@ -69,12 +95,10 @@ issam
 
 337
 
-Functional
+TokenParser
 dir
-
-Controller
-dir
-
-Loader
-dir
+
+
+
+delete
 

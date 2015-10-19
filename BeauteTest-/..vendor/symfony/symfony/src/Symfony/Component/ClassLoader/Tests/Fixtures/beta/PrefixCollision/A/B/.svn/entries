@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/beta/PrefixCollision/A/B
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Foo.php
+Bar.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
-64b36c967661286fb774e010be84b5fc
+7171280695f683129338bbc9127e8a5b
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -60,14 +60,14 @@ issam
 
 75
 
-Bar.php
+Foo.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
-7171280695f683129338bbc9127e8a5b
+64b36c967661286fb774e010be84b5fc
 2015-10-14T16:01:21.547225Z
 1
 issam

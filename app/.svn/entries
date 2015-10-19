@@ -26,7 +26,84 @@ add
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-console
+.htaccess
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+AppCache.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+AppKernel.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Resources
+dir
+
+
+
+add
+
+SymfonyRequirements.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+autoload.php
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+bootstrap.php.cache
 file
 
 
@@ -61,27 +138,6 @@ add
 has-props
 has-prop-mods
 
-logs
-dir
-
-
-
-add
-
-bootstrap.php.cache
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
 config
 dir
 
@@ -89,7 +145,7 @@ dir
 
 add
 
-AppKernel.php
+console
 file
 
 
@@ -102,6 +158,13 @@ add
 
 has-props
 has-prop-mods
+
+logs
+dir
+
+
+
+add
 
 phpunit.xml.dist
 file
@@ -116,74 +179,4 @@ add
 
 has-props
 has-prop-mods
-
-AppCache.php
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
-Resources
-dir
-
-
-
-add
-
-.htaccess
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
-SymfonyRequirements.php
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
-autoload.php
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
--cache
-dir
-
-
-
-add
 

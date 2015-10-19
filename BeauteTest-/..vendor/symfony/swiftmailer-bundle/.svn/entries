@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/swiftmailer-bundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,55 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Command
-dir
-
-composer.json
-file
-
-
-
-
-2015-10-19T07:42:35.000000Z
-414c3492c52a748c089f831c112a0d79
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1050
-
-DataCollector
-dir
-
-DependencyInjection
-dir
-
 .travis.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 75160b6235ba0b758eb9f9a1d266d673
 2015-10-14T16:01:21.547225Z
@@ -103,12 +60,47 @@ issam
 
 168
 
+Command
+dir
+
+
+
+delete
+
+DataCollector
+dir
+
+
+
+delete
+
+DependencyInjection
+dir
+
+
+
+delete
+
+EventListener
+dir
+
+
+
+delete
+
+Resources
+dir
+
+
+
+delete
+
 SwiftmailerBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 d3bed927a5d5539ee7f0f22a236692ce
 2015-10-14T16:01:21.547225Z
@@ -137,15 +129,46 @@ issam
 
 760
 
-EventListener
-dir
+composer.json
+file
+
+
+
+delete
+2015-10-19T07:42:35.000000Z
+414c3492c52a748c089f831c112a0d79
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1050
 
 phpunit.xml.dist
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 863f651a793ff65aa4ff6c512e523e4c
 2015-10-14T16:01:21.547225Z
@@ -173,7 +196,4 @@ issam
 
 
 574
-
-Resources
-dir
 

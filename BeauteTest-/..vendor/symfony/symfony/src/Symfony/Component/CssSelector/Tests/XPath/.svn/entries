@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Tests/XPath
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -28,13 +28,17 @@ c9bfb3b9-7b58-4050-887b-46e86edabed0
 
 Fixtures
 dir
+
+
+
+delete
 
 TranslatorTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:41.000000Z
 e4c493b5a4e4b21a2de8932b98f279b8
 2015-10-14T16:01:21.547225Z

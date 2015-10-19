@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,58 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-composer.json
-file
-
-
-
-
-2015-10-19T07:42:38.000000Z
-33207badedb475d9142f59a6c9fba9b5
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1603
-
-DataCollector
-dir
-
-DependencyInjection
-dir
-
-Tests
-dir
-
-Templating
-dir
-
 CHANGELOG.md
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 77223cfefa66072496f6685264c2c402
 2015-10-14T16:01:21.547225Z
@@ -106,18 +60,54 @@ issam
 
 3730
 
+Command
+dir
+
+
+
+delete
+
+DataCollector
+dir
+
+
+
+delete
+
+DependencyInjection
+dir
+
+
+
+delete
+
 EventListener
 dir
+
+
+
+delete
+
+Resources
+dir
+
+
+
+delete
 
 Security
 dir
+
+
+
+delete
 
 SecurityBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 5d91935aeefd5dbfb93f3c775e0787b0
 2015-10-14T16:01:21.547225Z
@@ -146,12 +136,67 @@ issam
 
 2289
 
+Templating
+dir
+
+
+
+delete
+
+Tests
+dir
+
+
+
+delete
+
+Twig
+dir
+
+
+
+delete
+
+composer.json
+file
+
+
+
+delete
+2015-10-19T07:42:38.000000Z
+33207badedb475d9142f59a6c9fba9b5
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1603
+
 phpunit.xml.dist
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 19ad989e621dbab8b862943bbc83f73d
 2015-10-14T16:01:21.547225Z
@@ -179,13 +224,4 @@ issam
 
 
 824
-
-Resources
-dir
-
-Twig
-dir
-
-Command
-dir
 

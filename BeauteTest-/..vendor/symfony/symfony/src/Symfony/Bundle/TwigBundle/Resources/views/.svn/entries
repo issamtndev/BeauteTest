@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,12 +26,19 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
+Exception
+dir
+
+
+
+delete
+
 layout.html.twig
 file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 44b3e3b03b0753e96832b3339cb0e829
 2015-10-14T16:01:21.547225Z
@@ -59,7 +66,4 @@ issam
 
 
 4236
-
-Exception
-dir
 

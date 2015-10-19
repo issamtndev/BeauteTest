@@ -26,12 +26,20 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Component
+Bridge
 dir
+
+
+
+delete
 
 Bundle
 dir
+
+
+
+delete
 
-Bridge
+Component
 dir
 

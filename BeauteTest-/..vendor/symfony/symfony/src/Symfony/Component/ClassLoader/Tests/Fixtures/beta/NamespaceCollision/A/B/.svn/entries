@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Foo.php
+Bar.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
-c3ff0020d627887437102f59aaa6d5a0
+1234b8d86aed91dae669333ff5ae887f
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -60,14 +60,14 @@ issam
 
 321
 
-Bar.php
+Foo.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:42.000000Z
-1234b8d86aed91dae669333ff5ae887f
+c3ff0020d627887437102f59aaa6d5a0
 2015-10-14T16:01:21.547225Z
 1
 issam

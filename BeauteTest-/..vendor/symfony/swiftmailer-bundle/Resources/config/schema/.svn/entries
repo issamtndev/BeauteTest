@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/swiftmailer-bundle/Resources/config/schema
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 d8f0ccdbdb306e690e040dd8350c5d0d
 2015-10-14T16:01:21.547225Z

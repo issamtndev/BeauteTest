@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/FooBundle/Controller
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Sub
-dir
-
 DefaultController.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 7e21ace74e864e9300f7ac94ba32364c
 2015-10-14T16:01:21.547225Z
@@ -63,6 +60,17 @@ issam
 
 392
 
+Sub
+dir
+
+
+
+delete
+
 Test
 dir
+
+
+
+delete
 

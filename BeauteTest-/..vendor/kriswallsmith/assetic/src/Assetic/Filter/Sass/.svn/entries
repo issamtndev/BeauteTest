@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 65f906246d9e70cc013cc31732a0ce1f
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 663ae9550bf563a58cf1948f6cf50a11
 2015-10-14T16:01:21.547225Z
@@ -99,7 +99,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 b92672d4b65c59ec8a9ed945f332de4e
 2015-10-14T16:01:21.547225Z

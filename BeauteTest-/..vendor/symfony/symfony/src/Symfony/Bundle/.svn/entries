@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,18 +26,38 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-FrameworkBundle
-dir
-
-WebProfilerBundle
-dir
-
 DebugBundle
 dir
+
+
+
+delete
+
+FrameworkBundle
+dir
+
+
+
+delete
 
 SecurityBundle
 dir
+
+
+
+delete
 
 TwigBundle
 dir
+
+
+
+delete
+
+WebProfilerBundle
+dir
+
+
+
+delete
 

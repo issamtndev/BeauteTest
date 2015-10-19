@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/fallback
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,31 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Pearlike
-dir
-
-Pearlike2
-dir
-
 Namespaced
 dir
+
+
+
+delete
 
 Namespaced2
 dir
+
+
+
+delete
+
+Pearlike
+dir
+
+
+
+delete
+
+Pearlike2
+dir
+
+
+
+delete
 

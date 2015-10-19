@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,26 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Resources
+Controller
 dir
+
+
+
+delete
+
+DependencyInjection
+dir
+
+
+
+delete
 
 FormLoginBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 204259b30898d12a5882981dfaae9098
 2015-10-14T16:01:21.547225Z
@@ -63,12 +74,17 @@ issam
 
 410
 
-DependencyInjection
+Resources
 dir
-
-Controller
-dir
+
+
+
+delete
 
 Security
 dir
+
+
+
+delete
 

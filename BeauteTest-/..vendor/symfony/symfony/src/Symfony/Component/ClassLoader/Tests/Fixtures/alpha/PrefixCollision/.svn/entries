@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/alpha/PrefixCollision
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -28,7 +28,15 @@ c9bfb3b9-7b58-4050-887b-46e86edabed0
 
 A
 dir
+
+
+
+delete
 
 C
 dir
+
+
+
+delete
 

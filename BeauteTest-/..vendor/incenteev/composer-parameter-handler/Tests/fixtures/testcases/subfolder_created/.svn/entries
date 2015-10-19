@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/subfolder_created
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-setup.yml
+dist.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-1f39605023cb870790a7302bd3a9d1cb
+f1f2520b10b6c84e014277cd255e42bb
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -58,14 +58,14 @@ issam
 
 
 
-200
+25
 
 expected.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 a21341d7300a428e643a0db8c39751f4
 2015-10-14T16:01:21.547225Z
@@ -94,14 +94,14 @@ issam
 
 83
 
-dist.yml
+setup.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-f1f2520b10b6c84e014277cd255e42bb
+1f39605023cb870790a7302bd3a9d1cb
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -126,5 +126,5 @@ issam
 
 
 
-25
+200
 

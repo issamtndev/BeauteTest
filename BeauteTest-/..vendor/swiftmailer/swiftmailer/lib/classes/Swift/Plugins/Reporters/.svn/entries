@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:55.000000Z
 4c5634ddf5ce32639197026f0727a958
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:55.000000Z
 1298fe3229d3595433d34ca0c50b6509
 2015-10-14T16:01:21.547225Z

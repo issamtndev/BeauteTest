@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,12 +26,19 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
+routing
+dir
+
+
+
+delete
+
 security.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 64a48d027130bb2a2d37a35ee7f0cdb1
 2015-10-14T16:01:21.547225Z
@@ -60,15 +67,12 @@ issam
 
 986
 
-routing
-dir
-
 webconfigurator.xml
 file
 
 
 
-
+delete
 2015-10-19T07:42:32.000000Z
 67c27142049fc872d4b234b5d0793750
 2015-10-14T16:01:21.547225Z

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,92 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Resources
-dir
-
-Manipulator
-dir
-
-README.md
-file
-
-
-
-
-2015-10-19T07:42:33.000000Z
-f374d88a4a97d6aa340fdbd0fa008035
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-409
-
-Command
-dir
-
-composer.json
-file
-
-
-
-
-2015-10-19T07:42:33.000000Z
-d3f1783407e8c676258c49ab08aa3147
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-802
-
-Generator
-dir
-
 .travis.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:33.000000Z
 f3a522ae8251642b20688e5dfcf4a911
 2015-10-14T16:01:21.547225Z
@@ -140,12 +60,74 @@ issam
 
 122
 
+Command
+dir
+
+
+
+delete
+
+Generator
+dir
+
+
+
+delete
+
+Manipulator
+dir
+
+
+
+delete
+
+README.md
+file
+
+
+
+delete
+2015-10-19T07:42:33.000000Z
+f374d88a4a97d6aa340fdbd0fa008035
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+409
+
+Resources
+dir
+
+
+
+delete
+
 SensioGeneratorBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:33.000000Z
 3b24b684560505594aab06d3bede5d23
 2015-10-14T16:01:21.547225Z
@@ -173,4 +155,38 @@ issam
 
 
 449
+
+composer.json
+file
+
+
+
+delete
+2015-10-19T07:42:33.000000Z
+d3f1783407e8c676258c49ab08aa3147
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+802
 

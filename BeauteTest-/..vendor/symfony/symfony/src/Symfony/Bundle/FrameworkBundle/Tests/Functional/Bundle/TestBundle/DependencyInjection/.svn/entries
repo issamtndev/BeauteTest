@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/Bundle/TestBundle/DependencyInjection
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -28,13 +28,17 @@ c9bfb3b9-7b58-4050-887b-46e86edabed0
 
 Config
 dir
+
+
+
+delete
 
 Configuration.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 1b4c504888257f3ecad55891e17c8fbd
 2015-10-14T16:01:21.547225Z
@@ -68,7 +72,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 8cefccb878e3988710e0d2b56b262c0b
 2015-10-14T16:01:21.547225Z

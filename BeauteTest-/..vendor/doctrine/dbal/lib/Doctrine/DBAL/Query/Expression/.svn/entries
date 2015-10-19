@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/Expression
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:50.000000Z
 82ecca0703e1325fb364beaca41c37f7
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:50.000000Z
 df978ea60344fe8546f03a85477c2727
 2015-10-14T16:01:21.547225Z

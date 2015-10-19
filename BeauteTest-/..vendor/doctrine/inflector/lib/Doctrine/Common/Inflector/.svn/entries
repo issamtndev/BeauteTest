@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:51.000000Z
 428f3af3ca437ff5e8dd48720ca13083
 2015-10-14T16:01:21.547225Z

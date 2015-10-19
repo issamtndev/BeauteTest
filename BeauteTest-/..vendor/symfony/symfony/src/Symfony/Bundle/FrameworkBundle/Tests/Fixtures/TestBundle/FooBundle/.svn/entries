@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/FooBundle
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -28,13 +28,17 @@ c9bfb3b9-7b58-4050-887b-46e86edabed0
 
 Controller
 dir
+
+
+
+delete
 
 FooBundle.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 6260694c14fc682c02bf289afbaf73f6
 2015-10-14T16:01:21.547225Z

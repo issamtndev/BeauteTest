@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases/interaction_non_existent
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,14 +26,14 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-setup.yml
+dist.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-47bac9df6fdefc8fefbc2ce1b170f73e
+20a855fd2c40f566755588cc7b0356bc
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -58,14 +58,14 @@ issam
 
 
 
-287
+68
 
 expected.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
 e6da8c5cc8854af24e4157f5d66ebfe2
 2015-10-14T16:01:21.547225Z
@@ -94,14 +94,14 @@ issam
 
 204
 
-dist.yml
+setup.yml
 file
 
 
 
-
+delete
 2015-10-19T07:42:54.000000Z
-20a855fd2c40f566755588cc7b0356bc
+47bac9df6fdefc8fefbc2ce1b170f73e
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -126,5 +126,5 @@ issam
 
 
 
-68
+287
 

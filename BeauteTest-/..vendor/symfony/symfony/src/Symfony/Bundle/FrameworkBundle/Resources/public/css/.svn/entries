@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/public/css
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 7602f4d3b49d010c4c4445112e789fd5
 2015-10-14T16:01:21.547225Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 85b2849928d3dcfbcb7feff6701dd42a
 2015-10-14T16:01:21.547225Z
@@ -99,7 +99,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:37.000000Z
 28b8efb94ba2b6764c5ab985d06c1288
 2015-10-14T16:01:21.547225Z

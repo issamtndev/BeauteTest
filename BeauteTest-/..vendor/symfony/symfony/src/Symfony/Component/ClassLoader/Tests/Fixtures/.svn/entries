@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,48 +26,108 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-beta
+Apc
 dir
-
-Pearlike2
-dir
-
-php5.4
-dir
-
-php5.5
-dir
-
-Namespaced2
-dir
-
-alpha
-dir
+
+
+
+delete
 
 ClassesWithParents
 dir
-
-deps
-dir
-
-Pearlike
-dir
-
-fallback
-dir
+
+
+
+delete
 
 Namespaced
 dir
+
+
+
+delete
 
-includepath
+Namespaced2
 dir
+
+
+
+delete
 
-Apc
+Pearlike
 dir
+
+
+
+delete
+
+Pearlike2
+dir
+
+
+
+delete
+
+alpha
+dir
+
+
+
+delete
+
+beta
+dir
+
+
+
+delete
 
 classmap
 dir
+
+
+
+delete
+
+deps
+dir
+
+
+
+delete
+
+fallback
+dir
+
+
+
+delete
+
+includepath
+dir
+
+
+
+delete
+
+php5.4
+dir
+
+
+
+delete
+
+php5.5
+dir
+
+
+
+delete
 
 psr-4
 dir
+
+
+
+delete
 

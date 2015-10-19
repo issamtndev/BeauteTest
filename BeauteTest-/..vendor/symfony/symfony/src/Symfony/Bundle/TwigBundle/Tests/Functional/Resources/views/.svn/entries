@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Functional/Resources/views
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-10-19T07:42:38.000000Z
 f30971cde0f14d999f0fb3cb5f2fb580
 2015-10-14T16:01:21.547225Z

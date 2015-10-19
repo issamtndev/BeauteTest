@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/assetic-bundle/Factory
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,15 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Worker
-dir
-
 AssetFactory.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:35.000000Z
 c005f3f04eba7226871c2379cf96f4d4
 2015-10-14T16:01:21.547225Z
@@ -65,7 +62,22 @@ issam
 
 Loader
 dir
+
+
+
+delete
 
 Resource
 dir
+
+
+
+delete
+
+Worker
+dir
+
+
+
+delete
 

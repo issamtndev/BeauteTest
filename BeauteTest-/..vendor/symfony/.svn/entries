@@ -26,15 +26,27 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-symfony
+assetic-bundle
 dir
-
-swiftmailer-bundle
-dir
+
+
+
+delete
 
 monolog-bundle
 dir
+
+
+
+delete
 
-assetic-bundle
+swiftmailer-bundle
+dir
+
+
+
+delete
+
+symfony
 dir
 

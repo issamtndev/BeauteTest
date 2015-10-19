@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Component/Console
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,172 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-Tester
-dir
-
-Question
-dir
-
-Resources
-dir
-
-ConsoleEvents.php
-file
-
-
-
-
-2015-10-19T07:42:43.000000Z
-0a76aea6561a0b6c62971aa2cbd2b058
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1591
-
-Command
-dir
-
-Descriptor
-dir
-
-Helper
-dir
-
-Logger
-dir
-
-Event
-dir
-
-LICENSE
-file
-
-
-
-
-2015-10-19T07:42:43.000000Z
-56dedd4bd25ecd034ac4e1c17ebba0cc
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1065
-
-CHANGELOG.md
-file
-
-
-
-
-2015-10-19T07:42:43.000000Z
-19e8a451cd9f8adbc4b1c1c499e8a4a6
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2099
-
-phpunit.xml.dist
-file
-
-
-
-
-2015-10-19T07:42:43.000000Z
-8220cab6f5b5c15616812afb5ef9154a
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-827
-
 Application.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:43.000000Z
 8a9e4529cf1721c4cf6140942e5bf711
 2015-10-14T16:01:21.547225Z
@@ -220,12 +60,177 @@ issam
 
 38067
 
+CHANGELOG.md
+file
+
+
+
+delete
+2015-10-19T07:42:43.000000Z
+19e8a451cd9f8adbc4b1c1c499e8a4a6
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2099
+
+Command
+dir
+
+
+
+delete
+
+ConsoleEvents.php
+file
+
+
+
+delete
+2015-10-19T07:42:43.000000Z
+0a76aea6561a0b6c62971aa2cbd2b058
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1591
+
+Descriptor
+dir
+
+
+
+delete
+
+Event
+dir
+
+
+
+delete
+
+Formatter
+dir
+
+
+
+delete
+
+Helper
+dir
+
+
+
+delete
+
+Input
+dir
+
+
+
+delete
+
+LICENSE
+file
+
+
+
+delete
+2015-10-19T07:42:43.000000Z
+56dedd4bd25ecd034ac4e1c17ebba0cc
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1065
+
+Logger
+dir
+
+
+
+delete
+
+Output
+dir
+
+
+
+delete
+
+Question
+dir
+
+
+
+delete
+
 README.md
 file
 
 
 
-
+delete
 2015-10-19T07:42:43.000000Z
 81b8ef7ae615346a92585a2db6b26ec5
 2015-10-14T16:01:21.547225Z
@@ -254,12 +259,19 @@ issam
 
 1906
 
+Resources
+dir
+
+
+
+delete
+
 Shell.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:43.000000Z
 f5705c7c034ea72937ab718bed705229
 2015-10-14T16:01:21.547225Z
@@ -288,15 +300,33 @@ issam
 
 6392
 
-Input
+Style
 dir
+
+
+
+delete
+
+Tester
+dir
+
+
+
+delete
+
+Tests
+dir
+
+
+
+delete
 
 composer.json
 file
 
 
 
-
+delete
 2015-10-19T07:42:43.000000Z
 a4276966f26d7a2c383c76149bd0aa73
 2015-10-14T16:01:21.547225Z
@@ -325,15 +355,37 @@ issam
 
 1010
 
-Style
-dir
-
-Output
-dir
-
-Tests
-dir
-
-Formatter
-dir
+phpunit.xml.dist
+file
+
+
+
+delete
+2015-10-19T07:42:43.000000Z
+8220cab6f5b5c15616812afb5ef9154a
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+827
 

@@ -4,7 +4,7 @@ dir
 4
 http://svn.digital-developer.com/svn/beautetest/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor
 http://svn.digital-developer.com/svn/beautetest
-
+delete
 
 
 2015-10-14T16:01:21.547225Z
@@ -26,114 +26,12 @@ issam
 
 c9bfb3b9-7b58-4050-887b-46e86edabed0
 
-JsonDescriptorTest.php
-file
-
-
-
-
-2015-10-19T07:42:36.000000Z
-d1bd1ba72eb2d30882e30770ea1e7f6b
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-788
-
-XmlDescriptorTest.php
-file
-
-
-
-
-2015-10-19T07:42:36.000000Z
-c01702c6b8d043e50661dc1760cf6e44
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-592
-
-MarkdownDescriptorTest.php
-file
-
-
-
-
-2015-10-19T07:42:36.000000Z
-32269e2db0b305563ddbbf7635d6e4be
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-606
-
 AbstractDescriptorTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 c3292da1aaaab7390d92d1ddeda9e42c
 2015-10-14T16:01:21.547225Z
@@ -162,12 +60,114 @@ issam
 
 7387
 
+JsonDescriptorTest.php
+file
+
+
+
+delete
+2015-10-19T07:42:36.000000Z
+d1bd1ba72eb2d30882e30770ea1e7f6b
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+788
+
+MarkdownDescriptorTest.php
+file
+
+
+
+delete
+2015-10-19T07:42:36.000000Z
+32269e2db0b305563ddbbf7635d6e4be
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+606
+
+ObjectsProvider.php
+file
+
+
+
+delete
+2015-10-19T07:42:36.000000Z
+2c9d4f7668f0944413aa4194e01066b6
+2015-10-14T16:01:21.547225Z
+1
+issam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6442
+
 TextDescriptorTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
 57a43504a02caba1f1098a9b44026dce
 2015-10-14T16:01:21.547225Z
@@ -196,14 +196,14 @@ issam
 
 595
 
-ObjectsProvider.php
+XmlDescriptorTest.php
 file
 
 
 
-
+delete
 2015-10-19T07:42:36.000000Z
-2c9d4f7668f0944413aa4194e01066b6
+c01702c6b8d043e50661dc1760cf6e44
 2015-10-14T16:01:21.547225Z
 1
 issam
@@ -228,5 +228,5 @@ issam
 
 
 
-6442
+592
 
