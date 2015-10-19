@@ -33,7 +33,7 @@
           <li><a href="{{ path('my_app_homepage') }}">Accueil</a></li>
           <li>{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
                 <a href="{{ path('fos_user_security_logout') }}">
-                    [ Vous etes connecté :{{ app.user.username }} ] | déconnexion
+                    ++[ Vous etes connecté :{{ app.user.username }} ] | déconnexion
                 </a>
             {% endif %}
          </li>
