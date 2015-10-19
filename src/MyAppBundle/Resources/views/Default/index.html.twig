@@ -24,7 +24,7 @@
          $.post('{{  path('my_app_sous_categ') }}',
                     {id:$('#app_homebundle_beaute_search_categorie').val()},
                     function(data){
-                        $('#app_homebundle_beaute_search_sub_categorie').html(data);
+                        $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>'+data);
                     }
                 );
                     
