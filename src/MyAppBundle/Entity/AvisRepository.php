@@ -32,6 +32,10 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
             $query->andWhere('p.category = :categorie')
 
                 ->setParameter('categorie', $data['categorie']);
+             
+            $query->orWhere('c.parentId = :categorie_parent')
+
+                ->setParameter('categorie_parent', "%".$data['categorie']."%");
         }
          if($data['product_name'] != '')
         {
