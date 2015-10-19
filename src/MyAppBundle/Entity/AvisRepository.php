@@ -29,13 +29,13 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         elseif($data['categorie'] != '')
 
         {
-            $query->andWhere('p.category = :categorie')
+            $query->andWhere('c.parentId = :categorie')
 
                 ->setParameter('categorie', $data['categorie']);
              
-            $query->orWhere('c.parentId = :categorie_parent')
+            /*$query->orWhere('c.parentId = :categorie_parent')
 
-                ->setParameter('categorie_parent', $data['categorie']);
+                ->setParameter('categorie_parent', $data['categorie']);*/
         }
          if($data['product_name'] != '')
         {
