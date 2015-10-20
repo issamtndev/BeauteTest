@@ -31,15 +31,12 @@ class DefaultController extends Controller
         $em = $this->container->get('doctrine')->getEntityManager();
 
         $request = $this->container->get('request');
-
+        
+        $listcategory = $em->getRepository('MyAppBundle:Categories')->find_name_and_nbr_eavis($request->request->get('id'));
+        
         $sous_categ = $em->getConnection()
 
-            ->prepare("select c.*,count(a.id)as nbavis from categories c
-                       LEFT JOIN products p ON p.category_id=c.id
-                       LEFT JOIN avis a ON a.product_id=p.id
-                       where c.parent_id =".$request->request->get('id')."
-                       GROUP BY p.id
-                       ORDER BY nbavis DESC");
+            ->prepare("select c.* where c.parent_id =".$request->request->get('id')."");
 
             $sous_categ->execute();
 
