@@ -16,12 +16,11 @@ class DefaultController extends Controller
         return $this->render('MyAppBundle:Default:index.html.twig',array("form"=>$form->createView()));
     }
     
-    public function affiche_avis_produitAction()
+    public function affiche_avis_produitAction($id)
     {
-        $request = $this->container->get('request'); 
         $em = $this->getDoctrine()->getManager();
 
-       $monproduit= $em->getRepository('MyAppBundle:Products')->find($request->request->get('id'));
+       $monproduit= $em->getRepository('MyAppBundle:Products')->find($id);
        
        return $this->render('MyAppBundle:Default:affiche_avis_produit.html.twig', array('monproduit' => $monproduit));
     }
