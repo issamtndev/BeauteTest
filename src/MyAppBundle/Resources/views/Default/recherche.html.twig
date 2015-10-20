@@ -7,7 +7,12 @@
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>           
+   </div>
+   <div>
+     {% if category_name!='' %}<span class="btn btn-default">{{ category_name }}</span>{% endif %}
+     {% if sub_category_name!='' %}<span class="btn btn-default">{{ sub_category_name }}</span>{% endif %}
+     {% if texte_nom_produit!='' %}<span class="btn btn-default">{{ texte_nom_produit }}</span>{% endif %}
+   </div> 
 <div class="content_result">   
 <table class="table table-bordered table-striped table-condensed">
             <thead>

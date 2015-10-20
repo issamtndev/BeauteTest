@@ -73,6 +73,20 @@ class DefaultController extends Controller
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
+        $category_name='';
+        if($data['categorie'] != '')
+          {
+            $category=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
+            $category_name=$category->name;
+          }
+        $sub_category_name='';
+        if($data['sub_categorie'] != '')
+          {
+            $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
+            $sub_category_name=$category->name;
+          }
+        $texte_nom_produit=$data['product_name'];
+        
         $listproducts=array();
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
@@ -154,7 +168,7 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-        return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts));
+        return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit));
     }
     public function recherche_nb_avisAction()
     {
