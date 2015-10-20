@@ -70,7 +70,7 @@ class DefaultController extends Controller
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
         //BEGIN EXPORT CSV PPRUITS+CRITERES
-        if($listproducts){
+        /*if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;gender;critere;comments";
@@ -142,7 +142,7 @@ class DefaultController extends Controller
             }   
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
-        }
+        }*/
         return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts));
     }
     public function recherche_nb_avisAction()
