@@ -20,6 +20,7 @@
          $("#app_homebundle_beaute_search_categorie").val("");
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
          $('#app_homebundle_beaute_search_categorie').change(function(){
+         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');    
          $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');   
          $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');   
           getnb_avis_ajax();
