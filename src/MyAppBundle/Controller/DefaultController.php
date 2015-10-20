@@ -28,7 +28,7 @@ class DefaultController extends Controller
     public function sous_categoriesAction()
     {
 
-        $em = $this->container->get('doctrine')->getEntityManager();
+        $em = $this->container->get('doctrine')->getManager();
 
         $request = $this->container->get('request');
         

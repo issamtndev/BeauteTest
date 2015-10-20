@@ -17,7 +17,7 @@ class CategoriesRepository extends \Doctrine\ORM\EntityRepository
         $query ->leftJoin('c.products','p');
         $query->addSelect('COUNT(a.id) as nbavis');
         $query->leftJoin('p.avis','a')       
-              ->groupBy('a.products')
+              ->groupBy('c.id')
               ->orderBy("nbavis", 'DESC');
         $query->andWhere('c.id = :id')
               ->setParameter('id', $id_category);
