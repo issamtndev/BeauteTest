@@ -33,6 +33,7 @@
           getnb_avis_ajax();             
         });
          $(".ajax_serach_bt").click(function(){
+           $( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  
            $(".preladerimg").show();
            var form = $('form[name="app_homebundle_auto_search"]') ;
            $.ajax({url: "{{  path('my_app_recherche') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"", success: function(result){
@@ -66,7 +67,7 @@
 
 {% block body %}
       <div>&nbsp;</div>
-      <div class="well research_form col-md-6" id="collapseOne">
+      <div class="well research_form col-md-12" id="collapseOne">
           <h3>Formulaire de recherche des produits <span id="nb_avis"></span> </h3>
             {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
                <div class="form-group">
