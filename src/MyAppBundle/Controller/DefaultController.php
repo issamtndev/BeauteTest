@@ -21,7 +21,7 @@ class DefaultController extends Controller
         $request = $this->container->get('request'); 
        $monproduit=new Products($request->request->get('id'));
        
-       return new Response(''.$monproduit->name); 
+       return new Response(''.$monproduit->getName()); 
     }
     
     public function sous_categoriesAction()
