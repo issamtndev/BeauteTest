@@ -15,6 +15,13 @@ class DefaultController extends Controller
         return $this->render('MyAppBundle:Default:index.html.twig',array("form"=>$form->createView()));
     }
     
+    public function affiche_avis_produitAction()
+    {
+       $monproduit=new Product($request->request->get('id'));
+       
+       return new Response(''.$monproduit->name); 
+    }
+    
     public function sous_categoriesAction()
     {
 

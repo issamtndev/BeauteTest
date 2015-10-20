@@ -16,4 +16,8 @@ my_app_recherche_nom:
     
 my_app_recherche_avis:
     path:     /rechercheavis
-    defaults: { _controller: MyAppBundle:Default:recherche_nb_avis}      
+    defaults: { _controller: MyAppBundle:Default:recherche_nb_avis}
+    
+my_app_affiche_avis_produit:
+    path:     /afficheavis/{id}
+    defaults: { _controller: MyAppBundle:Default:affiche_avis_produit}     
