@@ -79,7 +79,7 @@ class DefaultController extends Controller
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
-        //BEGIN EXPORT CSV PPRUITS+CRITERES
+         //BEGIN EXPORT CSV PPRUITS+CRITERES
         /*if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
           $fp = fopen($fichier, 'w');
