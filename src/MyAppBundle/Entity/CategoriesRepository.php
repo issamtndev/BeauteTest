@@ -23,9 +23,6 @@ class CategoriesRepository extends \Doctrine\ORM\EntityRepository
               ->setParameter('id', $id_category);
         $query->orWhere('c.parentId = :categorie')
               ->setParameter('categorie', $id_category);
-          /*Afficher la requete sql*/
-       // $q=$query->getQuery();
-        //echo "---->".$q->getSQL();
         return $query->getQuery()->getResult();
          
      }

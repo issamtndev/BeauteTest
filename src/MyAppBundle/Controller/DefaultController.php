@@ -34,14 +34,6 @@ class DefaultController extends Controller
         
         $listcategory = $em->getRepository('MyAppBundle:Categories')->find_name_and_nbr_eavis($request->request->get('id'));
         
-        /*$sous_categ = $em->getConnection()
-
-            ->prepare("select * FROM categories where parent_id =".$request->request->get('id'));
-
-            $sous_categ->execute();
-
-            $sous_categ = $sous_categ->fetchAll();*/
-
         return $this->render('MyAppBundle:Default:sous_categ.html.twig', array('sous_categ' => $listcategory));
 
     }
