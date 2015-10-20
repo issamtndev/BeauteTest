@@ -1,5 +1,5 @@
 {% for categorie in sous_categ %}
 {% set my_categoriename = categorie[0].name|split('(') %}
-     <option value="{{categorie[0].id}}">{{my_categoriename[0]}} {{ categorie[1] }} (avis) </option>
+     <option value="{{categorie[0].id}}">{{my_categoriename[0]}} </option>
 {% endfor %}
   
