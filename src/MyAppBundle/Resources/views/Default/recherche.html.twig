@@ -1,12 +1,15 @@
-<div class="content_result">
+{% set counter_avis = 0 %}
+{% for entity in listproducts %}
+  {% set counter_avis = entity.getAvis().count() + counter_avis %}
+{% endfor %}   
+<h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
+  <div>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
+   </div>           
+<div class="content_result">   
 <table class="table table-bordered table-striped table-condensed">
-            <caption>
-                {% set counter_avis = 0 %}
-                {% for entity in listproducts %}
-                    {% set counter_avis = entity.getAvis().count() + counter_avis %}
-              {% endfor %}   
-            <h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
-            </caption>
             <thead>
               <tr>
                 <th>Nom</th>
@@ -23,10 +26,6 @@
             </tbody>
 </table>   
 
-   <div>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>
+  
 </div>        
 
