@@ -80,7 +80,7 @@ class DefaultController extends Controller
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
         echo "<pre>";
-        var_dump($listproducts);
+        var_dump($listproducts[0]);
         echo "</pre>";
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         /*if($listproducts){
