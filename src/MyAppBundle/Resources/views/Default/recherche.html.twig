@@ -1,7 +1,11 @@
 <div class="content_result">
 <table class="table table-bordered table-striped table-condensed">
             <caption>
-            <h4>RESULTAT DU RECHERCHE </h4>
+                {% set counter_avis = 0 %}
+                {% for entity in listproducts %}
+                    {% set counter_avis = entity.getAvis().count() + counter_avis %}
+              {% endfor %}   
+            <h4>RESULTAT DU RECHERCHE {{ counter_avis }} </h4>
             </caption>
             <thead>
               <tr>
