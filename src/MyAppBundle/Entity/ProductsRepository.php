@@ -16,10 +16,10 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
 
         $query = $this->createQueryBuilder('p');
         
-        $query->addSelect('COUNT(a.id) as nbavis');
+        //$query->addSelect('COUNT(a.id) as nbavis');
         $query->leftJoin('p.avis','a')       
               ->groupBy('p.id')
-              ->orderBy("nbavis", 'DESC');
+              ->orderBy("COUNT(a.id)", 'DESC');
         $query ->leftJoin('p.category','c');
         
         if($data['sub_categorie'] != '')
