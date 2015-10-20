@@ -5,7 +5,7 @@
                 {% for entity in listproducts %}
                     {% set counter_avis = entity.getAvis().count() + counter_avis %}
               {% endfor %}   
-            <h4>RESULTAT DU RECHERCHE {{ counter_avis }} </h4>
+            <h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
             </caption>
             <thead>
               <tr>
