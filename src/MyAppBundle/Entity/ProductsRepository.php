@@ -46,8 +46,8 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
         }  
-        $query->setFirstResult( 0 )
-               ->setMaxResults( 2 );
+        /*$query->setFirstResult( 0 )
+               ->setMaxResults( 2 );*/
         return $query->getQuery()->getResult();
 
     }
