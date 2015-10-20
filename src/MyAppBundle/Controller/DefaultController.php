@@ -5,6 +5,7 @@ namespace MyAppBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use MyAppBundle\Form\BeauteSearchType;
 use Symfony\Component\HttpFoundation\Response;
+use MyAppBundle\Entity\Products;
 ini_set('memory_limit', '1024M');
 
 class DefaultController extends Controller
