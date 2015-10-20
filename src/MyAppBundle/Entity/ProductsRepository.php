@@ -18,7 +18,7 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         
         $query ->leftJoin('p.avis','a');
         $query ->leftJoin('p.category','c');
-        $query ->select('p', 'COUNT(a.id) AS mycount');
+        $query ->select('p','a','c', 'COUNT(a.id) AS mycount');
         
         if($data['sub_categorie'] != '')
         {
