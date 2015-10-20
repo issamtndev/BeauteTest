@@ -20,13 +20,15 @@
          $("#app_homebundle_beaute_search_categorie").val("");
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
          $('#app_homebundle_beaute_search_categorie').change(function(){
-         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');    
+         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');   
+         $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');   
           getnb_avis_ajax();    
          $.post('{{  path('my_app_sous_categ') }}',
                     {id:$('#app_homebundle_beaute_search_categorie').val()},
                     function(data){
                         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>'+data);
-                         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', false);
+                        $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', false);
+                        $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
                     }
                 );
                     
