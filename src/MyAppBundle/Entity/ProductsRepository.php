@@ -29,7 +29,11 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         elseif($data['categorie'] != '')
 
         {
-            $query->andWhere('p.category = :categorie')
+            $query->andWhere('c.parentId = :categorie')
+
+                ->setParameter('categorie', $data['categorie']);
+             
+            $query->orWhere('p.category = :categorie')
 
                 ->setParameter('categorie', $data['categorie']);
         }
