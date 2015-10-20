@@ -18,7 +18,6 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         
         $query ->leftJoin('p.avis','a');
         $query ->leftJoin('p.category','c');
-        $query ->select('p','a','c', 'COUNT(a.id) AS mycount');
         
         if($data['sub_categorie'] != '')
         {
@@ -45,7 +44,9 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
         }  
-        $query->addOrderby('mycount', 'DESC');
+        $query->addSelect('COUNT(a.id) as nbavis')
+        ->groupBy('p.id')
+        ->orderBy("nbavis", 'DESC');
         return $query->getQuery()->getResult();
 
     }
