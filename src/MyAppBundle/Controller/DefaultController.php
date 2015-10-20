@@ -34,7 +34,12 @@ class DefaultController extends Controller
 
         $sous_categ = $em->getConnection()
 
-            ->prepare("select c.* from categories c   where c.parent_id =".$request->request->get('id')."");
+            ->prepare("select c.*,count(a)as nbavis from categories c
+                       LEFT JOIN products p ON p.category_id=c.id
+                       LEFT JOIN avis a ON a.product_id=p.id
+                       where c.parent_id =".$request->request->get('id')."
+                       GROUP BY p.id
+                       ORDER BY nbavis DESC");
 
             $sous_categ->execute();
 
