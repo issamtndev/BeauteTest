@@ -35,7 +35,7 @@
          $(".ajax_serach_bt").click(function(){
            $(".preladerimg").show();
            var form = $('form[name="app_homebundle_auto_search"]') ;
-           $.ajax({url: "{{  path('my_app_recherche') }}?"+form.serialize(), success: function(result){
+           $.ajax({url: "{{  path('my_app_recherche') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"", success: function(result){
              $("#my_results").html(result);
              $(".preladerimg").hide();
              }});
