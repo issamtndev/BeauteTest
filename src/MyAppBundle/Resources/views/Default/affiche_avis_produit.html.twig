@@ -1,2 +1,26 @@
-++++ {{ monproduit.getName() }}
+<div> 
+    <h1>{{ monproduit.getName() }}</h1>
+    <div>
+    <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Gender</th>
+                <th>Critere</th>
+                <th>points forts</th>
+                <th>points faibles</th>
+              </tr>
+            </thead>
+            <tbody>   
+             {% for avis in monproduit.getAvis() %}
+               <tr>
+                   <td>{{ avis.getGender() }}</td>
+                   <td>{{ avis.getCritere() }} </td>
+                   <td>{{ avis.getPointsForts() }}</td>
+                   <td>{{ avis.getPointsFaibles() }} avis</td>
+               </tr>
+              {% endfor %}     
+            </tbody>
+          </table>   
+    </div>
+</div>
   
