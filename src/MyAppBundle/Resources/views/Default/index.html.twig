@@ -3,9 +3,11 @@
 <script type="text/javascript">
     function selectName(val) {
         $("#app_homebundle_beaute_search_product_name").val(val);
+        getnb_avis_ajax();
         $("#suggesstion-box").hide();
       }
-      function getnb_avis_ajax(){
+      
+    function getnb_avis_ajax(){
         //var form = $('form[name="app_homebundle_auto_search"]').serializ() ;
         $("#nb_avis").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');
         $.ajax({
@@ -15,7 +17,8 @@
           $("#nb_avis").html('( '+result+' avis )');
         }});
       }
-      $(document).ready(function() {
+    
+    $(document).ready(function() {
          $.ajaxSetup({cache: false});
          $("#app_homebundle_beaute_search_categorie").val("");
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
