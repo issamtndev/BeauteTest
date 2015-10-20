@@ -19,9 +19,9 @@ class DefaultController extends Controller
     public function affiche_avis_produitAction()
     {
         $request = $this->container->get('request'); 
-       $monproduit=new Products($request->request->get('id'));
+        $monproduit=new Products($request->request->get('id'));
        
-       return new Response(''.$monproduit->getName()); 
+       return $this->render('MyAppBundle:Default:affiche_avis_produit.html.twig', array('monproduit' => $monproduit));
     }
     
     public function sous_categoriesAction()
