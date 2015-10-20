@@ -33,9 +33,15 @@
                 );
                     
         });
+        
         $('#app_homebundle_beaute_search_sub_categorie').change(function(){
-          getnb_avis_ajax();             
+           $("#app_homebundle_beaute_search_categorie").prop('disabled', 'disabled');
+           $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');  
+           getnb_avis_ajax();
+           $("#app_homebundle_beaute_search_categorie").prop('disabled', false);
+           $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
         });
+        
          $(".ajax_serach_bt").click(function(){
            $( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  
            $(".preladerimg").show();
