@@ -19,7 +19,9 @@ class DefaultController extends Controller
     public function affiche_avis_produitAction()
     {
         $request = $this->container->get('request'); 
-        $monproduit=new Products($request->request->get('id'));
+        $em = $this->getDoctrine()->getManager();
+
+       $monproduit= $em->getRepository('MyAppBundle:Products')->find($request->request->get('id'));
        
        return $this->render('MyAppBundle:Default:affiche_avis_produit.html.twig', array('monproduit' => $monproduit));
     }
