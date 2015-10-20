@@ -9,9 +9,10 @@
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
    </div>
    <div>
-     {% if category_name!='' %}<span class="btn btn-default">{{ category_name }}</span>{% endif %}
-     {% if sub_category_name!='' %}<span class="btn btn-default">{{ sub_category_name }}</span>{% endif %}
-     {% if texte_nom_produit!='' %}<span class="btn btn-default">{{ texte_nom_produit }}</span>{% endif %}
+       <h2>Critères de recherche</h2>
+     {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
+     {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
+     {% if texte_nom_produit!='' %}Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
    </div> 
 <div class="content_result">   
 <table class="table table-bordered table-striped table-condensed">
