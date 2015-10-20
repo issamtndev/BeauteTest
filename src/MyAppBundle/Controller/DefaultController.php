@@ -79,7 +79,9 @@ class DefaultController extends Controller
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
-
+        echo '<pre>';
+        \Doctrine\Common\Util\Debug::dump($listproducts);
+        echo '</pre>';
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         /*if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
