@@ -77,13 +77,13 @@ class DefaultController extends Controller
         if($data['categorie'] != '')
           {
             $category=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
-            $category_name=$category->name;
+            $category_name=$category->getName();
           }
         $sub_category_name='';
         if($data['sub_categorie'] != '')
           {
             $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
-            $sub_category_name=$category->name;
+            $sub_category_name=$subcategory->getName();
           }
         $texte_nom_produit=$data['product_name'];
         
