@@ -19,7 +19,7 @@ class DefaultController extends Controller
     public function affiche_avis_produitAction()
     {
         $request = $this->container->get('request'); 
-       $monproduit=new Product($request->request->get('id'));
+       $monproduit=new Products($request->request->get('id'));
        
        return new Response(''.$monproduit->name); 
     }
