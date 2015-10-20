@@ -78,6 +78,10 @@ class DefaultController extends Controller
             $form->handleRequest($request);
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+        
+            echo "<pre>";
+            var_dump($listproducts);
+            echo "</pre>";
         }
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($listproducts){
