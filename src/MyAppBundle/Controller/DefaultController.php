@@ -77,10 +77,14 @@ class DefaultController extends Controller
         {
             $form->handleRequest($request);
             $data = $request->get('app_homebundle_beaute_search');
-            $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+            $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+        }
+        $listproducts=array();
+        foreach ($listproducts0 as $products){ 
+          $listproducts[]=$products[0];
         }
         echo '<pre>';
-        \Doctrine\Common\Util\Debug::dump($listproducts[0][0]);
+        \Doctrine\Common\Util\Debug::dump($listproducts);
         echo '</pre>';
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         /*if($listproducts){
