@@ -20,7 +20,7 @@
               {% for entity in listproducts %}
                <tr>
                    <td>{{ entity.name }}</td>
-                   <td><a target="_blanc" href="{{ path('auto_my_app_affiche_avis_produit', { 'id': entity.id }) }}">{{ entity.getAvis().count() }} avis</a></td>
+                   <td><a target="_blanc" href="{{ path('my_app_affiche_avis_produit', { 'id': entity.id }) }}">{{ entity.getAvis().count() }} avis</a></td>
                </tr>
               {% endfor %}     
             </tbody>
