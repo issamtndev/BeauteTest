@@ -34,7 +34,7 @@ class DefaultController extends Controller
 
         $sous_categ = $em->getConnection()
 
-            ->prepare("select c.* from categories   where c.parent_id =".$request->request->get('id')."");
+            ->prepare("select c.* from categories c   where c.parent_id =".$request->request->get('id')."");
 
             $sous_categ->execute();
 

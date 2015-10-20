@@ -23,14 +23,14 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         $query ->leftJoin('p.category','c');
         
         if($data['sub_categorie'] != '')
-        { echo "SUB CATEGORIE";
+        { 
             $query->andWhere('p.category = :categorie')
 
                    ->setParameter('categorie', $data['sub_categorie']);
 
         }
         elseif($data['categorie'] != '')
-        {echo "CATEGORIE";
+        {
             $query->andWhere('c.parentId = :categorie')
 
                 ->setParameter('categorie', $data['categorie']);
