@@ -80,7 +80,7 @@ class DefaultController extends Controller
             $listproducts = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
         echo '<pre>';
-        \Doctrine\Common\Util\Debug::dump($listproducts);
+        \Doctrine\Common\Util\Debug::dump($listproducts[0][0]);
         echo '</pre>';
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         /*if($listproducts){
