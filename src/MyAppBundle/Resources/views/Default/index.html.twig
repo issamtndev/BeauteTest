@@ -19,6 +19,7 @@
       }
     
     $(document).ready(function() {
+    var compteur_recherche=1;
          $.ajaxSetup({cache: false});
          $("#app_homebundle_beaute_search_categorie").val("");
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
@@ -47,11 +48,13 @@
         });
         
          $(".ajax_serach_bt").click(function(){
+           if(compteur_recherche<5)compteur_recherche++;
+           else compteur_recherche=0;
            $( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  
            $(".preladerimg_resultat_recherche").show();
            var form = $('form[name="app_homebundle_auto_search"]') ;
            $.ajax({url: "{{  path('my_app_recherche') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"", success: function(result){
-             $("#my_results").html(result);
+             $("#my_results-"+compteur_recherche).html(result);
              $(".preladerimg_resultat_recherche").hide();
              }});
            });
@@ -134,16 +137,24 @@
       <div class="col-md-6">
           <div id="content">
     <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-        <li class="active"><a href="#my_results" data-toggle="tab">Recherche1</a></li>
-        <li><a href="#orange" data-toggle="tab">Recherche2</a></li>
+        <li class="active"><a href="#my_results_1" data-toggle="tab">Recherche1</a></li>
+        <li><a href="#my_results_2" data-toggle="tab">Recherche2</a></li>
+        <li><a href="#my_results_3" data-toggle="tab">Recherche3</a></li>
+        <li><a href="#my_results_4" data-toggle="tab">Recherche4</a></li>
     </ul>
     <div id="my-tab-content" class="tab-content">
-        <div class="tab-pane active" id="my_results">
+        <div class="tab-pane active" id="my_results_1">
             <h1>Resultats de recherhe 1</h1>
         </div>
-        <div class="tab-pane" id="orange">
+        <div class="tab-pane" id="my_results_2">
             <h1>Resultats de recherhe 2</h1>
         </div>
+        <div class="tab-pane" id="my_results_3">
+            <h1>Resultats de recherhe 3</h1>
+        </div>    
+        <div class="tab-pane" id="my_results_4">
+            <h1>Resultats de recherhe 4</h1>
+        </div>    
     </div>
 </div>
 
