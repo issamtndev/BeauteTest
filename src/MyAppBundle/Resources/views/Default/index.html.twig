@@ -2,7 +2,6 @@
 {% block javascriptheader %}
 <script type="text/javascript">
 var compteur_recherche=0;   
-$("#compteur_ajax_recherche").html("1");
     function selectName(val) {
         $("#app_homebundle_beaute_search_product_name").val(val);
         getnb_avis_ajax();
@@ -22,6 +21,7 @@ $("#compteur_ajax_recherche").html("1");
     
     $(document).ready(function() {
          $.ajaxSetup({cache: false});
+         $("#compteur_ajax_recherche").html("1");
          $("#app_homebundle_beaute_search_categorie").val("");
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
          $('#app_homebundle_beaute_search_categorie').change(function(){
@@ -57,7 +57,7 @@ $("#compteur_ajax_recherche").html("1");
            $.ajax({url: "{{  path('my_app_recherche') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"", success: function(result){
              $("#my_results_"+compteur_recherche).html(result);
              $('#tabs a[href="#my_results_'+compteur_recherche+'"]').tab('show');
-             $("#compteur_ajax_recherche").html(""+compteur_recherche);
+             $("#compteur_ajax_recherche").html(""+(compteur_recherche+1);
              $(".preladerimg_resultat_recherche").hide();
              }});
            });
