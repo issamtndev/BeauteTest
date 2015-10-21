@@ -84,6 +84,8 @@ class DefaultController extends Controller
           {
             $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['sub_categorie']);
             $sub_category_name=$subcategory->getName();
+            $sub_category_name=explode('(',$sub_category_name);
+          $sub_category_name=$sub_category_name[0];
           }
         $texte_nom_produit=$data['product_name'];
         
