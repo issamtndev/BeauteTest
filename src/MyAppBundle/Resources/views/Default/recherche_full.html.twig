@@ -87,14 +87,37 @@
              </div>    
          </div>
          <div class="col-md-4">
+             <div class="col-md-8">
+                 {{ form_label(form_filter.commentaires, "Commentaires", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.commentaires) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.commentaires, {'attr': {'class': 'form-control'}}) }}
+             </div>
+             <div class="col-md-8">
+                 {{ form_label(form_filter.points_forts, "Points forts", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.points_forts) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.points_forts, {'attr': {'class': 'form-control'}}) }}
+             </div> 
+             <div class="col-md-8">
+                 {{ form_label(form_filter.points_faibles, "Points faibles", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.points_faibles) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.points_faibles, {'attr': {'class': 'form-control'}}) }}
+             </div>    
          </div>   
          <input type="hidden" name="categoire" value="{{ app.request.get('app_homebundle_beaute_search')['categorie'] }}" />
          <input type="hidden" name="sub_categorie" value="{{ app.request.get('app_homebundle_beaute_search')['sub_categorie'] }}" />
          <input type="hidden" name="product_name" value="{{ app.request.get('app_homebundle_beaute_search')['product_name'] }}" />
          <input type="hidden" name="marque" value="{{ app.request.get('app_homebundle_beaute_search')['marque'] }}" />
     {{ form_rest(form_filter) }}
-            <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
-            <input type="submit" class="btn btn-primary" value="filtrer" />
+         <div class="col-md-12">
+           <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
+           <input type="submit" class="btn btn-primary" value="filtrer" />
+         </div>
     </form>
     </div>
 <div id="ajax_result">
