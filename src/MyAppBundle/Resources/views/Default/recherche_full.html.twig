@@ -2,6 +2,7 @@
 {% block body %}
 <script type="text/javascript">
  function lancer_recherche_filtre(){
+           $("#ajax_result").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');
            $.ajax({url: "{{  path('my_app_recherche_filtre') }}?"+$('form[name="app_homebundle_filtre_produit"]').serialize(), success: function(result){
              $("#ajax_result").html(result);
              }}); 
@@ -17,12 +18,15 @@
   {% set counter_avis = entity.getAvis().count() + counter_avis %}
 {% endfor %}   
 <h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
-  <div>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>
-   <div>
+
+ <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits</a></li>
+        <li><a href="#my_results_avis" data-toggle="tab">Liste avis</a></li>
+    </ul>
+    <div id="my-tab-content_result" class="tab-content">
+        <div class="tab-pane active" id="my_results_produits">
+            <h1>
+               <div>
        <h2>Critères de recherche</h2>
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
      {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
@@ -64,18 +68,14 @@
               {% endfor %}     
             </tbody>
 </table>   
-
+  <div>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
+   </div>
   
 </div>
-</div>
-
- <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
-        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits</a></li>
-        <li><a href="#my_results_avis" data-toggle="tab">Liste avis</a></li>
-    </ul>
-    <div id="my-tab-content_result" class="tab-content">
-        <div class="tab-pane active" id="my_results_produits">
-            <h1>my_results_produits</h1>
+</div></h1>
         </div>
         <div class="tab-pane" id="my_results_avis">
             <h1>my_results_avis</h1>
