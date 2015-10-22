@@ -1,9 +1,16 @@
 {% extends "::base.html.twig" %}
 {% block body %}
 <script type="text/javascript">
+ function lancer_recherche_filtre(){
+      alert("you are submitting" + $('form[name="app_homebundle_filtre_produit"]').serialize());
+
+           $.ajax({url: "{{  path('my_app_recherche_filtre') }}?"+$('form[name="app_homebundle_filtre_produit"]').serialize(), success: function(result){
+             $("#ajax_result").html(result);
+             }}); 
+ };   
  $(document).ready(function() {
      $(".ajax_bt_filter_produit").click(function(){
-          alert("you are submitting" + $('form[name="app_homebundle_filtre_produit"]').serialize());
+     lancer_recherche_filtre();   
      });
  });    
 </script>
@@ -34,6 +41,7 @@
             <input type="submit" class="btn btn-primary" value="filtrer" />
     </form>
     </div>
+<div id="ajax_result">
 <div class="content_result">  
     <h2>Liste des produits</h2>
 <table class="table table-bordered table-striped table-condensed">
@@ -60,6 +68,7 @@
 </table>   
 
   
+</div>
 </div>
 {% endblock %}
 
