@@ -60,8 +60,8 @@ var compteur_recherche=0;
             compteur_rechercheaffiche=compteur_recherche+1; 
             $("#compteur_ajax_recherche").html(""+compteur_rechercheaffiche);
              $('html,body').animate({
-        scrollTop: $(".content").offset().top},
-        'slow');
+             scrollTop: $("#content").offset().top},
+             'slow');
              $(".preladerimg_resultat_recherche").hide();
              }});
            });
