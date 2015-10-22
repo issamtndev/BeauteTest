@@ -54,7 +54,7 @@ var compteur_recherche=0;
            $( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  
            $(".preladerimg_resultat_recherche").show();
            var form = $('form[name="app_homebundle_auto_search"]') ;
-           $.ajax({url: "{{  path('my_app_recherche') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"", success: function(result){
+           $.ajax({url: "{{  path('my_app_recherche') }}?"+$('form[name="app_homebundle_beaute_search"]').serialize(), success: function(result){
              $("#my_results_"+compteur_recherche).html(result);
              $('#tabs a[href="#my_results_'+compteur_recherche+'"]').tab('show');
             compteur_rechercheaffiche=compteur_recherche+1; 
