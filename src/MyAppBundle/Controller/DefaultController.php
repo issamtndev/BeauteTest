@@ -65,7 +65,7 @@ class DefaultController extends Controller
     
     public function rechercheAction()
     {
-        $form_filter = $this->createForm(new FiltreProduitType(array('id_catego' => '2'))); 
+        $form_filter = $this->createForm(new FiltreProduitType(array(),array('id_catego' => '2'))); 
         $em    = $this->get('doctrine.orm.entity_manager');
          $form = $this->createForm(new BeauteSearchType());  
          $request = $this->container->get('request');
