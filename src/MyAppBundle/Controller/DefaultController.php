@@ -201,6 +201,16 @@ class DefaultController extends Controller
         echo "<pre>";
         print_r($data);
         echo "</pre>";
-        return new Response('filtre');
+
+        if($request->getMethod() == 'GET')
+        {
+            $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+        }
+         $listproducts=array();
+        foreach ($listproducts0 as $products){ 
+          $listproducts[]=$products[0];
+        }
+        //return new Response('filtre');
+        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts));
    }
 }
