@@ -1,0 +1,27 @@
+<div class="content_result">  
+    <h2>Liste des produits</h2>
+<table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Marque</th>
+                <th>Nom</th>
+                <th>Nombre d'avis Total</th>
+                <th>Nombre d'avis sans commentaire</th>
+                <th>&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entity in listproducts %}
+               <tr>
+                   <td>{{ entity.marque }}</td>
+                   <td>{{ entity.name }}</td>
+                   <td>{{ entity.getAvis().count() }}</td>
+                   <td>&nbsp;</td>
+                   <td><a target="_blanc" href="{{ path('my_app_affiche_avis_produit', { 'id': entity.id }) }}">Consulter les avis</a></td>
+               </tr>
+              {% endfor %}     
+            </tbody>
+</table>   
+</div>
+
+
