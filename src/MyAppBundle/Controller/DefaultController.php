@@ -172,8 +172,8 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form ));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form ));
+          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form->createView() ));
+          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form->createView() ));
     }
     public function recherche_nb_avisAction()
     {
