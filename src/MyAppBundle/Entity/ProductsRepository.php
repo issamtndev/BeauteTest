@@ -45,9 +45,58 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
 
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
-        }  
-        /*$query->setFirstResult( 0 )
-               ->setMaxResults( 2 );*/
+        } 
+        if($data['efficacite_court_terme'] != '')
+        {
+                    $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')
+                          ->setParameter('eff_c_t', $data['efficacite_court_terme']);
+        }
+        if($data['efficacite_long_terme'] != '')
+        {
+                    $query->andWhere('a.efficaciteLongTerme = :eff_l_t')
+                          ->setParameter('eff_l_t', $data['efficacite_long_terme']);
+        }
+        if($data['odeur'] != '')
+        {
+                    $query->andWhere('a.odeur = :odeur')
+                          ->setParameter('odeur', $data['odeur']);
+        }
+        if($data['penetration'] != '')
+        {
+                    $query->andWhere('a.penetration = :penetration')
+                          ->setParameter('penetration', $data['penetration']);
+        }
+        
+        if($data['points_faibles'] != '')
+        {
+                    $query->andWhere('a.pointsFaibles = :points_faibles')
+                          ->setParameter('points_faibles', $data['points_faibles']);
+        }
+        if($data['points_forts'] != '')
+        {
+                    $query->andWhere('a.pointsForts = :points_forts')
+                          ->setParameter('points_forts', $data['points_forts']);
+        }
+        if($data['presentation'] != '')
+        {
+                    $query->andWhere('a.presentation = :presentation')
+                          ->setParameter('presentation', $data['presentation']);
+        }
+        if($data['qualite_prix'] != '')
+        {
+                    $query->andWhere('a.qualitePrix = :qualite_prix')
+                          ->setParameter('qualite_prix', $data['qualite_prix']);
+        }
+        if($data['texture'] != '')
+        {
+                    $query->andWhere('a.texture = :texture')
+                          ->setParameter('texture', $data['texture']);
+        }
+        if($data['marque'] != '')
+        {
+                    $query->andWhere('p.marque = :marque')
+                          ->setParameter('marque', $data['marque']);
+        }
         return $query->getQuery()->getResult();
 
     }
