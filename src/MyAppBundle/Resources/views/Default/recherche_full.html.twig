@@ -2,8 +2,6 @@
 {% block body %}
 <script type="text/javascript">
  function lancer_recherche_filtre(){
-      alert("you are submitting" + $('form[name="app_homebundle_filtre_produit"]').serialize());
-
            $.ajax({url: "{{  path('my_app_recherche_filtre') }}?"+$('form[name="app_homebundle_filtre_produit"]').serialize(), success: function(result){
              $("#ajax_result").html(result);
              }}); 
@@ -70,5 +68,19 @@
   
 </div>
 </div>
+
+ <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits</a></li>
+        <li><a href="#my_results_avis" data-toggle="tab">Liste avis</a></li>
+    </ul>
+    <div id="my-tab-content_result" class="tab-content">
+        <div class="tab-pane active" id="my_results_produits">
+            <h1>my_results_produits</h1>
+        </div>
+        <div class="tab-pane" id="my_results_avis">
+            <h1>my_results_avis</h1>
+        </div>
+   </div>    
+
 {% endblock %}
 
