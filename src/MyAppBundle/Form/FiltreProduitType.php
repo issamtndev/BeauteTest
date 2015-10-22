@@ -21,9 +21,6 @@ class FiltreProduitType extends AbstractType
         "5" => "5",
         );  
         
-        $builder->add('categorie', 'hidden', array(
-       'data' => $options['id_catego'],
-        ));
         
         $builder->add('presentation' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
