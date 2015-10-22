@@ -194,6 +194,7 @@ class DefaultController extends Controller
     {
         $request = $this->container->get('request');
         $data = $request->get('app_homebundle_filtre_produit');
+        $data['categorie']=$request->query->get('categorie');
         echo "<pre>";
         print_r($data);
         echo "</pre>";
