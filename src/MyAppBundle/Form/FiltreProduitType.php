@@ -26,25 +26,57 @@ class FiltreProduitType extends AbstractType
         'empty_value' => '--',
         'multiple' => false,
         ));
-        
-         $builder->add('texture' ,'choice' ,array('choices' =>$array_choice ,
+         $array_choice_texture=array_merge ($array_choice,array("0" => "0"));
+         $builder->add('texture' ,'choice' ,array('choices' =>$array_choice_texture ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
          
-       $builder->add('penetration' ,'choice' ,array('choices' =>$array_choice ,
+       $builder->add('penetration' ,'choice' ,array('choices' =>$array_choice_texture ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
         
-       $builder->add('efficacite' ,'choice' ,array('choices' =>$array_choice ,
+       $builder->add('efficacite_long_terme' ,'choice' ,array('choices' =>$array_choice_texture ,
+        'required'  => false,
+        'empty_value' => '--',
+        'multiple' => false,
+        ));
+       
+       $builder->add('efficacite_court_terme' ,'choice' ,array('choices' =>$array_choice_texture ,
+        'required'  => false,
+        'empty_value' => '--',
+        'multiple' => false,
+        ));
+       
+       $builder->add('odeur' ,'choice' ,array('choices' =>$array_choice_texture ,
+        'required'  => false,
+        'empty_value' => '--',
+        'multiple' => false,
+        ));
+       
+        $builder->add('qualite_prix' ,'choice' ,array('choices' =>$array_choice_texture ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
         
+        $builder->add('commentaires', 'checkbox', array(
+        'label'     => 'commentaires',
+        'required'  => false,
+        ));
+        
+        $builder->add('points_forts', 'checkbox', array(
+        'label'     => 'points forts',
+        'required'  => false,
+        ));
+        
+        $builder->add('points_faibles', 'checkbox', array(
+        'label'     => 'points faibles',
+        'required'  => false,
+        ));
     } 
 
     /**
