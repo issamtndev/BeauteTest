@@ -99,7 +99,7 @@ class DefaultController extends Controller
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
-          $fp = fopen($fichier, 'w');
+          $fp = fopen($fichier, 'a+');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;gender;critere;comments";
           $csv_output .= "\r\n";
             foreach ($listproducts as $products){ 
@@ -125,7 +125,7 @@ class DefaultController extends Controller
         //BEGIN EXPORT CSV PPRUITS+POINT FORTS
         if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts.csv';
-          $fp = fopen($fichier, 'w');
+          $fp = fopen($fichier, 'a+');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_forts";
           $csv_output .= "\r\n";
             foreach ($listproducts as $products){ 
@@ -149,7 +149,7 @@ class DefaultController extends Controller
         //BEGIN EXPORT CSV PPRUITS+POINT FAIBLES
         if($listproducts){
           $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles.csv';
-          $fp = fopen($fichier, 'w');
+          $fp = fopen($fichier, 'a+');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_faibles";
           $csv_output .= "\r\n";
             foreach ($listproducts as $products){ 
