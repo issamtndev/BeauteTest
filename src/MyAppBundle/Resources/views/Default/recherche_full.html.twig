@@ -34,32 +34,32 @@
     <div>
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
          <div class="col-md-4">
-             <div class="col-md-6">
+             <div class="col-md-8">
                  {{ form_label(form_filter.presentation, "Présentation", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                  {{ form_errors(form_filter.presentation) }}
              </div>   
-             <div class="col-md-6">
+             <div class="col-md-4">
                 {{ form_widget(form_filter.presentation, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-6">
+             <div class="col-md-8">
                  {{ form_label(form_filter.texture, "Texture", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                  {{ form_errors(form_filter.texture) }}
              </div>   
-             <div class="col-md-6">
+             <div class="col-md-4">
                 {{ form_widget(form_filter.texture, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-6">
+             <div class="col-md-8">
                  {{ form_label(form_filter.penetration, "Pénétration", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                  {{ form_errors(form_filter.penetration) }}
              </div>   
-             <div class="col-md-6">
+             <div class="col-md-4">
                 {{ form_widget(form_filter.penetration, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-6">
+             <div class="col-md-8">
                  {{ form_label(form_filter.efficacite_long_terme, "Efficacité à long terme", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                  {{ form_errors(form_filter.efficacite_long_terme) }}
              </div>   
-             <div class="col-md-6">
+             <div class="col-md-4">
                 {{ form_widget(form_filter.efficacite_long_terme, {'attr': {'class': 'form-control'}}) }}
              </div>    
          </div>
