@@ -20,10 +20,9 @@ class FiltreProduitType extends AbstractType
         "4" => "4",
         "5" => "5",
         );  
-        $request = $this->container->get('request');
         
         $builder->add('categorie', 'hidden', array(
-       'data' => $request->request->get('app_homebundle_beaute_search[categorie]'),
+       'data' => "0011",
         ));
         
         $builder->add('presentation' ,'choice' ,array('choices' =>$array_choice ,
