@@ -13,7 +13,7 @@
               </tr>
             </thead>
             <tbody>
-              {% for entity in listproducts %}
+              {% for entity in listproducts[0] %}
                <tr>
                    <td>{{ entity.marque }}</td>
                    <td>{{ entity.name }}</td>
@@ -25,6 +25,24 @@
             </tbody>
 </table>   
 </div>
+            
+        <div class="content_result">    
+    <h2>Liste des avis</h2>
+<table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Marque</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entity in listproducts[2] %}
+               <tr>
+                   <td>{{ entity.getPointsForts() }}</td>
+               </tr>
+              {% endfor %}     
+            </tbody>
+</table>   
+</div>            
         </body>
 </hmtl>        
 
