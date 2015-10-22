@@ -1,147 +1,0 @@
-10
-
-dir
-4
-http://svn.digital-developer.com/svn/beautetest/vendor/incenteev/composer-parameter-handler/Tests/fixtures/testcases
-http://svn.digital-developer.com/svn/beautetest
-delete
-
-
-2015-10-14T16:01:21.547225Z
-1
-issam
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-c9bfb3b9-7b58-4050-887b-46e86edabed0
-
-custom_dist_file
-dir
-
-
-
-delete
-
-custom_key
-dir
-
-
-
-delete
-
-existent
-dir
-
-
-
-delete
-
-existent_empty
-dir
-
-
-
-delete
-
-existent_without_key
-dir
-
-
-
-delete
-
-extra_keys
-dir
-
-
-
-delete
-
-interaction_existent
-dir
-
-
-
-delete
-
-interaction_non_existent
-dir
-
-
-
-delete
-
-interaction_with_environment
-dir
-
-
-
-delete
-
-keep_outdated
-dir
-
-
-
-delete
-
-non_existent
-dir
-
-
-
-delete
-
-non_existent_with_environment
-dir
-
-
-
-delete
-
-remove_outdated
-dir
-
-
-
-delete
-
-renamed
-dir
-
-
-
-delete
-
-renamed_and_environment
-dir
-
-
-
-delete
-
-subfolder
-dir
-
-
-
-delete
-
-subfolder_created
-dir
-
-
-
-delete
-
