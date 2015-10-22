@@ -23,16 +23,16 @@ var compteur_recherche=0;
          $.ajaxSetup({cache: false});
          $("#compteur_ajax_recherche").html("1");
          $("#app_homebundle_beaute_search_categorie").val("");
-         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');
+         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catÃ©gorie</option>');
          $('#app_homebundle_beaute_search_categorie').change(function(){
-         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');    
+         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catÃ©gorie</option>');    
          $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');   
          $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');   
           getnb_avis_ajax();
          $.post('{{  path('my_app_sous_categ') }}',
                     {id:$('#app_homebundle_beaute_search_categorie').val()},
                     function(data){
-                        $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>'+data);
+                        $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catÃ©gorie</option>'+data);
                         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', false);
                         $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
                     }
@@ -91,33 +91,33 @@ var compteur_recherche=0;
          <div class="preladerimg_resultat_recherche" style="display:none"><img src="{{ asset('uploads/images/30.GIF') }}" /></div>
       </div>
       <div class="well research_form col-md-12" id="collapseOne">
-          <h3>Formulaire de recherche ++++++++== <span id="nb_avis"></span> </h3>
+          <h3>Formulaire de recherche :<span id="nb_avis"></span> </h3>
             {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
                <div class="form-group">
                     <div class="row">     
                     <div class="col-md-12">
-                {# Génération du label. #}
+                {# GÃ©nÃ©ration du label. #}
                  <div class="col-md-4">
                  {{ form_label(form.categorie, "categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                  </div>   
-                 {# Affichage des erreurs pour ce champ précis. #}
+                 {# Affichage des erreurs pour ce champ prÃ©cis. #}
                  {{ form_errors(form.categorie) }}
 
                  <div class="col-md-6">
-                {# Génération de l'input. #}
+                {# GÃ©nÃ©ration de l'input. #}
                 {{ form_widget(form.categorie, {'attr': {'class': 'form-control'}}) }}
                 </div>
                 </div>
                     <div class="col-md-12">
-                {# Génération du label. #}
+                {# GÃ©nÃ©ration du label. #}
                 <div class="col-md-4"> 
-                {{ form_label(form.sub_categorie, "sous catégorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
+                {{ form_label(form.sub_categorie, "sous catÃ©gorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                 </div>    
-                 {# Affichage des erreurs pour ce champ précis. #}
+                 {# Affichage des erreurs pour ce champ prÃ©cis. #}
                  {{ form_errors(form.sub_categorie) }}
 
                  <div class="col-md-6">
-                {# Génération de l'input. #}
+                {# GÃ©nÃ©ration de l'input. #}
                 {{ form_widget(form.sub_categorie, {'attr': {'class': 'form-control'}}) }}
                 </div>
                 </div>
@@ -126,8 +126,14 @@ var compteur_recherche=0;
                         {{ form_errors(form.product_name) }}
                         
                         <div class="col-md-12">
-                        {# Génération de l'input. #}
-                        {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        {# GÃ©nÃ©ration de l'input. #}
+                        <div class="col-md-4">Marque</div>        
+                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass col-md-6','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        </div>
+                        <div class="col-md-12">
+                        {# GÃ©nÃ©ration de l'input. #}
+                         <div class="col-md-4">Produit</div>         
+                        {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass  col-md-6','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
                         </div>
                         <div id="suggesstion-box" class="col-md-12">
                             <div id="search-box"></div>
