@@ -211,6 +211,7 @@ class DefaultController extends Controller
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
+        
         //return new Response('filtre');
         return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts));
    }
