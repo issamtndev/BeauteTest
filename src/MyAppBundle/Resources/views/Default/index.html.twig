@@ -111,7 +111,7 @@ var compteur_recherche=0;
                     <div class="col-md-12">
                 {# GÃ©nÃ©ration du label. #}
                 <div class="col-md-4"> 
-                {{ form_label(form.sub_categorie, "sous catÃ©gorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
+                {{ form_label(form.sub_categorie, "sous categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
                 </div>    
                  {# Affichage des erreurs pour ce champ prÃ©cis. #}
                  {{ form_errors(form.sub_categorie) }}
@@ -123,18 +123,20 @@ var compteur_recherche=0;
                 </div>
                 </div>
                 <div class="row">
-                        {{ form_errors(form.product_name) }}
+                        
                         
                         <div class="col-md-12">
+                            {{ form_errors(form.marque) }}
                         {# GÃ©nÃ©ration de l'input. #}
-                                <div class="col-md-4"><label>Marque</label></div>        
+                                <div class="col-md-4">{{ form_label(form.marque, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>        
                         <div class="col-md-6">
                         {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
                         </div>
                         </div>
                         <div class="col-md-12">
+                            {{ form_errors(form.product_name) }}
                         {# GÃ©nÃ©ration de l'input. #}
-                                <div class="col-md-4"><label>Produit</label></div>         
+                                <div class="col-md-4">{{ form_label(form.product_name, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>         
                         <div class="col-md-6">
                           {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
                         </div>
