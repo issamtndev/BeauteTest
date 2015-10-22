@@ -193,7 +193,7 @@ class DefaultController extends Controller
     public function recherchefiltreAction()
     {
         $request = $this->container->get('request');
-        $data = $request->get('app_homebundle_beaute_search');
+        $data = $request->get('app_homebundle_filtre_produit');
         echo "<pre>";
         print_r($data);
         echo "</pre>";
