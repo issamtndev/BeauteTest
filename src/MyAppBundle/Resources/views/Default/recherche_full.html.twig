@@ -18,7 +18,8 @@
    </div>
     <div>
     {{ form_start(form_filter, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
-             {{ form_rest(form_filter) }}
+            <input type="hidden" name="categoire" value="{{ app.request.get('app_homebundle_beaute_search')['categorie'] }}" />
+    {{ form_rest(form_filter) }}
     </form>
     </div>
 <div class="content_result">  
