@@ -91,7 +91,7 @@ var compteur_recherche=0;
          <div class="preladerimg_resultat_recherche" style="display:none"><img src="{{ asset('uploads/images/30.GIF') }}" /></div>
       </div>
       <div class="well research_form col-md-12" id="collapseOne">
-          <h3>Formulaire de recherche :<span id="nb_avis"></span> </h3>
+          <h3>Formulaire de recherche :</h3>
             {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
                <div class="form-group">
                     <div class="row">     
@@ -127,14 +127,18 @@ var compteur_recherche=0;
                         
                         <div class="col-md-12">
                         {# GÃ©nÃ©ration de l'input. #}
-                        <div class="col-md-4">Marque</div>        
-                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass col-md-6','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                                <div class="col-md-4"><label>Marque</label></div>        
+                        <div class="col-md-6">
+                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        </div>
                         </div>
                         <div class="col-md-12">
                         {# GÃ©nÃ©ration de l'input. #}
-                         <div class="col-md-4">Produit</div>         
-                        {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass  col-md-6','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                                <div class="col-md-4"><label>Produit</label></div>         
+                        <div class="col-md-6">
+                          {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
                         </div>
+                            </div>
                         <div id="suggesstion-box" class="col-md-12">
                             <div id="search-box"></div>
                         </div>    
@@ -144,7 +148,8 @@ var compteur_recherche=0;
             {{ form_rest(form) }}
             <input type="submit" class="btn btn-primary" value="Recherche" />
             <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"><span id="compteur_ajax_recherche"></span>
-            </form>
+            <div class="push-right">Résultats attendus: <span id="nb_avis"></span></div> 
+      </form>
         </div>
       <div class="col-md-6">
           <div id="content">
