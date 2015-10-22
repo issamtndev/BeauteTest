@@ -1,5 +1,12 @@
 {% extends "::base.html.twig" %}
 {% block body %}
+<script type="text/javascript">
+ $(document).ready(function() {
+     $(".ajax_bt_filter_produit").click(function(){
+         alert('filtre');
+     });
+ });    
+</script>
 {% set counter_avis = 0 %}
 {% for entity in listproducts %}
   {% set counter_avis = entity.getAvis().count() + counter_avis %}
@@ -22,7 +29,8 @@
             <input type="hidden" name="sub_categorie" value="{{ app.request.get('app_homebundle_beaute_search')['sub_categorie'] }}" />
             <input type="hidden" name="product_name" value="{{ app.request.get('app_homebundle_beaute_search')['product_name'] }}" />
             <input type="hidden" name="marque" value="{{ app.request.get('app_homebundle_beaute_search')['marque'] }}" />
-     {{ form_rest(form_filter) }}
+             <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
+    {{ form_rest(form_filter) }}
     </form>
     </div>
 <div class="content_result">  
