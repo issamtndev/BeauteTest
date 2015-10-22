@@ -17,7 +17,6 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         $query = $this->createQueryBuilder('p');
         
         $query->addSelect('COUNT(a.id) as nbavis');
-        $query->addSelect('a');
         $query->leftJoin('p.avis','a')       
               ->groupBy('p.id')
               ->orderBy("nbavis", 'DESC');

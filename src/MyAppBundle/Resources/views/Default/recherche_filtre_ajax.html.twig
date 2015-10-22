@@ -13,7 +13,7 @@
               </tr>
             </thead>
             <tbody>
-              {% for entity in listproducts[0] %}
+              {% for entity in listproducts %}
                <tr>
                    <td>{{ entity.marque }}</td>
                    <td>{{ entity.name }}</td>
@@ -35,11 +35,13 @@
               </tr>
             </thead>
             <tbody>
-              {% for entity in listproducts[2] %}
+              {% for entity in listproducts %}
+                    {% for avis in entity.getAvis() %}
                <tr>
-                   <td>{{ entity.getPointsForts() }}</td>
+                   <td>{{ avis.getPointsForts() }}</td>
                </tr>
-              {% endfor %}     
+                    {% endfor %} 
+               {% endfor %}     
             </tbody>
 </table>   
 </div>            

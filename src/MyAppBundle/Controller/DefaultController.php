@@ -211,11 +211,11 @@ class DefaultController extends Controller
          echo '<pre>';
         \Doctrine\Common\Util\Debug::dump($listproducts0);
         echo '</pre>';
-        /*foreach ($listproducts0 as $products){ 
+        foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
-        }*/
-        //echo '['.count($listproducts).']';
+        }
+        echo '['.count($listproducts).']';
         //return new Response('filtre');
-        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts0));
+        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts));
    }
 }
