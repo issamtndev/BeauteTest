@@ -192,6 +192,7 @@ class DefaultController extends Controller
      
     public function recherchefiltreAction()
     {
+        $em    = $this->get('doctrine.orm.entity_manager');
         $request = $this->container->get('request');
         $data = $request->get('app_homebundle_filtre_produit');
         $data['categorie']=$request->query->get('categoire');
