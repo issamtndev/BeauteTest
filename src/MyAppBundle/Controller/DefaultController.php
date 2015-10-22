@@ -208,7 +208,9 @@ class DefaultController extends Controller
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
          $listproducts=array();
-
+         echo '<pre>';
+        \Doctrine\Common\Util\Debug::dump($listproducts0);
+        echo '</pre>';
         /*foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }*/
