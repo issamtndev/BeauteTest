@@ -64,6 +64,27 @@
              </div>    
          </div>
          <div class="col-md-4">
+             <div class="col-md-8">
+                 {{ form_label(form_filter.efficacite_court_terme, "Efficacité à court terme", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.efficacite_court_terme) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.efficacite_court_terme, {'attr': {'class': 'form-control'}}) }}
+             </div>
+             <div class="col-md-8">
+                 {{ form_label(form_filter.odeur, "Odeur", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.odeur) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.odeur, {'attr': {'class': 'form-control'}}) }}
+             </div>
+             <div class="col-md-8">
+                 {{ form_label(form_filter.qualite_prix, "Qualite/Prix", {'label_attr': {'class': 'control-label'}}) }}
+                 {{ form_errors(form_filter.qualite_prix) }}
+             </div>   
+             <div class="col-md-4">
+                {{ form_widget(form_filter.qualite_prix, {'attr': {'class': 'form-control'}}) }}
+             </div>    
          </div>
          <div class="col-md-4">
          </div>   
