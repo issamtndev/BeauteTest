@@ -199,18 +199,18 @@ class DefaultController extends Controller
         $data['sub_categorie']=$request->query->get('sub_categorie');
         $data['product_name']=$request->query->get('product_name');
         $data['marque']=$request->query->get('marque');
-        echo "<pre>";
+        /*echo "<pre>";
         print_r($data);
-        echo "</pre>";
+        echo "</pre>";*/
 
         if($request->getMethod() == 'GET')
         {
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
         }
          $listproducts=array();
-         echo '<pre>';
+        /* echo '<pre>';
         \Doctrine\Common\Util\Debug::dump($listproducts0);
-        echo '</pre>';
+        echo '</pre>';*/
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
