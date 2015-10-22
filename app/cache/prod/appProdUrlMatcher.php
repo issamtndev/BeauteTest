@@ -47,6 +47,11 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
                 return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::rechercheAction',  '_route' => 'my_app_recherche',);
             }
 
+            // my_app_recherche_filtre
+            if ($pathinfo === '/recherche/filtre') {
+                return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::recherchefiltreAction',  '_route' => 'my_app_recherche_filtre',);
+            }
+
             // my_app_recherche_nom
             if ($pathinfo === '/recherchenom') {
                 return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::recherche_produit_par_nomAction',  '_route' => 'my_app_recherche_nom',);
@@ -57,6 +62,11 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
                 return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::recherche_nb_avisAction',  '_route' => 'my_app_recherche_avis',);
             }
 
+        }
+
+        // my_app_affiche_avis_produit
+        if (0 === strpos($pathinfo, '/afficheavis') && preg_match('#^/afficheavis/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'my_app_affiche_avis_produit')), array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::affiche_avis_produitAction',));
         }
 
         // homepage
