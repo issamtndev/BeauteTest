@@ -189,4 +189,14 @@ class DefaultController extends Controller
 
        return new Response(''.$listproducts[0][1]);
     } 
+     
+    public function recherchefiltreAction()
+    {
+        $request = $this->container->get('request');
+        $data = $request->get('app_homebundle_beaute_search');
+        echo "<pre>";
+        print_r($data);
+        echo "</pre>";
+        return new Response('filtre');
+   }
 }

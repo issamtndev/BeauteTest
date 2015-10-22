@@ -24,13 +24,14 @@
      {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
    </div>
     <div>
-    {{ form_start(form_filter, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
+    {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
             <input type="hidden" name="categoire" value="{{ app.request.get('app_homebundle_beaute_search')['categorie'] }}" />
             <input type="hidden" name="sub_categorie" value="{{ app.request.get('app_homebundle_beaute_search')['sub_categorie'] }}" />
             <input type="hidden" name="product_name" value="{{ app.request.get('app_homebundle_beaute_search')['product_name'] }}" />
             <input type="hidden" name="marque" value="{{ app.request.get('app_homebundle_beaute_search')['marque'] }}" />
-             <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
     {{ form_rest(form_filter) }}
+            <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
+            <input type="submit" class="btn btn-primary" value="filtrer" />
     </form>
     </div>
 <div class="content_result">  

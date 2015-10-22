@@ -8,7 +8,11 @@ my_app_sous_categ:
     
 my_app_recherche:
     path:     /recherche
-    defaults: { _controller: MyAppBundle:Default:recherche }  
+    defaults: { _controller: MyAppBundle:Default:recherche }
+    
+my_app_recherche_filtre:
+    path:     /recherche/filtre
+    defaults: { _controller: MyAppBundle:Default:recherchefiltre }    
     
 my_app_recherche_nom:
     path:     /recherchenom
