@@ -22,7 +22,7 @@ class FiltreProduitType extends AbstractType
         );  
         
         $builder->add('categorie', 'hidden', array(
-       'data' => "0011",
+       'data' => $options['id_catego'],
         ));
         
         $builder->add('presentation' ,'choice' ,array('choices' =>$array_choice ,
