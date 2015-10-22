@@ -19,7 +19,10 @@
     <div>
     {{ form_start(form_filter, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
             <input type="hidden" name="categoire" value="{{ app.request.get('app_homebundle_beaute_search')['categorie'] }}" />
-    {{ form_rest(form_filter) }}
+            <input type="hidden" name="sub_categorie" value="{{ app.request.get('app_homebundle_beaute_search')['sub_categorie'] }}" />
+            <input type="hidden" name="product_name" value="{{ app.request.get('app_homebundle_beaute_search')['product_name'] }}" />
+            <input type="hidden" name="marque" value="{{ app.request.get('app_homebundle_beaute_search')['marque'] }}" />
+     {{ form_rest(form_filter) }}
     </form>
     </div>
 <div class="content_result">  
