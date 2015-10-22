@@ -65,7 +65,7 @@ class DefaultController extends Controller
     
     public function rechercheAction()
     {
-        $form = $this->createForm(new FiltreProduitType()); 
+        $form_filter = $this->createForm(new FiltreProduitType()); 
         $em    = $this->get('doctrine.orm.entity_manager');
          $form = $this->createForm(new BeauteSearchType());  
          $request = $this->container->get('request');
@@ -172,8 +172,8 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form->createView() ));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form->createView() ));
+          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView() ));
+          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView() ));
     }
     public function recherche_nb_avisAction()
     {

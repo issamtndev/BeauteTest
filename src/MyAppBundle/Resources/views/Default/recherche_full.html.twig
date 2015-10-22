@@ -17,8 +17,8 @@
      {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
    </div>
     <div>
-    {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
-             {{ form_rest(form) }}
+    {{ form_start(form_filter, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
+             {{ form_rest(form_filter) }}
     </form>
     </div>
 <div class="content_result">  
