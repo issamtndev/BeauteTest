@@ -15,7 +15,12 @@
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
      {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
      {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
-   </div> 
+   </div>
+    <div>
+    {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
+             {{ form_rest(form) }}
+    </form>
+    </div>
 <div class="content_result">  
     <h2>Liste des produits</h2>
 <table class="table table-bordered table-striped table-condensed">

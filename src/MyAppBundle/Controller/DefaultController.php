@@ -4,6 +4,7 @@ namespace MyAppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use MyAppBundle\Form\BeauteSearchType;
+use MyAppBundle\Form\FiltreProduitType;
 use Symfony\Component\HttpFoundation\Response;
 use MyAppBundle\Entity\Products;
 ini_set('memory_limit', '1024M');
@@ -64,7 +65,8 @@ class DefaultController extends Controller
     
     public function rechercheAction()
     {
-         $em    = $this->get('doctrine.orm.entity_manager');
+        $form = $this->createForm(new FiltreProduitType()); 
+        $em    = $this->get('doctrine.orm.entity_manager');
          $form = $this->createForm(new BeauteSearchType());  
          $request = $this->container->get('request');
         if($request->getMethod() == 'GET')
@@ -170,8 +172,8 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit));
+          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form ));
+          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form' => $form ));
     }
     public function recherche_nb_avisAction()
     {
