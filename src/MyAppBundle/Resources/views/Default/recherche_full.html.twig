@@ -25,7 +25,6 @@
     </ul>
     <div id="my-tab-content_result" class="tab-content">
         <div class="tab-pane active" id="my_results_produits">
-            <h1>
                <div>
        <h2>Critères de recherche</h2>
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
@@ -68,20 +67,19 @@
               {% endfor %}     
             </tbody>
 </table>   
-  
+
   
 </div>
-<div>
+    <div>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-</div>
+   </div>
 </div></h1>
         </div>
         <div class="tab-pane" id="my_results_avis">
             <h1>my_results_avis</h1>
         </div>
-   </div>    
-
+   </div>  
 {% endblock %}
 
