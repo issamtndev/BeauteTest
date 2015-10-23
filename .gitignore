@@ -11,6 +11,6 @@
 ./web/bundles/
 ./web/uploads/img/
 ./web/cache/
-./web/bundles/csv_critere.csv
-./web/bundles/csv_points_faibles.csv
-./web/bundles/csv_points_forts.csv
+./web/uploads/csv_critere.csv
+./web/uploads/csv_points_faibles.csv
+./web/uploads/csv_points_forts.csv
