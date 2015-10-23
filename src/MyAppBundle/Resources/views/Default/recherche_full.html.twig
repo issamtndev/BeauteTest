@@ -2,9 +2,9 @@
 {% block body %}
 <script type="text/javascript">
  function lancer_recherche_filtre(){
-           $("#ajax_result").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');
+           $("#ajax_result").html('<img height="15" src="{{ asset('uploads/images/30.GIF') }}">');
            $.ajax({url: "{{  path('my_app_recherche_filtre') }}?"+$('form[name="app_homebundle_filtre_produit"]').serialize(), success: function(result){
-             $("#ajax_result").html(result);
+             $("#my_ajax_result").html(result);
              }}); 
  };   
  $(document).ready(function() {
@@ -18,73 +18,80 @@
   {% set counter_avis = entity.getAvis().count() + counter_avis %}
 {% endfor %}   
 <h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
-
- <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
-        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits</a></li>
-        <li><a href="#my_results_avis" data-toggle="tab">Liste avis</a></li>
-    </ul>
-    <div id="my-tab-content_result" class="tab-content">
-        <div class="tab-pane active" id="my_results_produits">
-               <div>
+    <div>
        <h2>Critères de recherche</h2>
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
      {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
      {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
    </div>
-    <div>
+   <div>
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
          <div class="col-md-4">
-             <div class="col-md-8">
+             <div class="row">
+               <div class="col-md-8">
                  {{ form_label(form_filter.presentation, "Présentation", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.presentation) }}
-             </div>   
-             <div class="col-md-4">
+               </div>   
+               <div class="col-md-4">
                 {{ form_widget(form_filter.presentation, {'attr': {'class': 'form-control'}}) }}
+               </div>
              </div>
-             <div class="col-md-8">
+             <div class="row">    
+               <div class="col-md-8">
                  {{ form_label(form_filter.texture, "Texture", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.texture) }}
              </div>   
-             <div class="col-md-4">
+               <div class="col-md-4">
                 {{ form_widget(form_filter.texture, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-8">
+             </div>
+             <div class="row">    
+               <div class="col-md-8">
                  {{ form_label(form_filter.penetration, "Pénétration", {'label_attr': {'class': ' control-label'}}) }}
                  {{ form_errors(form_filter.penetration) }}
-             </div>   
-             <div class="col-md-4">
+             </div>        
+               <div class="col-md-4">
                 {{ form_widget(form_filter.penetration, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-8">
+             </div>
+             <div class="row">    
+               <div class="col-md-8">
                  {{ form_label(form_filter.efficacite_long_terme, "Efficacité à long terme", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.efficacite_long_terme) }}
              </div>   
-             <div class="col-md-4">
+               <div class="col-md-4">
                 {{ form_widget(form_filter.efficacite_long_terme, {'attr': {'class': 'form-control'}}) }}
-             </div>    
+             </div>
+             </div>        
          </div>
          <div class="col-md-4">
-             <div class="col-md-8">
+             <div class="row">
+               <div class="col-md-8">
                  {{ form_label(form_filter.efficacite_court_terme, "Efficacité à court terme", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.efficacite_court_terme) }}
              </div>   
-             <div class="col-md-4">
+               <div class="col-md-4">
                 {{ form_widget(form_filter.efficacite_court_terme, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-8">
+             </div>
+             <div class="row">    
+               <div class="col-md-8">
                  {{ form_label(form_filter.odeur, "Odeur", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.odeur) }}
              </div>   
-             <div class="col-md-4">
+               <div class="col-md-4">
                 {{ form_widget(form_filter.odeur, {'attr': {'class': 'form-control'}}) }}
              </div>
-             <div class="col-md-8">
+             </div>
+             <div class="row">    
+               <div class="col-md-8">
                  {{ form_label(form_filter.qualite_prix, "Qualite/Prix", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.qualite_prix) }}
              </div>   
-             <div class="col-md-4">
+               <div class="col-md-4">
                 {{ form_widget(form_filter.qualite_prix, {'attr': {'class': 'form-control'}}) }}
-             </div>    
+             </div>
+             </div>        
          </div>
          <div class="col-md-4">
              <div class="col-md-8">
@@ -120,9 +127,18 @@
          </div>
     </form>
     </div>
+<div class="clearfix"></div>
+ {% set size = listproducts | length %}
+<div id="my_ajax_result">
+ <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ size }})</a></li>
+        <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ counter_avis }})</a></li>
+    </ul>
+    <div id="my-tab-content_result" class="tab-content">
+        <div class="tab-pane active" id="my_results_produits">
 <div id="ajax_result">
 <div class="content_result">  
-    <h2>Liste des produits</h2>
+    <h2>Liste des produits  ({{ size }})</h2>
 <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -148,14 +164,11 @@
 
   
 </div>
-    <div>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>
+ 
 </div></h1>
         </div>
         <div class="tab-pane" id="my_results_avis">
+            <h2>Liste avis ({{ counter_avis }})</h2>
             <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -193,6 +206,12 @@
             </tbody>
 </table> 
         </div>
+        </div>      
+</div> 
+  <div>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
    </div>  
 {% endblock %}
 

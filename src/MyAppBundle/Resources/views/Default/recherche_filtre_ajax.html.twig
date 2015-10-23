@@ -1,7 +1,21 @@
 <hmtl>
     <body>
-        <div class="content_result">    
-    <h2>Liste des produits</h2>
+ {% set size = listproducts | length %}
+ {% set counter_avis = 0 %}           
+ {% for entity in listproducts %}
+  {% set counter_avis = entity.getAvis().count() + counter_avis %}
+{% endfor %}              
+ <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ size }})</a></li>
+        <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ counter_avis }})</a></li>
+    </ul>
+    <div id="my-tab-content_result" class="tab-content">
+        <div class="tab-pane active" id="my_results_produits">
+       
+ 
+<div id="ajax_result">
+<div class="content_result">
+    <h2>Liste des produits ({{ size }})</h2>
 <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -24,27 +38,56 @@
               {% endfor %}     
             </tbody>
 </table>   
+
+  
 </div>
-            
-        <div class="content_result" style="display: none">    
-    <h2>Liste des avis</h2>
-<table class="table table-bordered table-striped table-condensed">
+    <div>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
+   </div>
+</div></h1>
+        </div>
+        <div class="tab-pane" id="my_results_avis">
+            <h2>Liste avis ({{ counter_avis }})</h2>
+            <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
-                <th>point fort</th>
+                <th>Produit</th>
+                <th>Marque</th>
+                <th>Catégorie</th>
+                <th>Sous catégorie</th>
+                <th>Prix</th>
+                <th>Contenance</th>
+                <th>Genre</th>
+                <th>Age</th>
+                <th>Points forts</th>
+                <th>points faibles</th>
+                <th>Commentaire</th>
               </tr>
             </thead>
             <tbody>
               {% for entity in listproducts %}
-                    {% for avis in entity.getAvis() %}
-               <tr>
+               {% for avis in entity.getAvis() %}     
+                <tr>
+                   <td>{{ entity.name }}</td>
+                   <td>{{ entity.marque }}</td>
+                   <td>{{ entity.getCategory().name }}</td>
+                   <td>Sous catégorie</td>
+                   <td>{{ entity.prix }}</td>
+                   <td>{{ entity.getCont() }}</td>
+                   <td>{{ avis.getGender() }}</td>
+                   <td>{{ avis.getCritere() }}</td>
                    <td>{{ avis.getPointsForts() }}</td>
-               </tr>
-                    {% endfor %} 
-               {% endfor %}     
+                   <td>{{ avis.getPointsFaibles() }}</td>
+                   <td>{{ avis.comments }}</td>
+                </tr>
+               {% endfor %}  
+              {% endfor %}     
             </tbody>
-</table>   
-</div>            
+</table> 
+        </div>
+   </div>           
         </body>
 </hmtl>        
 
