@@ -10,6 +10,10 @@
 ./web/uploads/img/
 ./app/logs/*
 ./app/cache/*
+./app/cache/prod/*
+./app/cache/dev/*
+./app/logs/.gitkeep/*
+./app/logs/.svn/*
 ./web/uploads/csv_critere.csv
 ./web/uploads/csv_points_faibles.csv
 ./web/uploads/csv_points_forts.csv
