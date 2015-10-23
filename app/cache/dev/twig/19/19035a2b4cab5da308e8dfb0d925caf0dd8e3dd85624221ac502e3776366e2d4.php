@@ -22,36 +22,39 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fd7b13d76c19cad0ed097e324e8c34ac94c63882e873687f026f4759a18829af = $this->env->getExtension("native_profiler");
-        $__internal_fd7b13d76c19cad0ed097e324e8c34ac94c63882e873687f026f4759a18829af->enter($__internal_fd7b13d76c19cad0ed097e324e8c34ac94c63882e873687f026f4759a18829af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyAppBundle:Default:index.html.twig"));
+        $__internal_c18e1d6fd15e98635383d8effde42bba15b0f83b8a1654801c9d678bebca1650 = $this->env->getExtension("native_profiler");
+        $__internal_c18e1d6fd15e98635383d8effde42bba15b0f83b8a1654801c9d678bebca1650->enter($__internal_c18e1d6fd15e98635383d8effde42bba15b0f83b8a1654801c9d678bebca1650_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyAppBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_fd7b13d76c19cad0ed097e324e8c34ac94c63882e873687f026f4759a18829af->leave($__internal_fd7b13d76c19cad0ed097e324e8c34ac94c63882e873687f026f4759a18829af_prof);
+        $__internal_c18e1d6fd15e98635383d8effde42bba15b0f83b8a1654801c9d678bebca1650->leave($__internal_c18e1d6fd15e98635383d8effde42bba15b0f83b8a1654801c9d678bebca1650_prof);
 
     }
 
     // line 2
     public function block_javascriptheader($context, array $blocks = array())
     {
-        $__internal_9a4a8c768f0f35e90d01028a5e718cb009f225a94f8fb9e2731b166146740cf4 = $this->env->getExtension("native_profiler");
-        $__internal_9a4a8c768f0f35e90d01028a5e718cb009f225a94f8fb9e2731b166146740cf4->enter($__internal_9a4a8c768f0f35e90d01028a5e718cb009f225a94f8fb9e2731b166146740cf4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascriptheader"));
+        $__internal_775c347e760ee7d9979308c6ce6818b1dbb1cda1d2c445cec399b6350f1267a8 = $this->env->getExtension("native_profiler");
+        $__internal_775c347e760ee7d9979308c6ce6818b1dbb1cda1d2c445cec399b6350f1267a8->enter($__internal_775c347e760ee7d9979308c6ce6818b1dbb1cda1d2c445cec399b6350f1267a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascriptheader"));
 
         // line 3
         echo "<script type=\"text/javascript\">
+var compteur_recherche=0;   
     function selectName(val) {
         \$(\"#app_homebundle_beaute_search_product_name\").val(val);
+        getnb_avis_ajax();
         \$(\"#suggesstion-box\").hide();
       }
-      function getnb_avis_ajax(){
+      
+    function getnb_avis_ajax(){
         //var form = \$('form[name=\"app_homebundle_auto_search\"]').serializ() ;
         \$(\"#nb_avis\").html('<img height=\"15\" src=\"";
-        // line 10
+        // line 13
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("uploads/images/275.GIF"), "html", null, true);
         echo "\">');
         \$.ajax({
           url: \"";
-        // line 12
+        // line 15
         echo $this->env->getExtension('routing')->getPath("my_app_recherche_avis");
         echo "?app_homebundle_beaute_search[categorie])=\"+\$(\"#app_homebundle_beaute_search_categorie\").val()+\"&app_homebundle_beaute_search[sub_categorie]=\"+\$(\"#app_homebundle_beaute_search_sub_categorie\").val()+\"&app_homebundle_beaute_search[product_name]=\"+\$(\"#app_homebundle_beaute_search_product_name\").val()+\"\",
           cache: false,
@@ -59,48 +62,70 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
           \$(\"#nb_avis\").html('( '+result+' avis )');
         }});
       }
-      \$(document).ready(function() {
+    
+    \$(document).ready(function() {
          \$.ajaxSetup({cache: false});
+         \$(\"#compteur_ajax_recherche\").html(\"1\");
          \$(\"#app_homebundle_beaute_search_categorie\").val(\"\");
-         \$('#app_homebundle_beaute_search_sub_categorie').html('<option value=\"\">Choisir une sous catégorie</option>');
+         \$('#app_homebundle_beaute_search_sub_categorie').html('<option value=\"\">Choisir une sous categorie</option>');
          \$('#app_homebundle_beaute_search_categorie').change(function(){
-          getnb_avis_ajax();    
+         \$('#app_homebundle_beaute_search_sub_categorie').html('<option value=\"\">Choisir une sous categorie</option>');    
+         \$(\"#app_homebundle_beaute_search_sub_categorie\").prop('disabled', 'disabled');   
+         \$(\"#app_homebundle_beaute_search_product_name\").prop('disabled', 'disabled');   
+          getnb_avis_ajax();
          \$.post('";
-        // line 24
+        // line 32
         echo $this->env->getExtension('routing')->getPath("my_app_sous_categ");
         echo "',
                     {id:\$('#app_homebundle_beaute_search_categorie').val()},
                     function(data){
-                        \$('#app_homebundle_beaute_search_sub_categorie').html(data);
+                        \$('#app_homebundle_beaute_search_sub_categorie').html('<option value=\"\">Choisir une sous categorie</option>'+data);
+                        \$(\"#app_homebundle_beaute_search_sub_categorie\").prop('disabled', false);
+                        \$(\"#app_homebundle_beaute_search_product_name\").prop('disabled', false);
                     }
                 );
                     
         });
+        
         \$('#app_homebundle_beaute_search_sub_categorie').change(function(){
-          getnb_avis_ajax();             
+           \$(\"#app_homebundle_beaute_search_categorie\").prop('disabled', 'disabled');
+           \$(\"#app_homebundle_beaute_search_product_name\").prop('disabled', 'disabled');  
+           getnb_avis_ajax();
+           \$(\"#app_homebundle_beaute_search_categorie\").prop('disabled', false);
+           \$(\"#app_homebundle_beaute_search_product_name\").prop('disabled', false);
         });
+        
          \$(\".ajax_serach_bt\").click(function(){
-           \$(\".preladerimg\").show();
+           if(compteur_recherche<5)compteur_recherche++;
+           else compteur_recherche=1;
+           //\$( \"#collapseOne\" ).removeClass( \"well research_form col-md-12\" ).addClass( \"well research_form col-md-6\" );  
+           \$(\".preladerimg_resultat_recherche\").show();
            var form = \$('form[name=\"app_homebundle_auto_search\"]') ;
            \$.ajax({url: \"";
-        // line 38
+        // line 57
         echo $this->env->getExtension('routing')->getPath("my_app_recherche");
-        echo "?\"+form.serialize(), success: function(result){
-             \$(\"#my_results\").html(result);
-             \$(\".preladerimg\").hide();
+        echo "?\"+\$('form[name=\"app_homebundle_beaute_search\"]').serialize(), success: function(result){
+             \$(\"#my_results_\"+compteur_recherche).html(result);
+             \$('#tabs a[href=\"#my_results_'+compteur_recherche+'\"]').tab('show');
+            compteur_rechercheaffiche=compteur_recherche+1; 
+            \$(\"#compteur_ajax_recherche\").html(\"\"+compteur_rechercheaffiche);
+             /*\$('html,body').animate({
+             scrollTop: \$(\"#content\").offset().top},
+             '5000');*/
+             \$(\".preladerimg_resultat_recherche\").hide();
              }});
            });
          \$(\"#app_homebundle_beaute_search_product_name\").keyup(function(){
                 \$.ajax({
 \t\ttype: \"POST\",
 \t\turl: \"";
-        // line 46
+        // line 71
         echo $this->env->getExtension('routing')->getPath("my_app_recherche_nom");
         echo "\",
 \t\tdata:'name='+\$(this).val()+\"&categorie=\"+\$(\"#app_homebundle_beaute_search_categorie\").val()+\"&subcategorie=\"+\$(\"#app_homebundle_beaute_search_sub_categorie\").val(),
 \t\tbeforeSend: function(){
 \t\t\t\$(\"#search-box\").css(\"background\",\"#FFF url(";
-        // line 49
+        // line 74
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("uploads/images/365.GIF"), "html", null, true);
         echo ") no-repeat 165px\");
                 },
@@ -116,67 +141,76 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 </script>  
 <style>
 #search-box{padding: 10px;border: #F0F0F0 1px solid;height: 100px}
+.content_result{overflow: auto; height: 400px}
 </style>
 ";
         
-        $__internal_9a4a8c768f0f35e90d01028a5e718cb009f225a94f8fb9e2731b166146740cf4->leave($__internal_9a4a8c768f0f35e90d01028a5e718cb009f225a94f8fb9e2731b166146740cf4_prof);
+        $__internal_775c347e760ee7d9979308c6ce6818b1dbb1cda1d2c445cec399b6350f1267a8->leave($__internal_775c347e760ee7d9979308c6ce6818b1dbb1cda1d2c445cec399b6350f1267a8_prof);
 
     }
 
-    // line 66
+    // line 92
     public function block_body($context, array $blocks = array())
     {
-        $__internal_7707b90b42d303e3099e14859b96e1a067e9dabd5861a1efc2ee383f6608815c = $this->env->getExtension("native_profiler");
-        $__internal_7707b90b42d303e3099e14859b96e1a067e9dabd5861a1efc2ee383f6608815c->enter($__internal_7707b90b42d303e3099e14859b96e1a067e9dabd5861a1efc2ee383f6608815c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_1fb08f135dfb2234b8853633d1dab4071305411c60bba6ef76aa2fc328fc9a7a = $this->env->getExtension("native_profiler");
+        $__internal_1fb08f135dfb2234b8853633d1dab4071305411c60bba6ef76aa2fc328fc9a7a->enter($__internal_1fb08f135dfb2234b8853633d1dab4071305411c60bba6ef76aa2fc328fc9a7a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 67
-        echo "      <div>&nbsp;</div>
-      <div class=\"well research_form\" id=\"collapseOne\">
-          <h3>Formulaire de recherche des produits <span id=\"nb_avis\"></span> </h3>
+        // line 93
+        echo "      <div>
+         <div class=\"preladerimg_resultat_recherche\" style=\"display:none\"><img src=\"";
+        // line 94
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("uploads/images/30.GIF"), "html", null, true);
+        echo "\" /></div>
+      </div>
+      <div class=\"well research_form col-md-12\" id=\"collapseOne\">
+          <h3>Formulaire de recherche:</h3>
             ";
-        // line 70
+        // line 98
         echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_start', array("action" => $this->env->getExtension('routing')->getPath("my_app_recherche"), "method" => "GET"));
         echo "
                <div class=\"form-group\">
-                 
                     <div class=\"row\">     
-                    <div class=\"col-md-6\">
+                    <div class=\"col-md-12\">
                 ";
-        // line 76
-        echo "                 ";
+        // line 103
+        echo "                 <div class=\"col-md-4\">
+                 ";
+        // line 104
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "categorie", array()), 'label', array("label_attr" => array("class" => "col-md-6 control-label"), "label" => "categorie"));
         echo "
-
+                 </div>   
                  ";
-        // line 79
+        // line 107
         echo "                 ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "categorie", array()), 'errors');
         echo "
 
                  <div class=\"col-md-6\">
                 ";
-        // line 83
+        // line 111
         echo "                ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "categorie", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                 </div>
                 </div>
-                    <div class=\"col-md-6\">
+                    <div class=\"col-md-12\">
                 ";
-        // line 88
-        echo "                 ";
-        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "sub_categorie", array()), 'label', array("label_attr" => array("class" => "col-md-6 control-label"), "label" => "sous catégorie"));
+        // line 116
+        echo "                <div class=\"col-md-4\"> 
+                ";
+        // line 117
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "sub_categorie", array()), 'label', array("label_attr" => array("class" => "col-md-6 control-label"), "label" => "sous categorie"));
         echo "
-
+                </div>    
                  ";
-        // line 91
+        // line 120
         echo "                 ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "sub_categorie", array()), 'errors');
         echo "
 
                  <div class=\"col-md-6\">
                 ";
-        // line 95
+        // line 124
         echo "                ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "sub_categorie", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
@@ -184,18 +218,42 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
                 </div>
                 </div>
                 <div class=\"row\">
-                        ";
-        // line 100
-        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "product_name", array()), 'errors');
-        echo "
+                        
                         
                         <div class=\"col-md-12\">
+                            ";
+        // line 132
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "marque", array()), 'errors');
+        echo "
                         ";
-        // line 104
-        echo "                        ";
+        // line 134
+        echo "                                <div class=\"col-md-4\">";
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "marque", array()), 'label', array("label_attr" => array("class" => "col-md-6 control-label"), "label" => "Marque"));
+        echo "</div>        
+                        <div class=\"col-md-6\">
+                        ";
+        // line 136
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "marque", array()), 'widget', array("attr" => array("class" => "form-control searchLabelClass ", "placeholder" => "Entrez le nom du produit", "autocomplete" => "off")));
+        echo "
+                        </div>
+                        </div>
+                        <div class=\"col-md-12\">
+                            ";
+        // line 140
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "product_name", array()), 'errors');
+        echo "
+                        ";
+        // line 142
+        echo "                                <div class=\"col-md-4\">";
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "product_name", array()), 'label', array("label_attr" => array("class" => "col-md-6 control-label"), "label" => "Produit"));
+        echo "</div>         
+                        <div class=\"col-md-6\">
+                          ";
+        // line 144
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "product_name", array()), 'widget', array("attr" => array("class" => "form-control searchLabelClass", "placeholder" => "Entrez le nom du produit", "autocomplete" => "off")));
         echo "
                         </div>
+                            </div>
                         <div id=\"suggesstion-box\" class=\"col-md-12\">
                             <div id=\"search-box\"></div>
                         </div>    
@@ -203,22 +261,52 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
                 </div>
                </div>
             ";
-        // line 112
+        // line 153
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'rest');
         echo "
             <input type=\"submit\" class=\"btn btn-primary\" value=\"Recherche\" />
-            <!-- <input type=\"button\" value=\"ajax Recherche\" class=\"ajax_serach_bt btn btn-primary\"> -->
-            </form>
+            <input type=\"button\" value=\"ajax Recherche\" class=\"ajax_serach_bt btn btn-primary\"><span class=\"label label-success\">Onglet recherche: <span id=\"compteur_ajax_recherche\"></span></span>
+            <div class=\"pull-right\"><h4>Résultats attendus: <span id=\"nb_avis\"></span></h4></div> 
+      </form>
         </div>
-      <div id=\"my_results\">
+      <div class=\"col-md-6\">
+          <div id=\"content\">
+    <ul id=\"tabs\" class=\"nav nav-tabs\" data-tabs=\"tabs\">
+        <li class=\"active\"><a href=\"#my_results_1\" data-toggle=\"tab\">Recherche1</a></li>
+        <li><a href=\"#my_results_2\" data-toggle=\"tab\">Recherche2</a></li>
+        <li><a href=\"#my_results_3\" data-toggle=\"tab\">Recherche3</a></li>
+        <li><a href=\"#my_results_4\" data-toggle=\"tab\">Recherche4</a></li>
+    </ul>
+    <div id=\"my-tab-content\" class=\"tab-content\">
+        <div class=\"tab-pane active\" id=\"my_results_1\">
+            <h1>Resultats de recherhe 1</h1>
+        </div>
+        <div class=\"tab-pane\" id=\"my_results_2\">
+            <h1>Resultats de recherhe 2</h1>
+        </div>
+        <div class=\"tab-pane\" id=\"my_results_3\">
+            <h1>Resultats de recherhe 3</h1>
+        </div>    
+        <div class=\"tab-pane\" id=\"my_results_4\">
+            <h1>Resultats de recherhe 4</h1>
+        </div>    
+    </div>
+</div>
+
+
+<script type=\"text/javascript\">
+    jQuery(document).ready(function (\$) {
+        \$('#tabs').tab();
+    });
+</script> 
         <div class=\"preladerimg\" style=\"display:none\"><img src=\"";
-        // line 118
+        // line 189
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("uploads/images/30.GIF"), "html", null, true);
         echo "\" /></div>
       </div>
 ";
         
-        $__internal_7707b90b42d303e3099e14859b96e1a067e9dabd5861a1efc2ee383f6608815c->leave($__internal_7707b90b42d303e3099e14859b96e1a067e9dabd5861a1efc2ee383f6608815c_prof);
+        $__internal_1fb08f135dfb2234b8853633d1dab4071305411c60bba6ef76aa2fc328fc9a7a->leave($__internal_1fb08f135dfb2234b8853633d1dab4071305411c60bba6ef76aa2fc328fc9a7a_prof);
 
     }
 
@@ -234,17 +322,20 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 
     public function getDebugInfo()
     {
-        return array (  216 => 118,  207 => 112,  195 => 104,  189 => 100,  180 => 95,  173 => 91,  167 => 88,  159 => 83,  152 => 79,  146 => 76,  138 => 70,  133 => 67,  127 => 66,  104 => 49,  98 => 46,  87 => 38,  70 => 24,  55 => 12,  50 => 10,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  304 => 189,  265 => 153,  253 => 144,  247 => 142,  243 => 140,  236 => 136,  230 => 134,  226 => 132,  214 => 124,  207 => 120,  202 => 117,  199 => 116,  191 => 111,  184 => 107,  179 => 104,  176 => 103,  169 => 98,  162 => 94,  159 => 93,  153 => 92,  129 => 74,  123 => 71,  106 => 57,  78 => 32,  58 => 15,  53 => 13,  41 => 3,  35 => 2,  11 => 1,);
     }
 }
 /* {% extends "::base.html.twig" %}*/
 /* {% block javascriptheader %}*/
 /* <script type="text/javascript">*/
+/* var compteur_recherche=0;   */
 /*     function selectName(val) {*/
 /*         $("#app_homebundle_beaute_search_product_name").val(val);*/
+/*         getnb_avis_ajax();*/
 /*         $("#suggesstion-box").hide();*/
 /*       }*/
-/*       function getnb_avis_ajax(){*/
+/*       */
+/*     function getnb_avis_ajax(){*/
 /*         //var form = $('form[name="app_homebundle_auto_search"]').serializ() ;*/
 /*         $("#nb_avis").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');*/
 /*         $.ajax({*/
@@ -254,29 +345,51 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 /*           $("#nb_avis").html('( '+result+' avis )');*/
 /*         }});*/
 /*       }*/
-/*       $(document).ready(function() {*/
+/*     */
+/*     $(document).ready(function() {*/
 /*          $.ajaxSetup({cache: false});*/
+/*          $("#compteur_ajax_recherche").html("1");*/
 /*          $("#app_homebundle_beaute_search_categorie").val("");*/
-/*          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous catégorie</option>');*/
+/*          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>');*/
 /*          $('#app_homebundle_beaute_search_categorie').change(function(){*/
-/*           getnb_avis_ajax();    */
+/*          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>');    */
+/*          $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');   */
+/*          $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');   */
+/*           getnb_avis_ajax();*/
 /*          $.post('{{  path('my_app_sous_categ') }}',*/
 /*                     {id:$('#app_homebundle_beaute_search_categorie').val()},*/
 /*                     function(data){*/
-/*                         $('#app_homebundle_beaute_search_sub_categorie').html(data);*/
+/*                         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>'+data);*/
+/*                         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', false);*/
+/*                         $("#app_homebundle_beaute_search_product_name").prop('disabled', false);*/
 /*                     }*/
 /*                 );*/
 /*                     */
 /*         });*/
+/*         */
 /*         $('#app_homebundle_beaute_search_sub_categorie').change(function(){*/
-/*           getnb_avis_ajax();             */
+/*            $("#app_homebundle_beaute_search_categorie").prop('disabled', 'disabled');*/
+/*            $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');  */
+/*            getnb_avis_ajax();*/
+/*            $("#app_homebundle_beaute_search_categorie").prop('disabled', false);*/
+/*            $("#app_homebundle_beaute_search_product_name").prop('disabled', false);*/
 /*         });*/
+/*         */
 /*          $(".ajax_serach_bt").click(function(){*/
-/*            $(".preladerimg").show();*/
+/*            if(compteur_recherche<5)compteur_recherche++;*/
+/*            else compteur_recherche=1;*/
+/*            //$( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  */
+/*            $(".preladerimg_resultat_recherche").show();*/
 /*            var form = $('form[name="app_homebundle_auto_search"]') ;*/
-/*            $.ajax({url: "{{  path('my_app_recherche') }}?"+form.serialize(), success: function(result){*/
-/*              $("#my_results").html(result);*/
-/*              $(".preladerimg").hide();*/
+/*            $.ajax({url: "{{  path('my_app_recherche') }}?"+$('form[name="app_homebundle_beaute_search"]').serialize(), success: function(result){*/
+/*              $("#my_results_"+compteur_recherche).html(result);*/
+/*              $('#tabs a[href="#my_results_'+compteur_recherche+'"]').tab('show');*/
+/*             compteur_rechercheaffiche=compteur_recherche+1; */
+/*             $("#compteur_ajax_recherche").html(""+compteur_rechercheaffiche);*/
+/*              /*$('html,body').animate({*/
+/*              scrollTop: $("#content").offset().top},*/
+/*              '5000');*//* */
+/*              $(".preladerimg_resultat_recherche").hide();*/
 /*              }});*/
 /*            });*/
 /*          $("#app_homebundle_beaute_search_product_name").keyup(function(){*/
@@ -299,49 +412,65 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 /* </script>  */
 /* <style>*/
 /* #search-box{padding: 10px;border: #F0F0F0 1px solid;height: 100px}*/
+/* .content_result{overflow: auto; height: 400px}*/
 /* </style>*/
 /* {% endblock %}*/
 /* */
 /* {% block body %}*/
-/*       <div>&nbsp;</div>*/
-/*       <div class="well research_form" id="collapseOne">*/
-/*           <h3>Formulaire de recherche des produits <span id="nb_avis"></span> </h3>*/
+/*       <div>*/
+/*          <div class="preladerimg_resultat_recherche" style="display:none"><img src="{{ asset('uploads/images/30.GIF') }}" /></div>*/
+/*       </div>*/
+/*       <div class="well research_form col-md-12" id="collapseOne">*/
+/*           <h3>Formulaire de recherche:</h3>*/
 /*             {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}*/
 /*                <div class="form-group">*/
-/*                  */
 /*                     <div class="row">     */
-/*                     <div class="col-md-6">*/
-/*                 {# Génération du label. #}*/
+/*                     <div class="col-md-12">*/
+/*                 {# GÃ©nÃ©ration du label. #}*/
+/*                  <div class="col-md-4">*/
 /*                  {{ form_label(form.categorie, "categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}*/
-/* */
-/*                  {# Affichage des erreurs pour ce champ précis. #}*/
+/*                  </div>   */
+/*                  {# Affichage des erreurs pour ce champ prÃ©cis. #}*/
 /*                  {{ form_errors(form.categorie) }}*/
 /* */
 /*                  <div class="col-md-6">*/
-/*                 {# Génération de l'input. #}*/
+/*                 {# GÃ©nÃ©ration de l'input. #}*/
 /*                 {{ form_widget(form.categorie, {'attr': {'class': 'form-control'}}) }}*/
 /*                 </div>*/
 /*                 </div>*/
-/*                     <div class="col-md-6">*/
-/*                 {# Génération du label. #}*/
-/*                  {{ form_label(form.sub_categorie, "sous catégorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}*/
-/* */
-/*                  {# Affichage des erreurs pour ce champ précis. #}*/
+/*                     <div class="col-md-12">*/
+/*                 {# GÃ©nÃ©ration du label. #}*/
+/*                 <div class="col-md-4"> */
+/*                 {{ form_label(form.sub_categorie, "sous categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}*/
+/*                 </div>    */
+/*                  {# Affichage des erreurs pour ce champ prÃ©cis. #}*/
 /*                  {{ form_errors(form.sub_categorie) }}*/
 /* */
 /*                  <div class="col-md-6">*/
-/*                 {# Génération de l'input. #}*/
+/*                 {# GÃ©nÃ©ration de l'input. #}*/
 /*                 {{ form_widget(form.sub_categorie, {'attr': {'class': 'form-control'}}) }}*/
 /*                 </div>*/
 /*                 </div>*/
 /*                 </div>*/
 /*                 <div class="row">*/
-/*                         {{ form_errors(form.product_name) }}*/
+/*                         */
 /*                         */
 /*                         <div class="col-md-12">*/
-/*                         {# Génération de l'input. #}*/
-/*                         {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}*/
+/*                             {{ form_errors(form.marque) }}*/
+/*                         {# GÃ©nÃ©ration de l'input. #}*/
+/*                                 <div class="col-md-4">{{ form_label(form.marque, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>        */
+/*                         <div class="col-md-6">*/
+/*                         {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}*/
 /*                         </div>*/
+/*                         </div>*/
+/*                         <div class="col-md-12">*/
+/*                             {{ form_errors(form.product_name) }}*/
+/*                         {# GÃ©nÃ©ration de l'input. #}*/
+/*                                 <div class="col-md-4">{{ form_label(form.product_name, "Produit", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>         */
+/*                         <div class="col-md-6">*/
+/*                           {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}*/
+/*                         </div>*/
+/*                             </div>*/
 /*                         <div id="suggesstion-box" class="col-md-12">*/
 /*                             <div id="search-box"></div>*/
 /*                         </div>    */
@@ -350,10 +479,40 @@ class __TwigTemplate_ec05bc8106fd27d2ea2d61de3608756ee073f5ae6660b67c74b6096110b
 /*                </div>*/
 /*             {{ form_rest(form) }}*/
 /*             <input type="submit" class="btn btn-primary" value="Recherche" />*/
-/*             <!-- <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"> -->*/
-/*             </form>*/
+/*             <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"><span class="label label-success">Onglet recherche: <span id="compteur_ajax_recherche"></span></span>*/
+/*             <div class="pull-right"><h4>Résultats attendus: <span id="nb_avis"></span></h4></div> */
+/*       </form>*/
 /*         </div>*/
-/*       <div id="my_results">*/
+/*       <div class="col-md-6">*/
+/*           <div id="content">*/
+/*     <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">*/
+/*         <li class="active"><a href="#my_results_1" data-toggle="tab">Recherche1</a></li>*/
+/*         <li><a href="#my_results_2" data-toggle="tab">Recherche2</a></li>*/
+/*         <li><a href="#my_results_3" data-toggle="tab">Recherche3</a></li>*/
+/*         <li><a href="#my_results_4" data-toggle="tab">Recherche4</a></li>*/
+/*     </ul>*/
+/*     <div id="my-tab-content" class="tab-content">*/
+/*         <div class="tab-pane active" id="my_results_1">*/
+/*             <h1>Resultats de recherhe 1</h1>*/
+/*         </div>*/
+/*         <div class="tab-pane" id="my_results_2">*/
+/*             <h1>Resultats de recherhe 2</h1>*/
+/*         </div>*/
+/*         <div class="tab-pane" id="my_results_3">*/
+/*             <h1>Resultats de recherhe 3</h1>*/
+/*         </div>    */
+/*         <div class="tab-pane" id="my_results_4">*/
+/*             <h1>Resultats de recherhe 4</h1>*/
+/*         </div>    */
+/*     </div>*/
+/* </div>*/
+/* */
+/* */
+/* <script type="text/javascript">*/
+/*     jQuery(document).ready(function ($) {*/
+/*         $('#tabs').tab();*/
+/*     });*/
+/* </script> */
 /*         <div class="preladerimg" style="display:none"><img src="{{ asset('uploads/images/30.GIF') }}" /></div>*/
 /*       </div>*/
 /* {% endblock %}*/
