@@ -1,8 +1,6 @@
 ./app/bootstrap.php.cache
-./app/cache/*
 !app/cache/.gitkeep
 ./app/config/parameters.yml
-./app/logs/*
 !app/logs/.gitkeep
 ./app/phpunit.xml
 ./bin/
@@ -10,7 +8,8 @@
 ./vendor/
 ./web/bundles/
 ./web/uploads/img/
-./web/cache/*
+./app/logs/*
+./app/cache/*
 ./web/uploads/csv_critere.csv
 ./web/uploads/csv_points_faibles.csv
 ./web/uploads/csv_points_forts.csv
