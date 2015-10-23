@@ -22,7 +22,7 @@
      {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
      {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
    </div>
-   <div>
+   <div class="row">
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
          <div class="col-md-4">
              <div class="row">

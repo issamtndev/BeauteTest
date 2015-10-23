@@ -43,7 +43,14 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
 
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
-        }  
+        }
+           if($data['marque'] != '')
+        {
+                    $query->andWhere('p.marque Like :marque')
+
+                ->setParameter('marque', "%".$data['marque']."%");
+
+        }
 
         return $query->select('COUNT(a)')->getQuery()->getResult();
 

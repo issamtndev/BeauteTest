@@ -51,6 +51,7 @@ class DefaultController extends Controller
             LEFT JOIN categories c ON c.id=p.category_id    
             where p.name like '%".$request->request->get('name')."%'";
         if($id_category!=0) $sql.=" AND c.id='".$id_category."'";
+        if($request->request->get('marque')!='') $sql.=" AND p.marque like'%".$request->request->get('marque')."%'";
         $produits = $em->getConnection()
 
             ->prepare($sql);
@@ -60,6 +61,31 @@ class DefaultController extends Controller
             $produits = $produits->fetchAll();
 
         return $this->render('MyAppBundle:Default:liste_produits.html.twig', array('produits' => $produits));
+
+    }
+    
+     public function recherche_marqueAction(){
+           
+        $em =  $this->get('doctrine.orm.entity_manager');
+
+        $request = $this->container->get('request');
+        $id_category=0;
+        if($request->request->get('subcategorie')!='')$id_category=$request->request->get('subcategorie');
+        else $id_category=$request->request->get('categorie');
+        $sql="select p.* from products p 
+            LEFT JOIN categories c ON c.id=p.category_id    
+            where p.marque like '%".$request->request->get('marque')."%'";
+        if($id_category!=0) $sql.=" AND c.id='".$id_category."'";
+        if($request->request->get('name')!='') $sql.=" AND p.name like'%".$request->request->get('name')."%'";
+        $produits = $em->getConnection()
+
+            ->prepare($sql);
+
+            $produits->execute();
+
+            $produits = $produits->fetchAll();
+
+        return $this->render('MyAppBundle:Default:liste_marques.html.twig', array('produits' => $produits));
 
     }
     

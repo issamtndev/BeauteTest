@@ -16,7 +16,11 @@ my_app_recherche_filtre:
     
 my_app_recherche_nom:
     path:     /recherchenom
-    defaults: { _controller: MyAppBundle:Default:recherche_produit_par_nom }  
+    defaults: { _controller: MyAppBundle:Default:recherche_produit_par_nom }
+    
+my_app_recherche_marque:
+    path:     /recherchemarque
+    defaults: { _controller: MyAppBundle:Default:recherche_marque }    
     
 my_app_recherche_avis:
     path:     /rechercheavis

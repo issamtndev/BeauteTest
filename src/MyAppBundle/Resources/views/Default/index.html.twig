@@ -8,11 +8,17 @@ var compteur_recherche=0;
         $("#suggesstion-box").hide();
       }
       
+     function selectMarque(val) {
+        $("#app_homebundle_beaute_search_marque").val(val);
+        getnb_avis_ajax();
+        $("#suggesstion-box_marques").hide();
+      } 
+      
     function getnb_avis_ajax(){
         //var form = $('form[name="app_homebundle_auto_search"]').serializ() ;
-        $("#nb_avis").html('<img height="15" src="{{ asset('uploads/images/275.GIF') }}">');
+        $("#nb_avis").html('<img height="15" src="{{ asset('uploads/images/30.GIF') }}">');
         $.ajax({
-          url: "{{  path('my_app_recherche_avis') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+"",
+          url: "{{  path('my_app_recherche_avis') }}?app_homebundle_beaute_search[categorie])="+$("#app_homebundle_beaute_search_categorie").val()+"&app_homebundle_beaute_search[sub_categorie]="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&app_homebundle_beaute_search[product_name]="+$("#app_homebundle_beaute_search_product_name").val()+""+"&app_homebundle_beaute_search[marque]="+$("#app_homebundle_beaute_search_marque").val()+"",
           cache: false,
           success: function(result){
           $("#nb_avis").html('( '+result+' avis )');
@@ -23,11 +29,13 @@ var compteur_recherche=0;
          $.ajaxSetup({cache: false});
          $("#compteur_ajax_recherche").html("1");
          $("#app_homebundle_beaute_search_categorie").val("");
+         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');  
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>');
          $('#app_homebundle_beaute_search_categorie').change(function(){
          $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>');    
          $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', 'disabled');   
-         $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');   
+         $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');
+         
           getnb_avis_ajax();
          $.post('{{  path('my_app_sous_categ') }}',
                     {id:$('#app_homebundle_beaute_search_categorie').val()},
@@ -35,6 +43,7 @@ var compteur_recherche=0;
                         $('#app_homebundle_beaute_search_sub_categorie').html('<option value="">Choisir une sous categorie</option>'+data);
                         $("#app_homebundle_beaute_search_sub_categorie").prop('disabled', false);
                         $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
+                        $("#app_homebundle_beaute_search_marque").prop('disabled', false);
                     }
                 );
                     
@@ -69,9 +78,9 @@ var compteur_recherche=0;
                 $.ajax({
 		type: "POST",
 		url: "{{  path('my_app_recherche_nom') }}",
-		data:'name='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val(),
+		data:'name='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&marque="+$("#app_homebundle_beaute_search_marque").val(),
 		beforeSend: function(){
-			$("#search-box").css("background","#FFF url({{ asset('uploads/images/365.GIF') }}) no-repeat 165px");
+			$("#search-box").css("background","#FFF url({{ asset('uploads/images/30.GIF') }}) no-repeat 165px");
                 },
 		success: function(data){
 			$("#suggesstion-box").show();
@@ -81,10 +90,28 @@ var compteur_recherche=0;
 		});
             getnb_avis_ajax();    
 	 });
+         
+         $("#app_homebundle_beaute_search_marque").keyup(function(){
+                $.ajax({
+		type: "POST",
+		url: "{{  path('my_app_recherche_marque') }}",
+		data:'marque='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&name="+$("#app_homebundle_beaute_search_product_name").val(),
+		beforeSend: function(){
+			$("#search-box_marques").css("background","#FFF url({{ asset('uploads/images/30.GIF') }}) no-repeat 165px");
+                },
+		success: function(data){
+			$("#suggesstion-box_marques").show();
+			$("#suggesstion-box_marques").html(data);
+			$("#search-box_marques").css("background","#FFF");
+		}
+		});
+            getnb_avis_ajax();    
+	 });
        });
 </script>  
 <style>
-#search-box{padding: 10px;border: #F0F0F0 1px solid;height: 100px}
+#search-box{padding: 10px;border: #F0F0F0 1px solid;}
+#search-box_marques{padding: 10px;border: #F0F0F0 1px solid}
 .content_result{overflow: auto; height: 400px}
 .row{margin-top: 5px}
 </style>
@@ -122,7 +149,7 @@ var compteur_recherche=0;
 
                  <div class="col-md-6">
                 {# GÃ©nÃ©ration de l'input. #}
-                {{ form_widget(form.sub_categorie, {'attr': {'class': 'form-control'}}) }}
+                {{ form_widget(form.sub_categorie, {'attr': {'class': 'form-control','disabled':'disabled'}}) }}
                 </div>
                 </div>
                 </div>
@@ -134,18 +161,21 @@ var compteur_recherche=0;
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.marque, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>        
                         <div class="col-md-6">
-                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez marque','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                                 <div class="col-md-2">
                            <a href="#">voir toutes les marques</a>
                         </div>
                         </div>
+                        <div id="suggesstion-box_marques" class="col-md-12">
+                            <div id="search-box_marques"></div>
+                        </div> 
                         <div class="col-md-12 row">
                             {{ form_errors(form.product_name) }}
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.product_name, "Produit", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>         
                         <div class="col-md-6">
-                          {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                          {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                         <div class="col-md-2">
                            <a href="#">voir tous les produits</a>
