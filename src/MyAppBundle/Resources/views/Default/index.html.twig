@@ -99,7 +99,7 @@ var compteur_recherche=0;
             {{ form_start(form, {'action': path('my_app_recherche'), 'method': 'GET'}) }}
                <div class="form-group">
                     <div class="row">     
-                    <div class="col-md-12">
+                    <div class="col-md-12 row">
                 {# GÃ©nÃ©ration du label. #}
                  <div class="col-md-4">
                  {{ form_label(form.categorie, "categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
@@ -112,7 +112,7 @@ var compteur_recherche=0;
                 {{ form_widget(form.categorie, {'attr': {'class': 'form-control'}}) }}
                 </div>
                 </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 row">
                 {# GÃ©nÃ©ration du label. #}
                 <div class="col-md-4"> 
                 {{ form_label(form.sub_categorie, "sous categorie", {'label_attr': {'class': 'col-md-6 control-label'}}) }}
@@ -129,20 +129,26 @@ var compteur_recherche=0;
                 <div class="row">
                         
                         
-                        <div class="col-md-12">
+                        <div class="col-md-12 row ">
                             {{ form_errors(form.marque) }}
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.marque, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>        
                         <div class="col-md-6">
                         {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
                         </div>
+                                <div class="col-md-2">
+                           <a href="#">voir toutes les marques</a>
                         </div>
-                        <div class="col-md-12">
+                        </div>
+                        <div class="col-md-12 row">
                             {{ form_errors(form.product_name) }}
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.product_name, "Produit", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>         
                         <div class="col-md-6">
                           {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off'}}) }}
+                        </div>
+                        <div class="col-md-2">
+                           <a href="#">voir tous les produits</a>
                         </div>
                             </div>
                         <div id="suggesstion-box" class="col-md-12">
@@ -153,7 +159,7 @@ var compteur_recherche=0;
                </div>
             {{ form_rest(form) }}
             <input type="submit" class="btn btn-primary" value="Recherche" />
-            <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"><span class="label label-success">Onglet recherche: <span id="compteur_ajax_recherche"></span></span>
+            <input type="button" value="ajax Recherche" class="ajax_serach_bt btn btn-primary"> <span class="label label-success">Onglet recherche: <span id="compteur_ajax_recherche"></span></span>
             <div class="pull-right"><h4>Résultats attendus: <span id="nb_avis"></span></h4></div> 
       </form>
         </div>
