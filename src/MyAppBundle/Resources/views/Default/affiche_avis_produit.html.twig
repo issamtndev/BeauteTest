@@ -7,6 +7,7 @@
             <thead>
               <tr>
                 <th>Gender</th>
+                <th>Présentation</th>
                 <th>Critere</th>
                 <th>points forts</th>
                 <th>points faibles</th>
@@ -16,6 +17,7 @@
              {% for avis in monproduit.getAvis() %}
                <tr>
                    <td>{{ avis.getGender() }}</td>
+                   <td>{{ avis.getPresentation() }}</td>
                    <td>{{ avis.getCritere() }} </td>
                    <td>{{ avis.getPointsForts() }}</td>
                    <td>{{ avis.getPointsFaibles() }} avis</td>

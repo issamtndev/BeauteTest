@@ -55,4 +55,94 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         return $query->select('COUNT(a)')->getQuery()->getResult();
 
     }
+    public function findavisByParametresfull($data)
+
+    {
+
+        $query = $this->createQueryBuilder('a');
+        
+        $query ->leftJoin('a.product','p');
+        $query ->leftJoin('p.category','c');
+                
+        if($data['sub_categorie'] != '')
+        {
+            $query->andWhere('p.category = :categorie')
+
+                   ->setParameter('categorie', $data['sub_categorie']);
+
+        }
+        elseif($data['categorie'] != '')
+
+        {
+            $query->andWhere('c.parentId = :categorie')
+
+                ->setParameter('categorie', $data['categorie']);
+             
+            $query->orWhere('p.category = :categorie')
+
+                ->setParameter('categorie', $data['categorie']);
+        }
+         if($data['product_name'] != '')
+        {
+                    $query->andWhere('p.name Like :name_search')
+
+                ->setParameter('name_search', "%".$data['product_name']."%");
+
+        }
+           if($data['marque'] != '')
+        {
+                    $query->andWhere('p.marque Like :marque')
+
+                ->setParameter('marque', "%".$data['marque']."%");
+
+        }
+        if(isset($data['efficacite_court_terme']))if($data['efficacite_court_terme'] != '')
+        {
+                    $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')
+                          ->setParameter('eff_c_t', $data['efficacite_court_terme']);
+        }
+        if(isset($data['efficacite_long_terme']))if($data['efficacite_long_terme'] != '')
+        {
+                    $query->andWhere('a.efficaciteLongTerme = :eff_l_t')
+                          ->setParameter('eff_l_t', $data['efficacite_long_terme']);
+        }
+        if(isset($data['odeur']))if($data['odeur'] != '')
+        {
+                    $query->andWhere('a.odeur = :odeur')
+                          ->setParameter('odeur', $data['odeur']);
+        }
+        if(isset($data['penetration']))if($data['penetration'] != '')
+        {
+                    $query->andWhere('a.penetration = :penetration')
+                          ->setParameter('penetration', $data['penetration']);
+        }
+        
+        if(isset($data['points_faibles']))if($data['points_faibles'] != '')
+        {
+                    $query->andWhere('a.pointsFaibles = :points_faibles')
+                          ->setParameter('points_faibles', $data['points_faibles']);
+        }
+        if(isset($data['points_forts']))if($data['points_forts'] != '')
+        {
+                    $query->andWhere('a.pointsForts = :points_forts')
+                          ->setParameter('points_forts', $data['points_forts']);
+        }
+        if(isset($data['presentation']))if($data['presentation'] != '')
+        {
+                    $query->andWhere('a.presentation = :presentation')
+                          ->setParameter('presentation', $data['presentation']);
+        }
+        if(isset($data['qualite_prix']))if($data['qualite_prix'] != '')
+        {
+                    $query->andWhere('a.qualitePrix = :qualite_prix')
+                          ->setParameter('qualite_prix', $data['qualite_prix']);
+        }
+        if(isset($data['texture']))if($data['texture'] != '')
+        {
+                    $query->andWhere('a.texture = :texture')
+                          ->setParameter('texture', $data['texture']);
+        }
+        return $query->getQuery()->getResult();
+
+    }
 }

@@ -72,7 +72,7 @@ class DefaultController extends Controller
         $id_category=0;
         if($request->request->get('subcategorie')!='')$id_category=$request->request->get('subcategorie');
         else $id_category=$request->request->get('categorie');
-        $sql="select p.* from products p 
+        $sql="select DISTINCT(p.marque) from products p 
             LEFT JOIN categories c ON c.id=p.category_id    
             where p.marque like '%".$request->request->get('marque')."%'";
         if($id_category!=0) $sql.=" AND c.id='".$id_category."'";
@@ -116,13 +116,14 @@ class DefaultController extends Controller
           $sub_category_name=$sub_category_name[0];
           }
         $texte_nom_produit=$data['product_name'];
+        $texte_marque_produit=$data['marque'];
         
         $listproducts=array();
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
         /*echo '<pre>';
-        \Doctrine\Common\Util\Debug::dump($listproducts);
+        \Doctrine\Common\Util\Debug::dump($listproducts0);
         echo '</pre>';*/
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($listproducts){
@@ -198,8 +199,8 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView() ));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView() ));
+          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit ));
+          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit ));
     }
     public function recherche_nb_avisAction()
     {
@@ -232,6 +233,7 @@ class DefaultController extends Controller
         if($request->getMethod() == 'GET')
         {
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+            $avis = $em->getRepository('MyAppBundle:Avis')->findavisByParametresfull($data);
         }
          $listproducts=array();
         /* echo '<pre>';
@@ -242,6 +244,6 @@ class DefaultController extends Controller
         }
         //echo '['.count($listproducts).']';
         //return new Response('filtre');
-        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts));
+        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis));
    }
 }

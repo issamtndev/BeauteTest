@@ -21,8 +21,9 @@
     <div>
        <h2>Critères de recherche</h2>
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
-     {% if sub_category_name!='' %}Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
-     {% if texte_nom_produit!='' %}<br/>Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
+     {% if sub_category_name!='' %}<br /><br />Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
+     {% if texte_nom_produit!='' %}<br /><br />Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
+     {% if texte_marque_produit!='' %}<br /><br />Texte marque produit :<span class="label label-success">{{ texte_marque_produit }}</span>{% endif %}<br /><br />
    </div>
    <div class="row">
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
