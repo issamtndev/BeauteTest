@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /var/www/vhosts/de1466.ispfr.net/httpdocs/BeauteTest/app/config/routing_dev.yml
+    resource: 'C:\xampp\htdocs\beautegit\BeauteTest\app/config/routing_dev.yml'

@@ -156,7 +156,42 @@
 </div></h1>
         </div>
         <div class="tab-pane" id="my_results_avis">
-            <h1>my_results_avis</h1>
+            <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Produit</th>
+                <th>Marque</th>
+                <th>Catégorie</th>
+                <th>Sous catégorie</th>
+                <th>Prix</th>
+                <th>Contenance</th>
+                <th>Genre</th>
+                <th>Age</th>
+                <th>Points forts</th>
+                <th>points faibles</th>
+                <th>Commentaire</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entity in listproducts %}
+               {% for avis in entity.getAvis() %}     
+                <tr>
+                   <td>{{ entity.name }}</td>
+                   <td>{{ entity.marque }}</td>
+                   <td>{{ entity.getCategory().name }}</td>
+                   <td>Sous catégorie</td>
+                   <td>{{ entity.prix }}</td>
+                   <td>{{ entity.getCont() }}</td>
+                   <td>{{ avis.getGender() }}</td>
+                   <td>{{ avis.getCritere() }}</td>
+                   <td>{{ avis.getPointsForts() }}</td>
+                   <td>{{ avis.getPointsFaibles() }}</td>
+                   <td>{{ avis.comments }}</td>
+                </tr>
+               {% endfor %}  
+              {% endfor %}     
+            </tbody>
+</table> 
         </div>
    </div>  
 {% endblock %}
