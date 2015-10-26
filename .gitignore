@@ -9,7 +9,8 @@
 ./web/bundles/
 ./web/uploads/img/
 ./app/logs/*
-./app/cache/*
+/app/cache/*
+/app/logs/*
 ./app/cache/prod/*
 ./app/cache/dev/*
 ./app/logs/.gitkeep/*
