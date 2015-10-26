@@ -24,7 +24,11 @@ my_app_recherche_marque:
     
 my_app_recherche_all_marque:
     path:     /allmarque
-    defaults: { _controller: MyAppBundle:Default:all_marque }     
+    defaults: { _controller: MyAppBundle:Default:all_marque } 
+    
+my_app_recherche_all_produits:
+    path:     /allproduits
+    defaults: { _controller: MyAppBundle:Default:listProduits }     
     
 my_app_recherche_avis:
     path:     /rechercheavis

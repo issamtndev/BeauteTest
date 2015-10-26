@@ -7,6 +7,7 @@ use MyAppBundle\Form\BeauteSearchType;
 use MyAppBundle\Form\FiltreProduitType;
 use Symfony\Component\HttpFoundation\Response;
 use MyAppBundle\Entity\Products;
+use Symfony\Component\HttpFoundation\Request;
 ini_set('memory_limit', '1024M');
 
 class DefaultController extends Controller
@@ -344,9 +345,37 @@ class DefaultController extends Controller
             $produits->execute();
 
             $produits = $produits->fetchAll();
-
+        /*
+          $em    = $this->get('doctrine.orm.entity_manager');
+         $dql   = "SELECT DISTINCT(p.marque) as marque FROM MyAppBundle:Products p WHERE 1=1 GROUP BY p.marque ORDER BY p.marque ASC";
+         $query = $em->createQuery($dql);
+          $request = $this->container->get('request');
+         $paginator  = $this->get('knp_paginator');
+         $pagination = $paginator->paginate(
+         $query,
+         $request->query->getInt('page', 1),
+         1000/
+         );   
+         */    
         return $this->render('MyAppBundle:Default:liste_marques_full.html.twig', array('produits' => $produits));
 
     }
+    
+    public function listProduitsAction(Request $request)
+{
+    $em    = $this->get('doctrine.orm.entity_manager');
+    $dql   = "SELECT p FROM MyAppBundle:Products p";
+    $query = $em->createQuery($dql);
+
+    $paginator  = $this->get('knp_paginator');
+    $pagination = $paginator->paginate(
+        $query,
+        $request->query->getInt('page', 1)/*page number*/,
+        10/*limit per page*/
+    );
+
+    // parameters to template
+    return $this->render('MyAppBundle:Default:list.html.twig', array('pagination' => $pagination));
+}
    
 }
