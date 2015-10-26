@@ -178,7 +178,7 @@ var compteur_recherche=0;
                           {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                         <div class="col-md-2">
-                           <a href="#">voir tous les produits</a>
+                            <a target="_blanc" href="{{ path('my_app_recherche_all_produits') }}">voir tous les produits</a>
                         </div>
                             </div>
                         <div id="suggesstion-box" class="col-md-12">

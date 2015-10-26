@@ -78,6 +78,10 @@ class FiltreProduitType extends AbstractType
         'label'     => 'points faibles',
         'required'  => false,
         ));
+        
+        $builder->add('prix_min', 'text',array('required'  => false));
+        $builder->add('prix_max', 'text',array('required'  => false));
+        
     } 
 
     /**

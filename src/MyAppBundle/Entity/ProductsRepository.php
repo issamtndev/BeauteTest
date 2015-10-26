@@ -92,6 +92,11 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                     $query->andWhere('a.comments != :commentaires')
                           ->setParameter('commentaires', '-');
         }
+        if(isset($data['prix_min'])&&isset($data['prix_max'])&&(($data['prix_min']!="")&&($data['prix_max']))){
+             $query->andWhere('p.prix BETWEEN :prixMin AND :prixMax')
+                 ->setParameter('prixMin',$data['prix_min'])
+                ->setParameter('prixMax',$data['prix_max']);
+        }
         return $query->getQuery()->getResult();
 
     }

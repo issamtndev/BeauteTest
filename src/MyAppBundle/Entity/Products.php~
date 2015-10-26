@@ -38,7 +38,7 @@ class Products
     /**
      * @var string
      *
-     * @ORM\Column(name="prix", type="string", length=50)
+     * @ORM\Column(name="prix", type="float")
      */
     private $prix;
 
@@ -355,5 +355,13 @@ class Products
     public function getCategory()
     {
         return $this->category;
+    }
+    
+    public function get_Nb_Avis_Sans_Commentaires(){
+      $nb=0;
+      foreach($this->avis as $avis){
+          if($avis->getComments()=='-')$nb++;
+      }
+      return $nb;
     }
 }

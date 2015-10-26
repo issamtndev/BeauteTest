@@ -38,7 +38,7 @@ class Products
     /**
      * @var string
      *
-     * @ORM\Column(name="prix", type="string", length=50)
+     * @ORM\Column(name="prix", type="float")
      */
     private $prix;
 
