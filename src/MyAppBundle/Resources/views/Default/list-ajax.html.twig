@@ -1,0 +1,26 @@
+<div>
+    <h1>Liste des produits</h1>
+</div>
+<div id="my_pagination_ajax">
+<table class="table table-bordered table-striped table-condensed">
+<tr>
+{# sorting of properties based on query components #}
+    <th>{{ knp_pagination_sortable(pagination, 'Id', 'p.id') }}</th>
+    <th{% if pagination.isSorted('a.name') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'name', 'p.name') }}</th>
+</tr>
+
+{# table body #}
+{% for produit in pagination %}
+<tr {% if loop.index is odd %}class="color"{% endif %}>
+    <td>{{ produit.id }}</td>
+    <td>{{ produit.name }}</td>
+</tr>
+{% endfor %}
+</table>
+{# display navigation #}
+<div class="navigation">
+    {{ knp_pagination_render(pagination) }}
+</div>
+</div>
+
+
