@@ -15,6 +15,7 @@ class FiltreProduitType extends AbstractType
     {
         $array_choice=array(
         "1" => "1",
+        "1" => "1",
         "2" => "2",
         "3" => "3",
         "4" => "4",
@@ -27,38 +28,37 @@ class FiltreProduitType extends AbstractType
         'empty_value' => '--',
         'multiple' => false,
         ));
-         $array_choice_texture=array_merge ($array_choice,array("0" => "0"));
-         $builder->add('texture' ,'choice' ,array('choices' =>$array_choice_texture ,
+         $builder->add('texture' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
          
-       $builder->add('penetration' ,'choice' ,array('choices' =>$array_choice_texture ,
+       $builder->add('penetration' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
         
-       $builder->add('efficacite_long_terme' ,'choice' ,array('choices' =>$array_choice_texture ,
+       $builder->add('efficacite_long_terme' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
        
-       $builder->add('efficacite_court_terme' ,'choice' ,array('choices' =>$array_choice_texture ,
+       $builder->add('efficacite_court_terme' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
        
-       $builder->add('odeur' ,'choice' ,array('choices' =>$array_choice_texture ,
+       $builder->add('odeur' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,
         ));
        
-        $builder->add('qualite_prix' ,'choice' ,array('choices' =>$array_choice_texture ,
+        $builder->add('qualite_prix' ,'choice' ,array('choices' =>$array_choice ,
         'required'  => false,
         'empty_value' => '--',
         'multiple' => false,

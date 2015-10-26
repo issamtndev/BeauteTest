@@ -11,6 +11,7 @@
                 <th>Critere</th>
                 <th>points forts</th>
                 <th>points faibles</th>
+                <th>Commentaires</th>
               </tr>
             </thead>
             <tbody>   
@@ -20,7 +21,8 @@
                    <td>{{ avis.getPresentation() }}</td>
                    <td>{{ avis.getCritere() }} </td>
                    <td>{{ avis.getPointsForts() }}</td>
-                   <td>{{ avis.getPointsFaibles() }} avis</td>
+                   <td>{{ avis.getPointsFaibles() }}</td>
+                   <td>{{ avis.getComments() }}</td>
                </tr>
               {% endfor %}     
             </tbody>

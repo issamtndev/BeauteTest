@@ -356,4 +356,12 @@ class Products
     {
         return $this->category;
     }
+    
+    public function get_Nb_Avis_Sans_Commentaires(){
+      $nb=0;
+      foreach($this->avis as $avis){
+          if($avis->getComments()=='-')$nb++;
+      }
+      return $nb;
+    }
 }

@@ -100,6 +100,7 @@ class DefaultController extends Controller
             $form->handleRequest($request);
             $data = $request->get('app_homebundle_beaute_search');
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
+            $avis = $em->getRepository('MyAppBundle:Avis')->findavisByParametresfull($data);
         }
         $category_name='';
         if($data['categorie'] != '')
@@ -199,8 +200,8 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit ));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit ));
+          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
+          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
     }
     public function recherche_nb_avisAction()
     {
@@ -226,6 +227,12 @@ class DefaultController extends Controller
         $data['sub_categorie']=$request->query->get('sub_categorie');
         $data['product_name']=$request->query->get('product_name');
         $data['marque']=$request->query->get('marque');
+         $category_name='';
+        if($data['categorie'] != '')
+          {
+            $category=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
+            $category_name=$category->getName();
+          }
         /*echo "<pre>";
         print_r($data);
         echo "</pre>";*/
@@ -242,8 +249,77 @@ class DefaultController extends Controller
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
-        //echo '['.count($listproducts).']';
-        //return new Response('filtre');
-        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis));
+        
+        //BEGIN EXPORT CSV PPRUITS+CRITERES
+        if($avis){
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
+          $fp = fopen($fichier, 'w');
+          $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;gender;critere;comments";
+          $csv_output .= "\r\n";
+                foreach ($avis as $critere){
+                  $csv_output .= $critere->getProduct()->getId().";";
+                  $csv_output .= $critere->getProduct()->getName().";";
+                  $csv_output .= $critere->getProduct()->getMarque().";";
+                  $csv_output .= $critere->getProduct()->getPrix().";";
+                  $csv_output .= $critere->getProduct()->getCont().";";
+                  $csv_output .= $critere->getProduct()->getPrixAuL().";";
+                  $csv_output .= $critere->getProduct()->getNotation().";";
+                  $csv_output .= $critere->getProduct()->getUrl().";";
+                  $csv_output .= $critere->getProduct()->getMiniature().";";
+                  $csv_output .= $critere->getGender().";";
+                  $csv_output .= $critere->getCritere().";"; 
+                  $csv_output .= $critere->getComments().";"; 
+                  $csv_output .= "\r\n";
+                }        
+         fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
+         fclose($fp);       
+        }
+        
+        //BEGIN EXPORT CSV PPRUITS+POINT FORTS
+        if($avis){
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts.csv';
+          $fp = fopen($fichier, 'w');
+          $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_forts";
+          $csv_output .= "\r\n";
+                foreach ($avis as $critere){
+                  $csv_output .= $critere->getProduct()->getId().";";
+                  $csv_output .= $critere->getProduct()->getName().";";
+                  $csv_output .= $critere->getProduct()->getMarque().";";
+                  $csv_output .= $critere->getProduct()->getPrix().";";
+                  $csv_output .= $critere->getProduct()->getCont().";";
+                  $csv_output .= $critere->getProduct()->getPrixAuL().";";
+                  $csv_output .= $critere->getProduct()->getNotation().";";
+                  $csv_output .= $critere->getProduct()->getUrl().";";
+                  $csv_output .= $critere->getProduct()->getMiniature().";";
+                  $csv_output .= $critere->getPointsForts().";";
+                  $csv_output .= "\r\n";
+                }  
+         fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
+         fclose($fp);       
+        }
+        //BEGIN EXPORT CSV PPRUITS+POINT FAIBLES
+        if($avis){
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles.csv';
+          $fp = fopen($fichier, 'w');
+          $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_faibles";
+          $csv_output .= "\r\n";
+                foreach ($avis as $critere){
+                  $csv_output .= $critere->getProduct()->getId().";";
+                  $csv_output .= $critere->getProduct()->getName().";";
+                  $csv_output .= $critere->getProduct()->getMarque().";";
+                  $csv_output .= $critere->getProduct()->getPrix().";";
+                  $csv_output .= $critere->getProduct()->getCont().";";
+                  $csv_output .= $critere->getProduct()->getPrixAuL().";";
+                  $csv_output .= $critere->getProduct()->getNotation().";";
+                  $csv_output .= $critere->getProduct()->getUrl().";";
+                  $csv_output .= $critere->getProduct()->getMiniature().";";
+                  $csv_output .= $critere->getPointsFaibles().";";
+                  $csv_output .= "\r\n";
+                }   
+         fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
+         fclose($fp);       
+        }
+        
+        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis,'category_name' => $category_name));
    }
 }

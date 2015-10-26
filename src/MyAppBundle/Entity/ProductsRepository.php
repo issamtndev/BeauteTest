@@ -67,16 +67,6 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                           ->setParameter('penetration', $data['penetration']);
         }
         
-        if(isset($data['points_faibles']))if($data['points_faibles'] != '')
-        {
-                    $query->andWhere('a.pointsFaibles = :points_faibles')
-                          ->setParameter('points_faibles', $data['points_faibles']);
-        }
-        if(isset($data['points_forts']))if($data['points_forts'] != '')
-        {
-                    $query->andWhere('a.pointsForts = :points_forts')
-                          ->setParameter('points_forts', $data['points_forts']);
-        }
         if(isset($data['presentation']))if($data['presentation'] != '')
         {
                     $query->andWhere('a.presentation = :presentation')
@@ -96,6 +86,11 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         {
                     $query->andWhere('p.marque = :marque')
                           ->setParameter('marque', $data['marque']);
+        }
+        if(isset($data['commentaires'])&& ($data['commentaires'] == 1))
+        {
+                    $query->andWhere('a.comments != :commentaires')
+                          ->setParameter('commentaires', '-');
         }
         return $query->getQuery()->getResult();
 

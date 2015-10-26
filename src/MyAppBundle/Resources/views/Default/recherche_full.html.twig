@@ -23,7 +23,6 @@
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
      {% if sub_category_name!='' %}<br /><br />Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
      {% if texte_nom_produit!='' %}<br /><br />Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
-     {% if texte_marque_produit!='' %}<br /><br />Texte marque produit :<span class="label label-success">{{ texte_marque_produit }}</span>{% endif %}<br /><br />
    </div>
    <div class="row">
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
@@ -131,15 +130,19 @@
 <div class="clearfix"></div>
  {% set size = listproducts | length %}
 <div id="my_ajax_result">
+{% set size = listproducts | length %}
+ {% set size_avis = avis | length %}               
  <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
         <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ size }})</a></li>
-        <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ counter_avis }})</a></li>
+        <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ size_avis }})</a></li>
     </ul>
     <div id="my-tab-content_result" class="tab-content">
         <div class="tab-pane active" id="my_results_produits">
+       
+ 
 <div id="ajax_result">
-<div class="content_result">  
-    <h2>Liste des produits  ({{ size }})</h2>
+<div class="content_result">
+    <h2>Liste des produits ({{ size }})</h2>
 <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -156,7 +159,7 @@
                    <td>{{ entity.marque }}</td>
                    <td>{{ entity.name }}</td>
                    <td>{{ entity.getAvis().count() }}</td>
-                   <td>&nbsp;</td>
+                   <td>{{ entity.get_Nb_Avis_Sans_Commentaires() }}</td>
                    <td><a target="_blanc" href="{{ path('my_app_affiche_avis_produit', { 'id': entity.id }) }}">Consulter les avis</a></td>
                </tr>
               {% endfor %}     
@@ -165,11 +168,10 @@
 
   
 </div>
- 
 </div></h1>
-        </div>
+        </div>            
         <div class="tab-pane" id="my_results_avis">
-            <h2>Liste avis ({{ counter_avis }})</h2>
+            <h2>Liste avis ({{ size_avis }})</h2>
             <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -187,32 +189,30 @@
               </tr>
             </thead>
             <tbody>
-              {% for entity in listproducts %}
-               {% for avis in entity.getAvis() %}     
+               {% for one_avis in avis %}     
                 <tr>
-                   <td>{{ entity.name }}</td>
-                   <td>{{ entity.marque }}</td>
-                   <td>{{ entity.getCategory().name }}</td>
-                   <td>Sous catégorie</td>
-                   <td>{{ entity.prix }}</td>
-                   <td>{{ entity.getCont() }}</td>
-                   <td>{{ avis.getGender() }}</td>
-                   <td>{{ avis.getCritere() }}</td>
-                   <td>{{ avis.getPointsForts() }}</td>
-                   <td>{{ avis.getPointsFaibles() }}</td>
-                   <td>{{ avis.comments }}</td>
+                   <td>{{ one_avis.getProduct().name }}</td>
+                   <td>{{ one_avis.getProduct().marque }}</td>
+                   <td>{{ category_name }}</td>
+                   <td>{{ one_avis.getProduct().getCategory().name }}</td>
+                   <td>{{ one_avis.getProduct().prix }}</td>
+                   <td>{{ one_avis.getProduct().getCont() }}</td>
+                   <td>{{ one_avis.getGender() }}</td>
+                   <td>{{ one_avis.getCritere() }}</td>
+                   <td>{{ one_avis.getPointsForts() }}</td>
+                   <td>{{ one_avis.getPointsFaibles() }}</td>
+                   <td>{{ one_avis.comments }}</td>
                 </tr>
-               {% endfor %}  
-              {% endfor %}     
+               {% endfor %}      
             </tbody>
 </table> 
         </div>
-        </div>      
+   </div>              
 </div> 
   <div>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>  
+   </div>   
 {% endblock %}
 

@@ -15,7 +15,7 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
     {
 
         $query = $this->createQueryBuilder('a');
-        
+        $query ->Select('a','p');
         $query ->leftJoin('a.product','p');
         $query ->leftJoin('p.category','c');
                 
@@ -117,16 +117,6 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                           ->setParameter('penetration', $data['penetration']);
         }
         
-        if(isset($data['points_faibles']))if($data['points_faibles'] != '')
-        {
-                    $query->andWhere('a.pointsFaibles = :points_faibles')
-                          ->setParameter('points_faibles', $data['points_faibles']);
-        }
-        if(isset($data['points_forts']))if($data['points_forts'] != '')
-        {
-                    $query->andWhere('a.pointsForts = :points_forts')
-                          ->setParameter('points_forts', $data['points_forts']);
-        }
         if(isset($data['presentation']))if($data['presentation'] != '')
         {
                     $query->andWhere('a.presentation = :presentation')
@@ -141,6 +131,25 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         {
                     $query->andWhere('a.texture = :texture')
                           ->setParameter('texture', $data['texture']);
+        }
+         if(isset($data['commentaires'])&& ($data['commentaires'] == 1))
+        {
+                    $query->andWhere('a.comments != :commentaires')
+                          ->setParameter('commentaires', '-');
+        }
+         
+        if(isset($data['points_faibles'])&& ($data['points_faibles'] == 1))
+        {
+                    $query->andWhere('a.pointsFaibles != :points_faibles')
+                          ->setParameter('points_faibles', '-');
+                    $query->andWhere('a.pointsFaibles != :points_faiblesaucn')
+                          ->setParameter('points_faiblesaucn', 'aucun');
+        }
+        
+        if(isset($data['points_forts'])&& ($data['points_forts'] == 1))
+        {
+                    $query->andWhere('a.pointsForts != :points_forts')
+                          ->setParameter('points_forts', '-');
         }
         return $query->getQuery()->getResult();
 
