@@ -1,0 +1,18 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+<h2>Liste des marques</h2>
+<table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Marque</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entity in produits %}
+               <tr>
+                   <td>{{ entity.marque }}</td>
+               </tr>
+              {% endfor %}     
+            </tbody>
+</table>
+{% endblock %}

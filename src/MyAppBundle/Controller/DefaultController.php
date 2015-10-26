@@ -330,4 +330,23 @@ class DefaultController extends Controller
         
         return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis,'category_name' => $category_name, 'sub_category_name' => $sub_category_name));
    }
+   
+     public function all_marqueAction(){
+           
+        $em =  $this->get('doctrine.orm.entity_manager');
+
+        $sql="select DISTINCT(p.marque) from products p ";
+
+        $produits = $em->getConnection()
+
+            ->prepare($sql);
+
+            $produits->execute();
+
+            $produits = $produits->fetchAll();
+
+        return $this->render('MyAppBundle:Default:liste_marques_full.html.twig', array('produits' => $produits));
+
+    }
+   
 }

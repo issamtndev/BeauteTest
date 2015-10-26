@@ -163,8 +163,8 @@ var compteur_recherche=0;
                         <div class="col-md-6">
                         {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez marque','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
-                                <div class="col-md-2">
-                           <a href="#">voir toutes les marques</a>
+                        <div class="col-md-2">
+                          <a target="_blanc" href="{{ path('my_app_recherche_all_marque')}}">voir toutes les marques</a>
                         </div>
                         </div>
                         <div id="suggesstion-box_marques" class="col-md-12">
