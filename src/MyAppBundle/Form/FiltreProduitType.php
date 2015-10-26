@@ -82,6 +82,11 @@ class FiltreProduitType extends AbstractType
         $builder->add('prix_min', 'text',array('required'  => false));
         $builder->add('prix_max', 'text',array('required'  => false));
         
+        $builder->add('date_a', 'text',array('required'  => false));
+        $builder->add('date_b', 'text',array('required'  => false));
+        
+        
+        
     } 
 
     /**

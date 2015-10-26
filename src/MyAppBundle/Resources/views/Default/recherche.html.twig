@@ -108,6 +108,13 @@
                  </div>                  
              </div>
              </div>
+               <div class="clearfix"></div>  
+             <div>
+                 <span>Date:</span> 
+             {{ form_widget(form_filter.date_a, {'attr': {'class': '','placeholder':'2011-11-02'}}) }}
+             à
+             {{ form_widget(form_filter.date_b, {'attr': {'class': '','placeholder':'2011-11-02'}}) }}
+             </div>
              <div class="clearfix"></div>  
              <div class="col-md-8">
                  {{ form_label(form_filter.commentaires, "Commentaires", {'label_attr': {'class': 'control-label'}}) }}

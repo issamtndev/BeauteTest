@@ -12,6 +12,7 @@
                 <th>points forts</th>
                 <th>points faibles</th>
                 <th>Commentaires</th>
+                <th>Date</th>
               </tr>
             </thead>
             <tbody>   
@@ -23,6 +24,7 @@
                    <td>{{ avis.getPointsForts() }}</td>
                    <td>{{ avis.getPointsFaibles() }}</td>
                    <td>{{ avis.getComments() }}</td>
+                   <td>{{ avis.getDate()|date('Y-m-d') }}</td>
                </tr>
               {% endfor %}     
             </tbody>

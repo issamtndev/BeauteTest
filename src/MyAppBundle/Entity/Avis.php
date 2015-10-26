@@ -31,7 +31,7 @@ class Avis
     /**
      * @var string
      *
-     * @ORM\Column(name="date", type="string", length=50)
+     * @ORM\Column(name="date", type="date")
      */
     private $date;
 

@@ -31,7 +31,7 @@ class Avis
     /**
      * @var string
      *
-     * @ORM\Column(name="date", type="string", length=50)
+     * @ORM\Column(name="date", type="date")
      */
     private $date;
 
@@ -474,4 +474,28 @@ class Avis
     }
 
 
+
+    /**
+     * Set product
+     *
+     * @param \MyAppBundle\Entity\Products $product
+     *
+     * @return Avis
+     */
+    public function setProduct(\MyAppBundle\Entity\Products $product = null)
+    {
+        $this->product = $product;
+
+        return $this;
+    }
+
+    /**
+     * Get product
+     *
+     * @return \MyAppBundle\Entity\Products
+     */
+    public function getProduct()
+    {
+        return $this->product;
+    }
 }

@@ -97,6 +97,14 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                  ->setParameter('prixMin',$data['prix_min'])
                 ->setParameter('prixMax',$data['prix_max']);
         }
+        
+        if(isset($data['date_a'])&&isset($data['date_b'])&&(($data['date_a']!="")&&($data['date_b']))){
+             $query->andWhere('a.date >= :date_de')
+                 ->setParameter('date_de',$data['date_a']);
+             $query->andWhere('a.date <= :date_a')
+                 ->setParameter('date_a',$data['date_b']);     
+         }
+        
         return $query->getQuery()->getResult();
 
     }
