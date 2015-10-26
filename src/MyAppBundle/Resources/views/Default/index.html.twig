@@ -1,7 +1,7 @@
 {% extends "::base.html.twig" %}
 {% block javascriptheader %}
 <script type="text/javascript">
-var compteur_recherche=0;   
+    var compteur_recherche=0;
     function selectName(val) {
         $("#app_homebundle_beaute_search_product_name").val(val);
         getnb_avis_ajax();
@@ -164,7 +164,7 @@ var compteur_recherche=0;
                         {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez marque','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                         <div class="col-md-2">
-                          <a target="_blanc" href="{{ path('my_app_recherche_all_marque')}}">[voir toutes les marques</a>
+                          <a target="_blanc" href="{{ path('my_app_recherche_all_marque')}}">voir toutes les marques</a>
                         </div>
                         </div>
                         <div id="suggesstion-box_marques" class="col-md-12">

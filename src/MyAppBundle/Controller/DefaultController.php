@@ -371,11 +371,13 @@ class DefaultController extends Controller
     $pagination = $paginator->paginate(
         $query,
         $request->query->getInt('page', 1)/*page number*/,
-        10/*limit per page*/
+        20/*limit per page*/
     );
-
+    $pagination->setTemplate('MyAppBundle:Default:twitter_bootstrap_v3_pagination.html.twig');
     // parameters to template
-    return $this->render('MyAppBundle:Default:list.html.twig', array('pagination' => $pagination));
+     if($request->isXmlHttpRequest())
+          return $this->render('MyAppBundle:Default:list-ajax.html.twig', array('pagination' => $pagination));
+     else return $this->render('MyAppBundle:Default:list.html.twig', array('pagination' => $pagination));
 }
    
 }
