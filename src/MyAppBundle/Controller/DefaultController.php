@@ -233,6 +233,14 @@ class DefaultController extends Controller
             $category=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
             $category_name=$category->getName();
           }
+           $sub_category_name='';
+        if($data['sub_categorie'] != '')
+          {
+            $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['sub_categorie']);
+            $sub_category_name=$subcategory->getName();
+            $sub_category_name=explode('(',$sub_category_name);
+          $sub_category_name=$sub_category_name[0];
+          }  
         /*echo "<pre>";
         print_r($data);
         echo "</pre>";*/
@@ -320,6 +328,6 @@ class DefaultController extends Controller
          fclose($fp);       
         }
         
-        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis,'category_name' => $category_name));
+        return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis,'category_name' => $category_name, 'sub_category_name' => $sub_category_name));
    }
 }
