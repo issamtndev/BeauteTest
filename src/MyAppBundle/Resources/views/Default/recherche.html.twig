@@ -92,6 +92,23 @@
              </div>        
          </div>
          <div class="col-md-4">
+             <div>
+             <div class="col-md-2"><label class="control-label">Prix</label></div>
+             <div class="col-md-10">
+                 <div class="col-md-2">Entre</div>
+                 <div class="col-md-4">
+                    {{ form_errors(form_filter.prix_min) }}
+                    {{ form_widget(form_filter.prix_min, {'attr': {'class': 'form-control','placeholder':'4 €','autocomplete':'off'}}) }}
+                 </div>
+                 <div class="col-md-2">Et</div>
+                 <div class="col-md-4">
+                    {{ form_errors(form_filter.prix_max) }}
+                    {{ form_widget(form_filter.prix_max, {'attr': {'class': 'form-control','placeholder':'8 €','autocomplete':'off'}}) }}
+              
+                 </div>                  
+             </div>
+             </div>
+             <div class="clearfix"></div>   
              <div class="col-md-8">
                  {{ form_label(form_filter.commentaires, "Commentaires", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.commentaires) }}
@@ -192,7 +209,7 @@
                    <td>{{ one_avis.getProduct().name }}</td>
                    <td>{{ one_avis.getProduct().marque }}</td>
                    <td>{{ category_name }}</td>
-                   <td>{{ sub_category_name }}</td>
+                   <td>{{ one_avis.getProduct().getCategory().name }}</td>
                    <td>{{ one_avis.getProduct().prix }}</td>
                    <td>{{ one_avis.getProduct().getCont() }}</td>
                    <td>{{ one_avis.getGender() }}</td>
@@ -211,5 +228,4 @@
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
     <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
-   </div>  
-
+   </div> 
