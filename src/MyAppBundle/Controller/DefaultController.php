@@ -11,90 +11,125 @@ ini_set('memory_limit', '1024M');
 
 class DefaultController extends Controller
 {
+     /*
+     * Controlleur de la page d'acceuil [Formulaire de recherche AVIS]
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function indexAction()
     {
         $form = $this->createForm(new BeauteSearchType());
         return $this->render('MyAppBundle:Default:index.html.twig',array("form"=>$form->createView()));
     }
     
+     /*
+     * Afficher la liste d'avis d'un produitqui possède un id $id
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function affiche_avis_produitAction($id)
     {
         $em = $this->getDoctrine()->getManager();
-
-       $monproduit= $em->getRepository('MyAppBundle:Products')->find($id);
-       
-       return $this->render('MyAppBundle:Default:affiche_avis_produit.html.twig', array('monproduit' => $monproduit));
+        $monproduit= $em->getRepository('MyAppBundle:Products')->find($id);
+        
+        return $this->render('MyAppBundle:Default:affiche_avis_produit.html.twig', array('monproduit' => $monproduit));
     }
     
+     /*
+     * Afficher la liste des sous catégories de la catégorie sélecionné
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function sous_categoriesAction()
     {
 
         $em = $this->container->get('doctrine')->getManager();
-
         $request = $this->container->get('request');
-        
+        // Récupérer la liste des sous catégories de la catégorie sélectionné avec la fonction find_name_and_nbr_eavis du repository Categories
         $listcategory = $em->getRepository('MyAppBundle:Categories')->find_name_and_nbr_eavis($request->request->get('id'));
         
         return $this->render('MyAppBundle:Default:sous_categ.html.twig', array('sous_categ' => $listcategory));
 
     }
     
+     /*
+     * Action autocomplete nom produit formulaire de recherche en ajax
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function recherche_produit_par_nomAction(){
            
         $em =  $this->get('doctrine.orm.entity_manager');
 
         $request = $this->container->get('request');
         $id_category=0;
-        if($request->request->get('subcategorie')!='')$id_category=$request->request->get('subcategorie');
-        else $id_category=$request->request->get('categorie');
+        
+        if($request->request->get('subcategorie')!='')
+          $id_category=$request->request->get('subcategorie');
+        else 
+          $id_category=$request->request->get('categorie');
+        
         $sql="select p.* from products p 
-            LEFT JOIN categories c ON c.id=p.category_id    
-            where p.name like '%".$request->request->get('name')."%'";
-        if($id_category!=0) $sql.=" AND c.id='".$id_category."'";
-        if($request->request->get('marque')!='') $sql.=" AND p.marque like'%".$request->request->get('marque')."%'";
+              LEFT JOIN categories c ON c.id=p.category_id    
+              where p.name like '%".$request->request->get('name')."%'";
+        
+        if($id_category!=0) 
+          $sql.=" AND c.id='".$id_category."'";
+        
+        if($request->request->get('marque')!='')
+          $sql.=" AND p.marque like'%".$request->request->get('marque')."%'";
+        
         $produits = $em->getConnection()
-
-            ->prepare($sql);
-
-            $produits->execute();
-
-            $produits = $produits->fetchAll();
+                       ->prepare($sql);
+        $produits->execute();
+        $produits = $produits->fetchAll();
 
         return $this->render('MyAppBundle:Default:liste_produits.html.twig', array('produits' => $produits));
 
     }
     
+     /*
+     * Action autocomplete marque produit formulaire de recherche en ajax
+     * @author: Issam <issam@digital-developers.net>
+     */
      public function recherche_marqueAction(){
            
         $em =  $this->get('doctrine.orm.entity_manager');
 
         $request = $this->container->get('request');
         $id_category=0;
-        if($request->request->get('subcategorie')!='')$id_category=$request->request->get('subcategorie');
-        else $id_category=$request->request->get('categorie');
+        
+        if($request->request->get('subcategorie')!='')
+          $id_category=$request->request->get('subcategorie');
+        else 
+          $id_category=$request->request->get('categorie');
+        
         $sql="select DISTINCT(p.marque) from products p 
-            LEFT JOIN categories c ON c.id=p.category_id    
-            where p.marque like '%".$request->request->get('marque')."%'";
-        if($id_category!=0) $sql.=" AND c.id='".$id_category."'";
-        if($request->request->get('name')!='') $sql.=" AND p.name like'%".$request->request->get('name')."%'";
+              LEFT JOIN categories c ON c.id=p.category_id    
+              where p.marque like '%".$request->request->get('marque')."%'";
+        
+        if($id_category!=0) 
+          $sql.=" AND c.id='".$id_category."'";
+        
+        if($request->request->get('name')!='') 
+          $sql.=" AND p.name like'%".$request->request->get('name')."%'";
+        
         $produits = $em->getConnection()
-
-            ->prepare($sql);
-
-            $produits->execute();
-
-            $produits = $produits->fetchAll();
+                       ->prepare($sql);
+        $produits->execute();
+        $produits = $produits->fetchAll();
 
         return $this->render('MyAppBundle:Default:liste_marques.html.twig', array('produits' => $produits));
 
     }
     
+     /*
+     * Action Formulaire de recherche principale <<page accueil>>
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function rechercheAction()
     {
         $form_filter = $this->createForm(new FiltreProduitType()); 
         $em    = $this->get('doctrine.orm.entity_manager');
-         $form = $this->createForm(new BeauteSearchType());  
-         $request = $this->container->get('request');
+        $form = $this->createForm(new BeauteSearchType());  
+        $request = $this->container->get('request');
+        
         if($request->getMethod() == 'GET')
         {
             $form->handleRequest($request);
@@ -102,20 +137,23 @@ class DefaultController extends Controller
             $listproducts0 = $em->getRepository('MyAppBundle:Products')->findProductsByParametres($data);
             $avis = $em->getRepository('MyAppBundle:Avis')->findavisByParametresfull($data);
         }
+        
         $category_name='';
         if($data['categorie'] != '')
           {
             $category=$em->getRepository('MyAppBundle:Categories')->find($data['categorie']);
             $category_name=$category->getName();
           }
-        $sub_category_name='';
-        if($data['sub_categorie'] != '')
+        
+       $sub_category_name='';
+       if($data['sub_categorie'] != '')
           {
             $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['sub_categorie']);
             $sub_category_name=$subcategory->getName();
             $sub_category_name=explode('(',$sub_category_name);
-          $sub_category_name=$sub_category_name[0];
+            $sub_category_name=$sub_category_name[0];
           }
+        
         $texte_nom_produit=$data['product_name'];
         $texte_marque_produit=$data['marque'];
         
@@ -126,9 +164,7 @@ class DefaultController extends Controller
         
         $usr= $this->get('security.token_storage')->getToken()->getUser();
         $username_connecte=$usr->getUsername();
-        /*echo '<pre>';
-        \Doctrine\Common\Util\Debug::dump($listproducts0);
-        echo '</pre>';*/
+        
         if($request->query->getInt('produit')!=1){
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($listproducts){
@@ -209,19 +245,28 @@ class DefaultController extends Controller
         $paginator  = $this->get('knp_paginator');
         $listproducts= $paginator->paginate(
         $query,
-        $request->query->getInt('page', 1)/*page number*/,
-        20/*limit per page*/);
+        $request->query->getInt('page', 1),20);
+        
         $listproducts->setTemplate('MyAppBundle:Default:twitter_bootstrap_v3_pagination_produit.html.twig');
         
-        if($request->query->getInt('produit')==1&&$request->isXmlHttpRequest())return $this->render('MyAppBundle:Default:recherche_produits_paginate.html.twig', array('listproducts' => $listproducts));
-        elseif($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
-        else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
+        if(($request->query->getInt('produit')==1)&&($request->isXmlHttpRequest())){
+          return $this->render('MyAppBundle:Default:recherche_produits_paginate.html.twig', array('listproducts' => $listproducts));
+        }elseif($request->isXmlHttpRequest()){ 
+          return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
+        }else 
+          return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
     }
+    
+    /*
+     * Controlleur de recherche de nombre d'avis en ajax de formulaire de recherche principale
+     * @author: Issam <issam@digital-developers.net>
+     */ 
     public function recherche_nb_avisAction()
     {
          $em    = $this->get('doctrine.orm.entity_manager');
          $form = $this->createForm(new BeauteSearchType());  
          $request = $this->container->get('request');
+         
         if($request->getMethod() == 'GET')
         {
             $form->handleRequest($request);
@@ -231,7 +276,11 @@ class DefaultController extends Controller
 
        return new Response(''.$listproducts[0][1]);
     } 
-     
+    
+     /*
+     * Action Formulaire de recherche filtre produit  <<formulaire de filtrage par Texture, Odeur, Points forts...>>
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function recherchefiltreAction()
     {
         $em    = $this->get('doctrine.orm.entity_manager');
@@ -253,11 +302,8 @@ class DefaultController extends Controller
             $subcategory=$em->getRepository('MyAppBundle:Categories')->find($data['sub_categorie']);
             $sub_category_name=$subcategory->getName();
             $sub_category_name=explode('(',$sub_category_name);
-          $sub_category_name=$sub_category_name[0];
+            $sub_category_name=$sub_category_name[0];
           }  
-        /*echo "<pre>";
-        print_r($data);
-        echo "</pre>";*/
 
         if($request->getMethod() == 'GET')
         {
@@ -265,9 +311,10 @@ class DefaultController extends Controller
             $avis = $em->getRepository('MyAppBundle:Avis')->findavisByParametresfull($data);
         }
          $listproducts=array();
-        /* echo '<pre>';
-        \Doctrine\Common\Util\Debug::dump($listproducts0);
-        echo '</pre>';*/
+        //Affichage dump resultat doctrine
+        // echo '<pre>';//
+        //\Doctrine\Common\Util\Debug::dump($listproducts0);//
+        //echo '</pre>';//
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
@@ -345,52 +392,48 @@ class DefaultController extends Controller
         return $this->render('MyAppBundle:Default:recherche_filtre_ajax.html.twig', array('listproducts' => $listproducts, 'avis' => $avis,'category_name' => $category_name, 'sub_category_name' => $sub_category_name));
    }
    
-     public function all_marqueAction(){
+     /*
+     * Controlleur de la page liste des marques lien << voir toutes les marques >>
+     * @author: Issam <issam@digital-developers.net>
+     */  
+   public function all_marqueAction(){
            
         $em =  $this->get('doctrine.orm.entity_manager');
 
         $sql="select DISTINCT(p.marque) from products p ";
 
         $produits = $em->getConnection()
-
-            ->prepare($sql);
-
-            $produits->execute();
-
-            $produits = $produits->fetchAll();
-        /*
-          $em    = $this->get('doctrine.orm.entity_manager');
-         $dql   = "SELECT DISTINCT(p.marque) as marque FROM MyAppBundle:Products p WHERE 1=1 GROUP BY p.marque ORDER BY p.marque ASC";
-         $query = $em->createQuery($dql);
-          $request = $this->container->get('request');
-         $paginator  = $this->get('knp_paginator');
-         $pagination = $paginator->paginate(
-         $query,
-         $request->query->getInt('page', 1),
-         1000/
-         );   
-         */    
+                       ->prepare($sql);
+        $produits->execute();
+        $produits = $produits->fetchAll();
+            
         return $this->render('MyAppBundle:Default:liste_marques_full.html.twig', array('produits' => $produits));
 
     }
     
+     /*
+     * Controlleur de la page liste des produits lien << voir tous les produits >>
+     * @author: Issam <issam@digital-developers.net>
+     */
     public function listProduitsAction(Request $request)
-{
-    $em    = $this->get('doctrine.orm.entity_manager');
-    $dql   = "SELECT p FROM MyAppBundle:Products p";
-    $query = $em->createQuery($dql);
+    {
+     
+     $em    = $this->get('doctrine.orm.entity_manager');
+     $dql   = "SELECT p FROM MyAppBundle:Products p";
+     $query = $em->createQuery($dql);
 
-    $paginator  = $this->get('knp_paginator');
-    $pagination = $paginator->paginate(
+     $paginator  = $this->get('knp_paginator');
+     
+     $pagination = $paginator->paginate(
         $query,
-        $request->query->getInt('page', 1)/*page number*/,
-        20/*limit per page*/
-    );
-    $pagination->setTemplate('MyAppBundle:Default:twitter_bootstrap_v3_pagination.html.twig');
-    // parameters to template
+        $request->query->getInt('page', 1),20);
+     
+     $pagination->setTemplate('MyAppBundle:Default:twitter_bootstrap_v3_pagination.html.twig');
+    
      if($request->isXmlHttpRequest())
           return $this->render('MyAppBundle:Default:list-ajax.html.twig', array('pagination' => $pagination));
-     else return $this->render('MyAppBundle:Default:list.html.twig', array('pagination' => $pagination));
-}
+     else 
+         return $this->render('MyAppBundle:Default:list.html.twig', array('pagination' => $pagination));
+    }
    
 }
