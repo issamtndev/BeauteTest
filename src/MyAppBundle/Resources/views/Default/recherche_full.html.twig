@@ -11,6 +11,10 @@
      $(".ajax_bt_filter_produit").click(function(){
      lancer_recherche_filtre();   
      });
+     
+     $('.datepicker').datepicker({
+    dateFormat: 'yy-mm-dd'
+    });
  });    
 </script>
 {% set counter_avis = 0 %}
@@ -116,9 +120,9 @@
                    <label class="control-label">Date:</label>
                  </div>
                  <div class="col-md-10">    
-                  {{ form_widget(form_filter.date_a, {'attr': {'class': 'input_date','placeholder':'2011-11-02'}}) }}
+                  {{ form_widget(form_filter.date_a, {'attr': {'class': 'input_date datepicker','placeholder':'2011-11-02'}}) }}
                   à
-                  {{ form_widget(form_filter.date_b, {'attr': {'class': 'input_date','placeholder':'2011-11-02'}}) }}
+                  {{ form_widget(form_filter.date_b, {'attr': {'class': 'input_date datepicker','placeholder':'2011-11-02'}}) }}
                   </div>
                      </div>
              <div class="clearfix"></div>   
