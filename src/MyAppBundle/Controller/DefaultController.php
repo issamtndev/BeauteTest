@@ -6,7 +6,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use MyAppBundle\Form\BeauteSearchType;
 use MyAppBundle\Form\FiltreProduitType;
 use Symfony\Component\HttpFoundation\Response;
-use MyAppBundle\Entity\Products;
 use Symfony\Component\HttpFoundation\Request;
 ini_set('memory_limit', '1024M');
 
@@ -124,12 +123,16 @@ class DefaultController extends Controller
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
+        
+        $usr= $this->get('security.token_storage')->getToken()->getUser();
+        $username_connecte=$usr->getUsername();
         /*echo '<pre>';
         \Doctrine\Common\Util\Debug::dump($listproducts0);
         echo '</pre>';*/
+        if($request->query->getInt('produit')!=1){
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($listproducts){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;gender;critere;comments";
           $csv_output .= "\r\n";
@@ -155,7 +158,7 @@ class DefaultController extends Controller
         }
         //BEGIN EXPORT CSV PPRUITS+POINT FORTS
         if($listproducts){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_forts";
           $csv_output .= "\r\n";
@@ -179,7 +182,7 @@ class DefaultController extends Controller
         }
         //BEGIN EXPORT CSV PPRUITS+POINT FAIBLES
         if($listproducts){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_faibles";
           $csv_output .= "\r\n";
@@ -201,8 +204,18 @@ class DefaultController extends Controller
          fputs($fp, mb_convert_encoding($csv_output, 'UCS-2LE', 'UTF-8'));
          fclose($fp);       
         }
-          if($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
-          else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
+        }
+        $query = $em->getRepository('MyAppBundle:Products')->findProductsByParametresQuery($data);
+        $paginator  = $this->get('knp_paginator');
+        $listproducts= $paginator->paginate(
+        $query,
+        $request->query->getInt('page', 1)/*page number*/,
+        20/*limit per page*/);
+        $listproducts->setTemplate('MyAppBundle:Default:twitter_bootstrap_v3_pagination_produit.html.twig');
+        
+        if($request->query->getInt('produit')==1&&$request->isXmlHttpRequest())return $this->render('MyAppBundle:Default:recherche_produits_paginate.html.twig', array('listproducts' => $listproducts));
+        elseif($request->isXmlHttpRequest()) return $this->render('MyAppBundle:Default:recherche.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
+        else return $this->render('MyAppBundle:Default:recherche_full.html.twig', array('listproducts' => $listproducts,'category_name' => $category_name,'sub_category_name' => $sub_category_name,'texte_nom_produit' => $texte_nom_produit,'form_filter' => $form_filter->createView(),'texte_marque_produit' => $texte_marque_produit, 'avis' => $avis ));
     }
     public function recherche_nb_avisAction()
     {

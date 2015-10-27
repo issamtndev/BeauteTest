@@ -92,7 +92,7 @@
              </div>        
          </div>
          <div class="col-md-4">
-              <div>
+             <div>
              <div class="col-md-2"><label class="control-label">Prix</label></div>
              <div class="col-md-10">
                  <div class="col-md-2">Entre</div>
@@ -108,14 +108,18 @@
                  </div>                  
              </div>
              </div>
-               <div class="clearfix"></div>  
+            <div class="clearfix"></div>  
              <div>
-                 <span>Date:</span> 
-             {{ form_widget(form_filter.date_a, {'attr': {'class': '','placeholder':'2011-11-02'}}) }}
-             à
-             {{ form_widget(form_filter.date_b, {'attr': {'class': '','placeholder':'2011-11-02'}}) }}
-             </div>
-             <div class="clearfix"></div>  
+                 <div class="col-md-2">
+                   <label class="control-label">Date:</label>
+                 </div>
+                 <div class="col-md-10">    
+                  {{ form_widget(form_filter.date_a, {'attr': {'class': 'input_date','placeholder':'2011-11-02'}}) }}
+                  à
+                  {{ form_widget(form_filter.date_b, {'attr': {'class': 'input_date','placeholder':'2011-11-02'}}) }}
+                  </div>
+                     </div>
+             <div class="clearfix"></div>   
              <div class="col-md-8">
                  {{ form_label(form_filter.commentaires, "Commentaires", {'label_attr': {'class': 'control-label'}}) }}
                  {{ form_errors(form_filter.commentaires) }}
@@ -155,7 +159,7 @@
 {% set size = listproducts | length %}
  {% set size_avis = avis | length %}               
  <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
-        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ size }})</a></li>
+        <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ listproducts.getTotalItemCount }})</a></li>
         <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ size_avis }})</a></li>
     </ul>
     <div id="my-tab-content_result" class="tab-content">
@@ -164,7 +168,8 @@
  
 <div id="ajax_result">
 <div class="content_result">
-    <h2>Liste des produits ({{ size }})</h2>
+<div id="my_pagination_ajax"> 
+    <h2>*Liste des produits ({{ listproducts.getTotalItemCount }})</h2>
 <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr>
@@ -186,8 +191,11 @@
                </tr>
               {% endfor %}     
             </tbody>
-</table>   
-
+</table>
+        <div class="navigation">
+    {{ knp_pagination_render(listproducts) }}
+</div>
+</div>
   
 </div>
 </div></h1>
@@ -216,7 +224,7 @@
                    <td>{{ one_avis.getProduct().name }}</td>
                    <td>{{ one_avis.getProduct().marque }}</td>
                    <td>{{ category_name }}</td>
-                   <td>{{ sub_category_name }}</td>
+                   <td>{{ one_avis.getProduct().getCategory().name }}</td>
                    <td>{{ one_avis.getProduct().prix }}</td>
                    <td>{{ one_avis.getProduct().getCont() }}</td>
                    <td>{{ one_avis.getGender() }}</td>
@@ -232,8 +240,7 @@
    </div>              
 </div> 
   <div>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere.csv') }}" targuet="_blanc">CSV produits et critères</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts.csv') }}" targuet="_blanc">CSV produits et points forts</a>
-    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_critere_'~app.user.username~'.csv') }}" targuet="_blanc">CSV produits et critères</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_forts_'~app.user.username~'.csv') }}" targuet="_blanc">CSV produits et points forts</a>
+    <br><a href="http://{{ app.request.server.get('SERVER_NAME') }}/{{ asset('uploads/csv_points_faibles_'~app.user.username~'.csv') }}" targuet="_blanc">CSV produits et points faibles</a>
    </div>  
-
