@@ -22,6 +22,16 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
               ->orderBy("nbavis", 'DESC');
         $query ->leftJoin('p.category','c');
         
+        if(isset($data['marque']))if($data['marque'] != '')
+        {
+                    $marque_request=explode(',',$data['marque']);
+                    $i=0;
+                    foreach($marque_request as $unemarque) 
+                    {  $i++;;
+                        $query->orWhere('p.marque like :m_'.$i)
+                             ->setParameter('m_'.$i, "%".$unemarque."%");
+                    }
+        }
         if($data['sub_categorie'] != '')
         { 
             $query->andWhere('p.category = :categorie')
@@ -82,11 +92,7 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                     $query->andWhere('a.texture = :texture')
                           ->setParameter('texture', $data['texture']);
         }
-        if(isset($data['marque']))if($data['marque'] != '')
-        {
-                    $query->andWhere('p.marque = :marque')
-                          ->setParameter('marque', $data['marque']);
-        }
+        
         if(isset($data['commentaires'])&& ($data['commentaires'] == 1))
         {
                     $query->andWhere('a.comments != :commentaires')
@@ -118,6 +124,17 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         $query->leftJoin('p.avis','a');
         $query ->leftJoin('p.category','c');
         
+        if(isset($data['marque']))if($data['marque'] != '')
+        {
+                    $marque_request=explode(',',$data['marque']);
+                    $i=0;
+                    foreach($marque_request as $unemarque) 
+                    {  $i++;
+                        $query->orWhere('p.marque like :m_'.$i)
+                              ->setParameter('m_'.$i, $unemarque);
+                    }
+        }
+        
         if($data['sub_categorie'] != '')
         { 
             $query->andWhere('p.category = :categorie')
@@ -178,11 +195,7 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
                     $query->andWhere('a.texture = :texture')
                           ->setParameter('texture', $data['texture']);
         }
-        if(isset($data['marque']))if($data['marque'] != '')
-        {
-                    $query->andWhere('p.marque = :marque')
-                          ->setParameter('marque', $data['marque']);
-        }
+       
         if(isset($data['commentaires'])&& ($data['commentaires'] == 1))
         {
                     $query->andWhere('a.comments != :commentaires')

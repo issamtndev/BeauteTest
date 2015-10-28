@@ -18,7 +18,17 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         $query ->Select('a','p');
         $query ->leftJoin('a.product','p');
         $query ->leftJoin('p.category','c');
-                
+           
+        if(isset($data['marque']))if($data['marque'] != '')
+        {
+                    $marque_request=explode(',',$data['marque']);
+                    $i=0;
+                    foreach($marque_request as $unemarque) 
+                    {  $i++;;
+                        $query->orWhere('p.marque like :m_'.$i)
+                             ->setParameter('m_'.$i, "%".$unemarque."%");
+                    }
+        }
         if($data['sub_categorie'] != '')
         {
             $query->andWhere('p.category = :categorie')
@@ -42,13 +52,6 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                     $query->andWhere('p.name Like :name_search')
 
                 ->setParameter('name_search', "%".$data['product_name']."%");
-
-        }
-           if($data['marque'] != '')
-        {
-                    $query->andWhere('p.marque Like :marque')
-
-                ->setParameter('marque', "%".$data['marque']."%");
 
         }
 
@@ -63,7 +66,17 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         
         $query ->leftJoin('a.product','p');
         $query ->leftJoin('p.category','c');
-                
+            
+        if(isset($data['marque']))if($data['marque'] != '')
+        {
+                    $marque_request=explode(',',$data['marque']);
+                    $i=0;
+                    foreach($marque_request as $unemarque) 
+                    {  $i++;;
+                        $query->orWhere('p.marque like :m_'.$i)
+                             ->setParameter('m_'.$i, "%".$unemarque."%");
+                    }
+        }
         if($data['sub_categorie'] != '')
         {
             $query->andWhere('p.category = :categorie')
@@ -89,13 +102,7 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                 ->setParameter('name_search', "%".$data['product_name']."%");
 
         }
-           if($data['marque'] != '')
-        {
-                    $query->andWhere('p.marque Like :marque')
 
-                ->setParameter('marque', "%".$data['marque']."%");
-
-        }
         if(isset($data['efficacite_court_terme']))if($data['efficacite_court_terme'] != '')
         {
                     $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')

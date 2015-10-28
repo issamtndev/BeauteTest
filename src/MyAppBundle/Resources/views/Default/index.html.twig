@@ -108,12 +108,79 @@
             getnb_avis_ajax();    
 	 });
        });
+      $(function(){
+        jQuery("#singleFieldTags").tagit({
+        singleField: true,
+        singleFieldNode: $('#app_homebundle_beaute_search_marque'),
+        allowSpaces: true,
+        minLength: 2,
+        removeConfirmation: true,
+        tagSource: function( request, response ) {
+            //console.log("1");
+            $.ajax({
+                url: "{{  path('my_app_recherche_marque') }}?json=1"+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&name="+$("#app_homebundle_beaute_search_product_name").val(), 
+                data: { marque:request.term },
+                dataType: "json",
+                success: function( data ) {
+                    response( $.map( data, function( item ) {
+                        return {
+                            label: item.name,
+                            value: item.name
+                        }
+                    }));
+                }
+            });
+        },
+         afterTagAdded: function(evt, ui) {
+                    getnb_avis_ajax();
+                },
+       afterTagRemoved: function(evt, ui) {
+                    getnb_avis_ajax();    
+                }                 
+        });
+        
+         jQuery("#singleFieldTags_product").tagit({
+        singleField: true,
+        singleFieldNode: $('#app_homebundle_beaute_search_product_name'),
+        allowSpaces: true,
+        minLength: 2,
+        removeConfirmation: true,
+        tagSource: function( request, response ) {
+            //console.log("1");
+            $.ajax({
+                url: "{{  path('my_app_recherche_nom') }}?json=1"+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&marque="+$("#app_homebundle_beaute_search_marque").val(), 
+                data: { name:request.term },
+                dataType: "json",
+                success: function( data ) {
+                    response( $.map( data, function( item ) {
+                        return {
+                            label: item.name,
+                            value: item.name
+                        }
+                    }));
+                }
+            });
+        },
+         afterTagAdded: function(evt, ui) {
+                    getnb_avis_ajax();
+                },
+       afterTagRemoved: function(evt, ui) {
+                    getnb_avis_ajax();    
+                }                 
+        });
+        
+        });     
 </script>  
 <style>
 #search-box{padding: 10px;border: #F0F0F0 1px solid;}
 #search-box_marques{padding: 10px;border: #F0F0F0 1px solid}
 .row{margin-top: 5px}
 </style>
+    <link href="{{ asset('css/jquery.tagit.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/tagit.ui-zendesk.css') }}" rel="stylesheet" type="text/css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{ asset('js/tag-it.js') }}" type="text/javascript" charset="utf-8"></script>
 {% endblock %}
 
 {% block body %}
@@ -160,7 +227,7 @@
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.marque, "Marque", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>        
                         <div class="col-md-6">
-                        {{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez marque','autocomplete':'off','disabled':'disabled'}}) }}
+                        <ul id="singleFieldTags"></ul>{{ form_widget(form.marque, {'attr': {'class': 'form-control searchLabelClass ','placeholder':'Entrez marque','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                         <div class="col-md-2">
                           <a target="_blanc" href="{{ path('my_app_recherche_all_marque')}}">voir toutes les marques</a>
@@ -174,7 +241,7 @@
                         {# GÃ©nÃ©ration de l'input. #}
                                 <div class="col-md-4">{{ form_label(form.product_name, "Produit", {'label_attr': {'class': 'col-md-6 control-label'}}) }}</div>         
                         <div class="col-md-6">
-                          {{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off','disabled':'disabled'}}) }}
+                          <ul id="singleFieldTags_product"></ul>{{ form_widget(form.product_name, {'attr': {'class': 'form-control searchLabelClass','placeholder':'Entrez le nom du produit','autocomplete':'off','disabled':'disabled'}}) }}
                         </div>
                         <div class="col-md-2">
                             <a target="_blanc" href="{{ path('my_app_recherche_all_produits') }}">voir tous les produits</a>
@@ -186,6 +253,9 @@
                        
                 </div>
                </div>
+          <div>
+          
+          </div>
             {{ form_rest(form) }}
             <input type="submit" class="btn btn-primary" value="Recherche" />
             <input type="button" value="Rechercher" class="ajax_serach_bt btn btn-primary"> <!--<span class="btn-primary label-success btn">Onglet recherche: <span id="compteur_ajax_recherche"></span></span> -->

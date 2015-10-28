@@ -7,6 +7,7 @@ use MyAppBundle\Form\BeauteSearchType;
 use MyAppBundle\Form\FiltreProduitType;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 ini_set('memory_limit', '1024M');
 
 class DefaultController extends Controller
@@ -50,10 +51,11 @@ class DefaultController extends Controller
     }
     
      /*
-     * Action autocomplete nom produit formulaire de recherche en ajax
+     * Action autocomplete nom produit formulaire de recherche en ajax en respectant catégorie et marque sélectionnés
      * @author: Issam <issam@digital-developers.net>
      */
-    public function recherche_produit_par_nomAction(){
+    public function recherche_produit_par_nomAction()
+    {
            
         $em =  $this->get('doctrine.orm.entity_manager');
 
@@ -79,13 +81,46 @@ class DefaultController extends Controller
                        ->prepare($sql);
         $produits->execute();
         $produits = $produits->fetchAll();
-
+        
+        if($request->query->get('json')==1)
+        { 
+          $id_category=0;
+        
+        if($request->query->get('subcategorie')!='')
+          $id_category=$request->query->get('subcategorie');
+        else 
+          $id_category=$request->query->get('categorie');
+        
+        $sql="select DISTINCT(p.name) from products p 
+              LEFT JOIN categories c ON c.id=p.category_id    
+              where p.name like '%".$request->query->get('name')."%'";
+        
+        if($id_category!=0) 
+          $sql.=" AND c.id='".$id_category."'";
+        
+        if($request->query->get('marque')!='')
+          $sql.=" AND p.marque like'%".$request->query->get('marque')."%'";
+        
+        $produits = $em->getConnection()
+                       ->prepare($sql);
+        $produits->execute();
+        $produits = $produits->fetchAll();
+        $response = new JsonResponse();
+          $tab_test=array();
+          foreach($produits as $marque)
+            {
+               $tab_test[]=array("name" => $marque['name'] );
+            }
+          $response->setData($tab_test);
+          return $response;
+            }
+        else
         return $this->render('MyAppBundle:Default:liste_produits.html.twig', array('produits' => $produits));
 
-    }
+      }
     
      /*
-     * Action autocomplete marque produit formulaire de recherche en ajax
+     * Action autocomplete marque produit formulaire de recherche en ajax en respectant maque et catégorie sélectionné
      * @author: Issam <issam@digital-developers.net>
      */
      public function recherche_marqueAction(){
@@ -115,7 +150,41 @@ class DefaultController extends Controller
         $produits->execute();
         $produits = $produits->fetchAll();
 
-        return $this->render('MyAppBundle:Default:liste_marques.html.twig', array('produits' => $produits));
+        
+        if($request->query->get('json')==1)
+        { 
+         $id_category=0;
+        
+         if($request->query->get('subcategorie')!='')
+           $id_category=$request->query->get('subcategorie');
+         else 
+           $id_category=$request->query->get('categorie');
+        
+         $sql="select DISTINCT(p.marque) from products p 
+              LEFT JOIN categories c ON c.id=p.category_id    
+              where p.marque like '%".$request->query->get('marque')."%'";
+        
+         if($id_category!=0) 
+           $sql.=" AND c.id='".$id_category."'";
+        
+         if($request->query->get('name')!='') 
+           $sql.=" AND p.name like'%".$request->query->get('name')."%'";
+        
+          $produits = $em->getConnection()
+                       ->prepare($sql);
+          $produits->execute();
+          $produits = $produits->fetchAll();  
+          $response = new JsonResponse();
+          $tab_test=array();
+          foreach($produits as $marque)
+            {
+               $tab_test[]=array("name" => $marque['marque'] );
+            }
+          $response->setData($tab_test);
+          return $response;
+            }
+        else
+          return $this->render('MyAppBundle:Default:liste_marques.html.twig', array('produits' => $produits));
 
     }
     
@@ -161,7 +230,6 @@ class DefaultController extends Controller
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
-        
         $usr= $this->get('security.token_storage')->getToken()->getUser();
         $username_connecte=$usr->getUsername();
         

@@ -35,9 +35,9 @@ class BeauteSearchType extends AbstractType
             'multiple' => false)
         );
         
-        $builder->add('marque', 'text',array('required'  => false));
+        $builder->add('marque', 'hidden');
         
-        $builder->add('product_name', 'text',array('required'  => false));
+        $builder->add('product_name', 'hidden');
         
         
     } 
