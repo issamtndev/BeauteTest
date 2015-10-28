@@ -56,36 +56,9 @@ class DefaultController extends Controller
      */
     public function recherche_produit_par_nomAction()
     {
-           
-        $em =  $this->get('doctrine.orm.entity_manager');
-
-        $request = $this->container->get('request');
         $id_category=0;
-        
-        if($request->request->get('subcategorie')!='')
-          $id_category=$request->request->get('subcategorie');
-        else 
-          $id_category=$request->request->get('categorie');
-        
-        $sql="select p.* from products p 
-              LEFT JOIN categories c ON c.id=p.category_id    
-              where p.name like '%".$request->request->get('name')."%'";
-        
-        if($id_category!=0) 
-          $sql.=" AND c.id='".$id_category."'";
-        
-        if($request->request->get('marque')!='')
-          $sql.=" AND p.marque like'%".$request->request->get('marque')."%'";
-        
-        $produits = $em->getConnection()
-                       ->prepare($sql);
-        $produits->execute();
-        $produits = $produits->fetchAll();
-        
-        if($request->query->get('json')==1)
-        { 
-          $id_category=0;
-        
+        $em =  $this->get('doctrine.orm.entity_manager');
+        $request = $this->container->get('request');
         if($request->query->get('subcategorie')!='')
           $id_category=$request->query->get('subcategorie');
         else 
@@ -113,10 +86,7 @@ class DefaultController extends Controller
             }
           $response->setData($tab_test);
           return $response;
-            }
-        else
-        return $this->render('MyAppBundle:Default:liste_produits.html.twig', array('produits' => $produits));
-
+            
       }
     
      /*
