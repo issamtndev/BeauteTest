@@ -72,7 +72,21 @@ class DefaultController extends Controller
           $sql.=" AND c.id='".$id_category."'";
         
         if($request->query->get('marque')!='')
-          $sql.=" AND p.marque like'%".$request->query->get('marque')."%'";
+        {
+            $liste_marques=explode(',',$request->query->get('marque'));
+            if(sizeof($liste_marques)>1){
+            $sql.="AND ( ";
+            foreach($liste_marques as $unemarque)
+            {
+                if(end($liste_marques)==$unemarque)
+                  $sql.="  p.marque like'%".$unemarque."%'";
+                else
+                  $sql.="  p.marque like'%".$unemarque."%' OR ";  
+            }
+            
+            $sql.=" )";
+            }else  $sql.=" AND p.marque like'%".$request->query->get('marque')."%'";
+        }
         
         $produits = $em->getConnection()
                        ->prepare($sql);
@@ -114,8 +128,22 @@ class DefaultController extends Controller
            $sql.=" AND c.id='".$id_category."'";
         
          if($request->query->get('name')!='') 
-           $sql.=" AND p.name like'%".$request->query->get('name')."%'";
-        
+         {
+              $liste_marques=explode(',',$request->query->get('name'));
+            if(sizeof($liste_marques)>1){
+            $sql.="AND ( ";
+            foreach($liste_marques as $unemarque)
+            {
+                if(end($liste_marques)==$unemarque)
+                  $sql.="  p.name like'%".$unemarque."%'";
+                else
+                  $sql.="  p.name like'%".$unemarque."%' OR ";  
+            }
+            
+            $sql.=" )";
+            }else  
+              $sql.=" AND p.name like'%".$request->query->get('name')."%'";
+         }
           $produits = $em->getConnection()
                        ->prepare($sql);
           $produits->execute();
