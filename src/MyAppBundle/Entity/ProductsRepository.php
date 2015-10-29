@@ -49,13 +49,17 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
 
                 ->setParameter('categorie', $data['categorie']);
         }
-         if($data['product_name'] != '')
+          if($data['product_name'] != '')
         {
-                    $query->andWhere('p.name Like :name_search')
+              $name_request=explode(',',$data['product_name']);
+                    $i=0;
+                    foreach($name_request as $name) 
+                    {  $i++;;
+                        $query->orWhere('p.name like :np_'.$i)
+                             ->setParameter('np_'.$i, "%".$name."%");
+                    }
 
-                ->setParameter('name_search', "%".$data['product_name']."%");
-
-        } 
+        }
         if(isset($data['efficacite_court_terme']))if($data['efficacite_court_terme'] != '')
         {
                     $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')
@@ -97,6 +101,19 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         {
                     $query->andWhere('a.comments != :commentaires')
                           ->setParameter('commentaires', '-');
+        }
+         if(isset($data['points_faibles'])&& ($data['points_faibles'] == 1))
+        { 
+                    $query->andWhere('a.pointsFaibles != :points_faibles')
+                          ->setParameter('points_faibles', '-');
+                    $query->andWhere('a.pointsFaibles != :points_faiblesaucn')
+                          ->setParameter('points_faiblesaucn', 'aucun');
+        }
+        
+        if(isset($data['points_forts'])&& ($data['points_forts'] == 1))
+        {
+                    $query->andWhere('a.pointsForts != :points_forts')
+                          ->setParameter('points_forts', '-');
         }
         if(isset($data['prix_min'])&&isset($data['prix_max'])&&(($data['prix_min']!="")&&($data['prix_max']))){
              $query->andWhere('p.prix BETWEEN :prixMin AND :prixMax')
@@ -154,11 +171,15 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         }
          if($data['product_name'] != '')
         {
-                    $query->andWhere('p.name Like :name_search')
+              $name_request=explode(',',$data['product_name']);
+                    $i=0;
+                    foreach($name_request as $name) 
+                    {  $i++;;
+                        $query->orWhere('p.name like :np_'.$i)
+                             ->setParameter('np_'.$i, "%".$name."%");
+                    }
 
-                ->setParameter('name_search', "%".$data['product_name']."%");
-
-        } 
+        }
         if(isset($data['efficacite_court_terme']))if($data['efficacite_court_terme'] != '')
         {
                     $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')
@@ -200,6 +221,19 @@ class ProductsRepository extends \Doctrine\ORM\EntityRepository
         {
                     $query->andWhere('a.comments != :commentaires')
                           ->setParameter('commentaires', '-');
+        }
+         if(isset($data['points_faibles'])&& ($data['points_faibles'] == 1))
+        { 
+                    $query->andWhere('a.pointsFaibles != :points_faibles')
+                          ->setParameter('points_faibles', '-');
+                    $query->andWhere('a.pointsFaibles != :points_faiblesaucn')
+                          ->setParameter('points_faiblesaucn', 'aucun');
+        }
+        
+        if(isset($data['points_forts'])&& ($data['points_forts'] == 1))
+        {
+                    $query->andWhere('a.pointsForts != :points_forts')
+                          ->setParameter('points_forts', '-');
         }
         if(isset($data['prix_min'])&&isset($data['prix_max'])&&(($data['prix_min']!="")&&($data['prix_max']))){
              $query->andWhere('p.prix BETWEEN :prixMin AND :prixMax')

@@ -78,6 +78,7 @@ class DefaultController extends Controller
                        ->prepare($sql);
         $produits->execute();
         $produits = $produits->fetchAll();
+        //Retourner resultat JSON
         $response = new JsonResponse();
           $tab_test=array();
           foreach($produits as $marque)
@@ -93,37 +94,12 @@ class DefaultController extends Controller
      * Action autocomplete marque produit formulaire de recherche en ajax en respectant maque et catégorie sélectionné
      * @author: Issam <issam@digital-developers.net>
      */
-     public function recherche_marqueAction(){
-           
+     public function recherche_marqueAction()
+     {
         $em =  $this->get('doctrine.orm.entity_manager');
 
         $request = $this->container->get('request');
         $id_category=0;
-        
-        if($request->request->get('subcategorie')!='')
-          $id_category=$request->request->get('subcategorie');
-        else 
-          $id_category=$request->request->get('categorie');
-        
-        $sql="select DISTINCT(p.marque) from products p 
-              LEFT JOIN categories c ON c.id=p.category_id    
-              where p.marque like '%".$request->request->get('marque')."%'";
-        
-        if($id_category!=0) 
-          $sql.=" AND c.id='".$id_category."'";
-        
-        if($request->request->get('name')!='') 
-          $sql.=" AND p.name like'%".$request->request->get('name')."%'";
-        
-        $produits = $em->getConnection()
-                       ->prepare($sql);
-        $produits->execute();
-        $produits = $produits->fetchAll();
-
-        
-        if($request->query->get('json')==1)
-        { 
-         $id_category=0;
         
          if($request->query->get('subcategorie')!='')
            $id_category=$request->query->get('subcategorie');
@@ -143,7 +119,8 @@ class DefaultController extends Controller
           $produits = $em->getConnection()
                        ->prepare($sql);
           $produits->execute();
-          $produits = $produits->fetchAll();  
+          $produits = $produits->fetchAll();
+          //Retourner resultat JSON
           $response = new JsonResponse();
           $tab_test=array();
           foreach($produits as $marque)
@@ -151,11 +128,7 @@ class DefaultController extends Controller
                $tab_test[]=array("name" => $marque['marque'] );
             }
           $response->setData($tab_test);
-          return $response;
-            }
-        else
-          return $this->render('MyAppBundle:Default:liste_marques.html.twig', array('produits' => $produits));
-
+          return $response;      
     }
     
      /*
@@ -353,13 +326,17 @@ class DefaultController extends Controller
         // echo '<pre>';//
         //\Doctrine\Common\Util\Debug::dump($listproducts0);//
         //echo '</pre>';//
+        
+        $usr= $this->get('security.token_storage')->getToken()->getUser();
+        $username_connecte=$usr->getUsername(); 
+         
         foreach ($listproducts0 as $products){ 
           $listproducts[]=$products[0];
         }
         
         //BEGIN EXPORT CSV PPRUITS+CRITERES
         if($avis){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_critere_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;gender;critere;comments";
           $csv_output .= "\r\n";
@@ -384,7 +361,7 @@ class DefaultController extends Controller
         
         //BEGIN EXPORT CSV PPRUITS+POINT FORTS
         if($avis){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_forts_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_forts";
           $csv_output .= "\r\n";
@@ -406,7 +383,7 @@ class DefaultController extends Controller
         }
         //BEGIN EXPORT CSV PPRUITS+POINT FAIBLES
         if($avis){
-          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles.csv';
+          $fichier = $this->get('kernel')->getRootDir() . '/../web/uploads/csv_points_faibles_'.$username_connecte.'.csv';
           $fp = fopen($fichier, 'w');
           $csv_output ="id;name;marque;prix;cont;prix_au_l;notation;url;miniature;points_faibles";
           $csv_output .= "\r\n";

@@ -94,5 +94,14 @@ ul.tagit input[type="text"] {
 
 .tagit-autocomplete .ui-widget-content { border: 1px solid #aaaaaa; }
 .tagit .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px,1px,1px,1px); }
+    .row{
+      margin-bottom: 5px}
+    .navbar {
+      margin-top: 5px}
+    .input_date {
+      margin: 5px;
+      padding: 0;
+      text-align: center;
+      width: 42%;}
 
 

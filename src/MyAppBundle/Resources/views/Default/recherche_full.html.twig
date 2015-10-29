@@ -19,16 +19,15 @@
     });
  });    
 </script>
-{% set counter_avis = 0 %}
-{% for entity in listproducts %}
-  {% set counter_avis = entity.getAvis().count() + counter_avis %}
-{% endfor %}   
-<h4>RESULTAT DU RECHERCHE ({{ counter_avis }} avis ) </h4>
+{% set size = listproducts | length %}
+ {% set size_avis = avis | length %}  
+<h4>RESULTAT DU RECHERCHE ({{ size_avis }} avis ) </h4>
     <div>
        <h2>Critères de recherche</h2>
      {% if category_name!='' %}Catégorie : <span class="label label-success">{{ category_name }}</span>{% endif %}
      {% if sub_category_name!='' %}<br /><br />Sous catégorie : <span class="label label-success">{{ sub_category_name }}</span>{% endif %}
      {% if texte_nom_produit!='' %}<br /><br />Texte nom produit :<span class="label label-success">{{ texte_nom_produit }}</span>{% endif %}
+     {% if texte_marque_produit!='' %}<br /><br />Marque(s) :<span class="label label-success">{{ texte_marque_produit }}</span>{% endif %}<br /><br />
    </div>
    <div class="row">
     {{ form_start(form_filter, {'action': path('my_app_recherche_filtre'), 'method': 'GET'}) }}
@@ -157,15 +156,13 @@
     {{ form_rest(form_filter) }}
          <div class="col-md-12">
            <input type="button" value="Filtre" class="ajax_bt_filter_produit btn btn-primary">
-           <input type="submit" class="btn btn-primary" value="filtrer" />
+           <!-- <input type="submit" class="btn btn-primary" value="filtrer" /> -->
          </div>
     </form>
     </div>
 <div class="clearfix"></div>
  {% set size = listproducts | length %}
-<div id="my_ajax_result">
-{% set size = listproducts | length %}
- {% set size_avis = avis | length %}               
+<div id="my_ajax_result">              
  <ul id="tabs_result" class="nav nav-tabs" data-tabs="tabs">
         <li class="active"><a href="#my_results_produits" data-toggle="tab">Liste des produits ({{ listproducts.getTotalItemCount }})</a></li>
         <li><a href="#my_results_avis" data-toggle="tab">Liste avis ({{ size_avis }})</a></li>

@@ -49,64 +49,27 @@
                     
         });
         
-        $('#app_homebundle_beaute_search_sub_categorie').change(function(){
-           $("#app_homebundle_beaute_search_categorie").prop('disabled', 'disabled');
-           $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');  
-           getnb_avis_ajax();
-           $("#app_homebundle_beaute_search_categorie").prop('disabled', false);
-           $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
+            $('#app_homebundle_beaute_search_sub_categorie').change(function(){
+            $("#app_homebundle_beaute_search_categorie").prop('disabled', 'disabled');
+            $("#app_homebundle_beaute_search_product_name").prop('disabled', 'disabled');  
+            getnb_avis_ajax();
+            $("#app_homebundle_beaute_search_categorie").prop('disabled', false);
+            $("#app_homebundle_beaute_search_product_name").prop('disabled', false);
         });
         
          $(".ajax_serach_bt").click(function(){
-           if(compteur_recherche<5)compteur_recherche++;
-           else compteur_recherche=1;
-           //$( "#collapseOne" ).removeClass( "well research_form col-md-12" ).addClass( "well research_form col-md-6" );  
-           $(".preladerimg_resultat_recherche").show();
-           var form = $('form[name="app_homebundle_auto_search"]') ;
-           $.ajax({url: "{{  path('my_app_recherche') }}?"+$('form[name="app_homebundle_beaute_search"]').serialize(), success: function(result){
+             if(compteur_recherche<5)compteur_recherche++;
+             else compteur_recherche=1;
+             $(".preladerimg_resultat_recherche").show();
+             var form = $('form[name="app_homebundle_auto_search"]') ;
+             $.ajax({url: "{{  path('my_app_recherche') }}?"+$('form[name="app_homebundle_beaute_search"]').serialize(), success: function(result){
              $("#my_results_"+compteur_recherche).html(result);
              $('#tabs a[href="#my_results_'+compteur_recherche+'"]').tab('show');
-            compteur_rechercheaffiche=compteur_recherche+1; 
-            $("#compteur_ajax_recherche").html(""+compteur_rechercheaffiche);
-             /*$('html,body').animate({
-             scrollTop: $("#content").offset().top},
-             '5000');*/
+             compteur_rechercheaffiche=compteur_recherche+1; 
+             $("#compteur_ajax_recherche").html(""+compteur_rechercheaffiche);
              $(".preladerimg_resultat_recherche").hide();
              }});
            });
-         $("#app_homebundle_beaute_search_product_name").keyup(function(){
-                $.ajax({
-		type: "POST",
-		url: "{{  path('my_app_recherche_nom') }}",
-		data:'name='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&marque="+$("#app_homebundle_beaute_search_marque").val(),
-		beforeSend: function(){
-			$("#search-box").css("background","#FFF url({{ asset('uploads/images/30.GIF') }}) no-repeat 165px");
-                },
-		success: function(data){
-			$("#suggesstion-box").show();
-			$("#suggesstion-box").html(data);
-			$("#search-box").css("background","#FFF");
-		}
-		});
-            getnb_avis_ajax();    
-	 });
-         
-         $("#app_homebundle_beaute_search_marque").keyup(function(){
-                $.ajax({
-		type: "POST",
-		url: "{{  path('my_app_recherche_marque') }}",
-		data:'marque='+$(this).val()+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&name="+$("#app_homebundle_beaute_search_product_name").val(),
-		beforeSend: function(){
-			$("#search-box_marques").css("background","#FFF url({{ asset('uploads/images/30.GIF') }}) no-repeat 165px");
-                },
-		success: function(data){
-			$("#suggesstion-box_marques").show();
-			$("#suggesstion-box_marques").html(data);
-			$("#search-box_marques").css("background","#FFF");
-		}
-		});
-            getnb_avis_ajax();    
-	 });
        });
       $(function(){
         jQuery("#singleFieldTags").tagit({
@@ -116,7 +79,6 @@
         minLength: 2,
         removeConfirmation: true,
         tagSource: function( request, response ) {
-            //console.log("1");
             $.ajax({
                 url: "{{  path('my_app_recherche_marque') }}?json=1"+"&categorie="+$("#app_homebundle_beaute_search_categorie").val()+"&subcategorie="+$("#app_homebundle_beaute_search_sub_categorie").val()+"&name="+$("#app_homebundle_beaute_search_product_name").val(), 
                 data: { marque:request.term },
@@ -171,14 +133,8 @@
         
         });     
 </script>  
-<style>
-#search-box{padding: 10px;border: #F0F0F0 1px solid;}
-#search-box_marques{padding: 10px;border: #F0F0F0 1px solid}
-.row{margin-top: 5px}
-</style>
-    <link href="{{ asset('css/jquery.tagit.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/tagit.ui-zendesk.css') }}" rel="stylesheet" type="text/css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="{{ asset('js/tag-it.js') }}" type="text/javascript" charset="utf-8"></script>
 {% endblock %}
@@ -233,9 +189,6 @@
                           <a target="_blanc" href="{{ path('my_app_recherche_all_marque')}}">voir toutes les marques</a>
                         </div>
                         </div>
-                        <div id="suggesstion-box_marques" class="col-md-12">
-                            <div id="search-box_marques"></div>
-                        </div> 
                         <div class="col-md-12 row">
                             {{ form_errors(form.product_name) }}
                         {# GÃ©nÃ©ration de l'input. #}
@@ -247,17 +200,13 @@
                             <a target="_blanc" href="{{ path('my_app_recherche_all_produits') }}">voir tous les produits</a>
                         </div>
                             </div>
-                        <div id="suggesstion-box" class="col-md-12">
-                            <div id="search-box"></div>
-                        </div>    
-                       
                 </div>
                </div>
           <div>
           
           </div>
             {{ form_rest(form) }}
-            <input type="submit" class="btn btn-primary" value="Recherche" />
+            <!-- <input type="submit" class="btn btn-primary" value="Recherche" /> -->
             <input type="button" value="Rechercher" class="ajax_serach_bt btn btn-primary"> <!--<span class="btn-primary label-success btn">Onglet recherche: <span id="compteur_ajax_recherche"></span></span> -->
             <div class="pull-right"><h4>Résultats attendus: <span id="nb_avis"></span></h4></div> 
       </form>

@@ -29,6 +29,17 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                              ->setParameter('m_'.$i, "%".$unemarque."%");
                     }
         }
+         if($data['product_name'] != '')
+        {
+              $name_request=explode(',',$data['product_name']);
+                    $i=0;
+                    foreach($name_request as $name) 
+                    {  $i++;;
+                        $query->orWhere('p.name like :np_'.$i)
+                             ->setParameter('np_'.$i, "%".$name."%");
+                    }
+
+        }
         if($data['sub_categorie'] != '')
         {
             $query->andWhere('p.category = :categorie')
@@ -47,14 +58,6 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
 
                 ->setParameter('categorie', $data['categorie']);
         }
-         if($data['product_name'] != '')
-        {
-                    $query->andWhere('p.name Like :name_search')
-
-                ->setParameter('name_search', "%".$data['product_name']."%");
-
-        }
-
         return $query->select('COUNT(a)')->getQuery()->getResult();
 
     }
@@ -77,6 +80,17 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
                              ->setParameter('m_'.$i, "%".$unemarque."%");
                     }
         }
+         if($data['product_name'] != '')
+        {
+              $name_request=explode(',',$data['product_name']);
+                    $i=0;
+                    foreach($name_request as $name) 
+                    {  $i++;;
+                        $query->orWhere('p.name like :np_'.$i)
+                             ->setParameter('np_'.$i, "%".$name."%");
+                    }
+
+        }
         if($data['sub_categorie'] != '')
         {
             $query->andWhere('p.category = :categorie')
@@ -95,14 +109,7 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
 
                 ->setParameter('categorie', $data['categorie']);
         }
-         if($data['product_name'] != '')
-        {
-                    $query->andWhere('p.name Like :name_search')
-
-                ->setParameter('name_search', "%".$data['product_name']."%");
-
-        }
-
+        
         if(isset($data['efficacite_court_terme']))if($data['efficacite_court_terme'] != '')
         {
                     $query->andWhere('a.efficaciteCourtTerme = :eff_c_t')
@@ -146,7 +153,7 @@ class AvisRepository extends \Doctrine\ORM\EntityRepository
         }
          
         if(isset($data['points_faibles'])&& ($data['points_faibles'] == 1))
-        {
+        { 
                     $query->andWhere('a.pointsFaibles != :points_faibles')
                           ->setParameter('points_faibles', '-');
                     $query->andWhere('a.pointsFaibles != :points_faiblesaucn')
